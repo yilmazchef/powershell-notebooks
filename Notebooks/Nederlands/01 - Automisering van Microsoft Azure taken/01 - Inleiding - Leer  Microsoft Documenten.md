@@ -14,16 +14,16 @@ Hier leert u hoe u Azure-resources kunt beheren met Azure PowerShell. U gebruikt
 
 In deze module ga je:
 
--   Bepaal of Azure PowerShell het juiste hulpprogramma is voor uw Azure-beheertaken
--   Azure PowerShell installeren op Linux, macOS en/of Windows
--   Verbinding maken met een Azure-abonnement via Azure PowerShell
--   Azure-resources maken met Azure PowerShell
+- Bepaal of Azure PowerShell het juiste hulpprogramma is voor uw Azure-beheertaken
+- Azure PowerShell installeren op Linux, macOS en/of Windows
+- Verbinding maken met een Azure-abonnement via Azure PowerShell
+- Azure-resources maken met Azure PowerShell
 
 ## Voorwaarden
 
--   Ervaring met een opdrachtregelinterface zoals PowerShell of Bash
--   Kennis van basisconcepten van Azure, zoals resourcegroepen en virtuele machines
--   Ervaring met het beheren van Azure-resources met behulp van Azure Portal
+- Ervaring met een opdrachtregelinterface zoals PowerShell of Bash
+- Kennis van basisconcepten van Azure, zoals resourcegroepen en virtuele machines
+- Ervaring met het beheren van Azure-resources met behulp van Azure Portal
 
 ___
 

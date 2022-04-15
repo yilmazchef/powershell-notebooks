@@ -1,6 +1,6 @@
 ## PowerShell installeren
 
--   10 minuten
+- 10 minuten
 
 Stel dat u Azure PowerShell hebt gekozen als uw automatiseringsoplossing. Uw beheerders geven er de voorkeur aan hun scripts lokaal uit te voeren in plaats van in de Azure Cloud Shell. Het team gebruikt machines waarop Linux, macOS en Windows worden uitgevoerd. U moet Azure PowerShell op al hun apparaten laten werken.
 
@@ -8,8 +8,8 @@ Stel dat u Azure PowerShell hebt gekozen als uw automatiseringsoplossing. Uw beh
 
 We zullen de daadwerkelijke installatie-instructies in de volgende eenheid doornemen, maar laten we eens kijken naar de twee onderdelen waaruit Azure PowerShell bestaat.
 
--   **Het basis PowerShell-product** Dit komt in twee varianten: Windows PowerShell en PowerShell 7.x, die kunnen worden geïnstalleerd op Windows, macOS en Linux.
--   **De Azure Az PowerShell-module** Deze extra module moet worden geïnstalleerd om de Azure-specifieke opdrachten toe te voegen aan PowerShell.
+- **Het basis PowerShell-product** Dit komt in twee varianten: Windows PowerShell en PowerShell 7.x, die kunnen worden geïnstalleerd op Windows, macOS en Linux.
+- **De Azure Az PowerShell-module** Deze extra module moet worden geïnstalleerd om de Azure-specifieke opdrachten toe te voegen aan PowerShell.
 
 Fooi
 
@@ -17,7 +17,7 @@ PowerShell 7.0.6 LTS, PowerShell 7.1.3 of hoger is de aanbevolen versie van Powe
 
 Nadat u het basisproduct hebt geïnstalleerd, voegt u de Azure PowerShell-module toe aan uw installatie.
 
-## PowerShell installeren
+## PowerShell-installeren
 
 Op zowel Linux als macOS gebruikt u een pakketbeheerder om PowerShell Core te installeren. De aanbevolen pakketbeheerder verschilt per besturingssysteem en distributie.
 

@@ -1,6 +1,6 @@
 ## Scripts maken en opslaan in Azure PowerShell
 
--   10 minuten
+- 10 minuten
 
 Complexe of repetitieve taken nemen vaak veel administratieve tijd in beslag. Organisaties geven er de voorkeur aan om deze taken te automatiseren om kosten te besparen en fouten te voorkomen.
 
@@ -8,8 +8,8 @@ Dit is belangrijk in het voorbeeld van Customer Relationship Management (CRM). D
 
 Naast de kernbewerking van het maken van een VM, hebt u een paar aanvullende vereisten voor uw script:
 
--   U maakt meerdere VM's, dus u wilt de creatie in een lus plaatsen
--   U moet VM's maken in drie verschillende resourcegroepen, dus de naam van de resourcegroep moet als parameter aan het script worden doorgegeven
+- U maakt meerdere VM's, dus u wilt de creatie in een lus plaatsen
+- U moet VM's maken in drie verschillende resource-groepen, dus de naam van de resource-groep moet als parameter aan het script worden doorgegeven
 
 In deze sectie ziet u hoe u een Azure PowerShell-script schrijft en uitvoert dat aan deze vereisten voldoet.
 
@@ -17,7 +17,7 @@ In deze sectie ziet u hoe u een Azure PowerShell-script schrijft en uitvoert dat
 
 Een PowerShell-script is een tekstbestand met opdrachten en besturingsconstructies. De opdrachten zijn aanroepingen van cmdlets. De besturingsconstructies zijn programmeerfuncties zoals loops, variabelen, parameters, opmerkingen, enz., Geleverd door PowerShell.
 
-PowerShell-scriptbestanden hebben de bestandsextensie **.ps1**. U kunt deze bestanden maken en opslaan met elke teksteditor.
+PowerShell-scriptbestanden hebben de bestand-extensie **.ps1**. U kunt deze bestanden maken en opslaan met elke teksteditor.
 
 Fooi
 
@@ -29,7 +29,7 @@ In de volgende schermafbeelding ziet u de Windows PowerShell Integrated Scriptin
 
 Nadat u het script hebt geschreven, voert u het uit vanaf de PowerShell-opdrachtregel door de naam van het bestand door te geven, voorafgegaan door een punt en een backslash:
 
-```
+```powershell
 .\myScript.ps1
 ```
 
@@ -41,20 +41,20 @@ PowerShell heeft veel functies die te vinden zijn in typische programmeertalen. 
 
 Zoals u in de vorige eenheid hebt gezien, ondersteunt PowerShell variabelen. Gebruik **$** om een variabele te declareren en **\=** om een waarde toe te wijzen. Bijvoorbeeld:
 
-```
+```powershell
 $loc = "East US"
 $iterations = 3
 ```
 
 Variabelen kunnen objecten bevatten. Met de volgende definitie wordt bijvoorbeeld de variabele **adminCredential** ingesteld op het object dat wordt geretourneerd door de cmdlet **Get-Credential**.
 
-```
+```powershell
 $adminCredential = Get-Credential
 ```
 
 Als u de waarde wilt verkrijgen die is opgeslagen in een variabele, gebruikt u het voorvoegsel **$** en de naam ervan, zoals in het volgende geval:
 
-```
+```powershell
 $loc = "East US"
 New-AzResourceGroup -Name "MyResourceGroup" -Location $loc
 ```
@@ -65,7 +65,7 @@ PowerShell has several loops: **For**, **Do...While**, **For...Each**, and so on
 
 The core syntax is shown below; the example runs for two iterations and prints the value of **i** each time. The comparison operators are written **\-lt** for "less than", **\-le** for "less than or equal", **\-eq** for "equal", **\-ne** for "not equal", etc.
 
-```
+```powershell
 For ($i = 1; $i -lt 3; $i++)
 {
     $i
@@ -76,25 +76,25 @@ For ($i = 1; $i -lt 3; $i++)
 
 When you execute a script, you can pass arguments on the command line. You can provide names for each parameter to help the script extract the values. For example:
 
-```
+```powershell
 .\setupEnvironment.ps1 -size 5 -location "East US"
 ```
 
 Inside the script, you'll capture the values into variables. In this example, the parameters are matched by name:
 
-```
+```powershell
 param([string]$location, [int]$size)
 ```
 
 You can omit the names from the command line. For example:
 
-```
+```powershell
 .\setupEnvironment.ps1 5 "East US"
 ```
 
 Inside the script, you'll rely on position for matching when the parameters are unnamed:
 
-```
+```powershell
 param([int]$size, [string]$location)
 ```
 

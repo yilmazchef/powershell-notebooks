@@ -1,6 +1,6 @@
 ## Bepaal of Azure PowerShell geschikt is voor uw taken
 
--   5 minuten
+- 5 minuten
 
 Stel dat u een hulpprogramma moet kiezen voor het beheer van de Azure-resources die u gebruikt om uw CRM-systeem (Customer Relationship Management) te testen. Voor uw tests moet u resourcegroepen maken en virtuele machines (VM's) inrichten.
 
@@ -8,9 +8,9 @@ U wilt iets dat gemakkelijk te leren is voor beheerders, maar krachtig genoeg om
 
 Azure biedt drie beheerhulpprogramma's:
 
--   Azure Portal
--   De Azure CLI
--   Azure PowerShell
+- Azure Portal
+- De Azure CLI
+- Azure PowerShell
 
 Ze bieden allemaal ongeveer evenveel controle; elke taak die u met een van de tools kunt uitvoeren, kunt u waarschijnlijk met de andere twee doen. Alle drie zijn platformonafhankelijk en draaien ze op Windows, macOS en Linux. Ze verschillen in syntaxis, installatievereisten, automatiseringsondersteuning.
 
@@ -52,19 +52,18 @@ Azure PowerShell is ook op twee manieren beschikbaar: in een browser via de Azur
 
 Er is een geschatte pariteit tussen de portal, de Azure CLI en Azure PowerShell met betrekking tot de Azure-objecten die ze kunnen beheren en de configuraties die ze kunnen maken. Ze zijn ook allemaal platformonafhankelijk. Dit betekent dat u meestal rekening houdt met verschillende andere factoren bij het maken van uw keuze:
 
--   **Automatisering**: Moet u een reeks complexe of repetitieve taken automatiseren? Azure PowerShell en de Azure CLI ondersteunen dit, terwijl Azure Portal dit niet ondersteunt.
-    
--   **Leercurve**: Moet u een taak snel voltooien zonder nieuwe opdrachten of syntaxis te leren? Azure Portal vereist niet dat u syntaxis leert of opdrachten onthoudt. In Azure PowerShell en de Azure CLI moet u de gedetailleerde syntaxis kennen voor elke opdracht die u gebruikt.
-    
--   **Team skillset**: Heeft uw team bestaande expertise? Uw team heeft bijvoorbeeld PowerShell gebruikt om Windows te beheren. Als dat het geval is, zullen ze snel vertrouwd raken met het gebruik van Azure PowerShell.
-    
+- **Automatisering**: Moet u een reeks complexe of repetitieve taken automatiseren? Azure PowerShell en de Azure CLI ondersteunen dit, terwijl Azure Portal dit niet ondersteunt.
+
+- **Leercurve**: Moet u een taak snel voltooien zonder nieuwe opdrachten of syntaxis te leren? Azure Portal vereist niet dat u syntaxis leert of opdrachten onthoudt. In Azure PowerShell en de Azure CLI moet u de gedetailleerde syntaxis kennen voor elke opdracht die u gebruikt.
+
+- **Team skillset**: Heeft uw team bestaande expertise? Uw team heeft bijvoorbeeld PowerShell gebruikt om Windows te beheren. Als dat het geval is, zullen ze snel vertrouwd raken met het gebruik van Azure PowerShell.
 
 ## Example
 
 Recall that you are choosing an administrative tool to create the test environments for your CRM application. Your administrators have two specific Azure tasks they need to complete:
 
-1.  Create one resource group for each category of testing (unit, integration, and acceptance)
-2.  Create multiple VMs in each resource group before every round of testing
+1. Create one resource group for each category of testing (unit, integration, and acceptance)
+2. Create multiple VMs in each resource group before every round of testing
 
 To create the resource groups, the Azure portal is a reasonable choice. These are one-off tasks, so you don't need scripts to complete them.
 

@@ -1,4 +1,4 @@
--   10 minutes
+- 10 minutes
 
 Suppose you've chosen Azure PowerShell as your automation solution. Your administrators prefer to run their scripts locally rather than in the Azure Cloud Shell. The team uses machines that run Linux, macOS, and Windows. You need to get Azure PowerShell working on all their devices.
 
@@ -6,8 +6,8 @@ Suppose you've chosen Azure PowerShell as your automation solution. Your adminis
 
 We'll go through the actual installation instructions in the next unit, but let's look at the two components that make up Azure PowerShell.
 
--   **The base PowerShell product** This comes in two variants: Windows PowerShell and PowerShell 7.x, which can be installed on Windows, macOS, and Linux.
--   **The Azure Az PowerShell module** This extra module must be installed to add the Azure-specific commands to PowerShell.
+- **The base PowerShell product** This comes in two variants: Windows PowerShell and PowerShell 7.x, which can be installed on Windows, macOS, and Linux.
+- **The Azure Az PowerShell module** This extra module must be installed to add the Azure-specific commands to PowerShell.
 
 Tip
 
@@ -28,11 +28,11 @@ PowerShell is available in the Microsoft repository, so you'll first need to add
 On Linux, the package manager will change based on the Linux distribution you choose.
 
 | Distribution(s) | Package manager |
-| --- | --- |
-| Ubuntu, Debian | `apt-get` |
-| Red Hat, CentOS | `yum` |
-| OpenSUSE | `zypper` |
-| Fedora | `dnf` |
+| --------------- | --------------- |
+| Ubuntu, Debian  | `apt-get`       |
+| Red Hat, CentOS | `yum`           |
+| OpenSUSE        | `zypper`        |
+| Fedora          | `dnf`           |
 
 ### Mac
 

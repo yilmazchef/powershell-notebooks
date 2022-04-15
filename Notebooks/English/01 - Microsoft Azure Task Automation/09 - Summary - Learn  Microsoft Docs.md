@@ -1,4 +1,4 @@
--   3 minutes
+- 3 minutes
 
 In this module, we wrote a script to automate the creation of multiple VMs. Even though the script was relatively short, you can see the potential power when you combine loops, variables, and functions from PowerShell with cmdlets from Azure PowerShell.
 
@@ -12,7 +12,7 @@ When you're working in your own subscription, it's a good idea at the end of a p
 
 When you are running in your own subscription, you can use the following PowerShell cmdlet to delete the resource group (and all related resources).
 
-```
+```powershell
 Remove-AzResourceGroup -Name MyResourceGroupName
 ```
 

@@ -1,4 +1,4 @@
--   5 minuten
+- 5 minuten
 
 Met PowerShell kunt u opdrachten schrijven en deze onmiddellijk uitvoeren. Dit staat bekend als **interactieve modus**.
 
@@ -16,7 +16,7 @@ Cmdlets volgen een naamgevingsconventie voor werkwoord-zelfstandig naamwoorden; 
 
 Auteurs van cmdlets wordt aangeraden voor elke cmdlet een Help-bestand op te nemen. De cmdlet geeft het Help-bestand voor elke cmdlet weer. Als u bijvoorbeeld hulp wilt krijgen voor de cmdlet, voert u de volgende instructie in een Windows PowerShell-sessie in:`Get-Help``Get-ChildItem`
 
-```
+```powershell
 Get-Help -Name Get-ChildItem -Detailed
 ```
 
@@ -24,13 +24,13 @@ Get-Help -Name Get-ChildItem -Detailed
 
 Cmdlets worden geleverd in _modules_. Een PowerShell-module is een DLL die de code bevat voor het verwerken van elke beschikbare cmdlet. U laadt cmdlets in PowerShell door de module te laden waarin ze zich bevinden. U kunt een lijst met geladen modules krijgen met behulp van de opdracht:`Get-Module`
 
-```
+```powershell
 Get-Module
 ```
 
 Dit zal iets als:
 
-```
+```console
 ModuleType Version    Name                                ExportedCommands
 ---------- -------    ----                                ----------------
 Manifest   3.1.0.0    Microsoft.PowerShell.Management     {Add-Computer, Add-Content, Checkpoint-Computer, Clear-Con...
@@ -54,22 +54,21 @@ De Az PowerShell-module is beschikbaar in een algemene opslagplaats die de Power
 
 Als u de nieuwste Azure Az PowerShell-module wilt installeren, voert u de volgende opdrachten uit:
 
-1.  Open het menu **Start** en voer **PowerShell** in.
-    
-2.  Selecteer het **PowerShell-pictogram**.
-    
-3.  Voer de volgende opdracht in en druk op .Enter
-    
-    ```
+1. Open het menu **Start** en voer **PowerShell** in.
+
+2. Selecteer het **PowerShell-pictogram**.
+
+3. Voer de volgende opdracht in en druk op .Enter
+
+    ```powershell
     Install-Module -Name Az -Scope CurrentUser -Repository PSGallery
     ```
-    
 
 Hiermee wordt de module voor uw huidige gebruiker geïnstalleerd (geregeld door de parameter).`Scope`
 
 De opdracht is afhankelijk van NuGet om onderdelen op te halen, dus afhankelijk van de versie die u hebt geïnstalleerd, wordt u mogelijk gevraagd de nieuwste versie van NuGet te downloaden en te installeren.
 
-```
+```console
 NuGet provider is required to continue
 PowerShellGet requires NuGet provider version '2.8.5.201' or newer to interact with NuGet-based repositories. The NuGet
  provider must be available in 'C:\Program Files\PackageManagement\ProviderAssemblies' or
@@ -83,7 +82,7 @@ Enter **Y** and press .Enter
 
 By default, the PowerShell Gallery isn't configured as a trusted repository for PowerShellGet. Each time you perform an installation from an untrusted repository, you'll be prompted to confirm you want to install the module with following output:
 
-```
+```console
 You are installing the modules from an untrusted repository. If you trust this repository, change its
 InstallationPolicy value by running the Set-PSRepository cmdlet. Are you sure you want to install the modules from
 'PSGallery'?
@@ -96,7 +95,7 @@ Enter **Y** or **A**, then press .Enter
 
 Depending on your security configuration, might fail with something like the following output:`Import-Module`
 
-```
+```console
 import-module : File C:\Program Files\PowerShell\Modules\az\6.3.0\Az.psm1 cannot be loaded
 because running scripts is disabled on this system. For more information, see about_Execution_Policies at
 https:/go.microsoft.com/fwlink/?LinkID=135170.
@@ -111,50 +110,48 @@ It might also fail by not responding at all. In this case, press + to stop the p
 
 Both behaviors typically indicate that the execution policy is "Restricted", meaning you can't run modules that you download from an external source, including the PowerShell Gallery. You can check this by running the cmdlet . If it returns "Restricted", then do the following:`Get-ExecutionPolicy`
 
-1.  Use the cmdlet to change the policy to "RemoteSigned":`SetExecutionPolicy`
-    
-    ```
+1. Use the cmdlet to change the policy to "RemoteSigned":`SetExecutionPolicy`
+
+    ```powershell
     Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
     ```
-    
+
     This will prompt you for permission:
-    
-    ```
+
+    ```powershell
     The execution policy helps protect you from scripts that you do not trust. Changing the execution policy might expose
     you to the security risks described in the about_Execution_Policies help topic at
     https:/go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the execution policy?
     [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): Y
     ```
-    
-2.  Enter **Y** or **A**, then press .Enter
-    
-3.  At the command prompt, use the up arrow on your keyboard and rerun the command for Azure.`Install-Module`
-    
+
+2. Enter **Y** or **A**, then press .Enter
+
+3. At the command prompt, use the up arrow on your keyboard and rerun the command for Azure.`Install-Module`
 
 You should be able to see the Az module loading. After it completes, you'll be able to use to load the cmdlets.`Import-Module`
 
 Als u Azure PowerShell installeert op Linux of macOS, worden dezelfde opdrachten gebruikt.
 
-1.  Voer in een terminal de volgende opdracht uit om PowerShell te starten.
-    
-    ```
+1. Voer in een terminal de volgende opdracht uit om PowerShell te starten.
+
+    ```powershell
     pwsh
     ```
-    
-2.  Voer de volgende opdracht uit bij de PowerShell-prompt om Azure PowerShell te installeren.
-    
-    ```
+
+2. Voer de volgende opdracht uit bij de PowerShell-prompt om Azure PowerShell te installeren.
+
+    ```powershell
     Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force
     ```
-    
-3.  Als u wordt gevraagd of u modules van **PSGallery vertrouwt**, **antwoordt u ja** of **ja op iedereen**.
-    
+
+3. Als u wordt gevraagd of u modules van **PSGallery vertrouwt**, **antwoordt u ja** of **ja op iedereen**.
 
 ### Een PowerShell-module bijwerken
 
 Als u een waarschuwing of foutbericht krijgt dat aangeeft dat er al een versie van de Azure PowerShell-module is geïnstalleerd, kunt u een update naar de _nieuwste_ versie uitvoeren door de volgende opdracht uit te voeren:
 
-```
+```powershell
 Update-Module -Name Az
 ```
 
@@ -166,14 +163,13 @@ Once you've installed the Azure module, you can begin working with Azure. Let's 
 
 There are four steps you need to perform:
 
-1.  Import the Azure cmdlets.
-    
-2.  Connect to your Azure subscription.
-    
-3.  Create the resource group.
-    
-4.  Verify that creation was successful.
-    
+1. Import the Azure cmdlets.
+
+2. Connect to your Azure subscription.
+
+3. Create the resource group.
+
+4. Verify that creation was successful.
 
 The following illustration shows an overview of these steps.
 
@@ -183,13 +179,13 @@ Each step corresponds to a different cmdlet.
 
 ### Import the Azure cmdlets
 
-Beginning with PowerShell 3.0, modules are loaded automatically when you use a cmdlet within the module. It's no longer necessary to manually import PowerShell modules unless you've changed the default module autoloading settings.
+Beginning with PowerShell 3.0, modules are loaded automatically when you use a cmdlet within the module. It's no longer necessary to manually import PowerShell modules unless you've changed the default module autolading settings.
 
 ### Connect
 
 When you're working with a local install of Azure PowerShell, you'll need to authenticate before you can execute Azure commands. The cmdlet prompts for your Azure credentials, then connects to your Azure subscription. It has many optional parameters, but if all you need is an interactive prompt, you don't need any parameters:`Connect-AzAccount`
 
-```
+```powershell
 Connect-AzAccount
 ```
 
@@ -199,12 +195,11 @@ If you're new to Azure, you probably only have a single subscription. But if you
 
 You can only be in one subscription at a time. Use the cmdlet to determine which subscription is active. If it's not the correct one, you can change subscriptions using another cmdlet.`Get-AzContext`
 
-1.  Get a list of all subscription names in your account with the command.`Get-AzSubscription`
-    
-2.  Change the subscription by passing the name of the one to select.
-    
+1. Get a list of all subscription names in your account with the command.`Get-AzSubscription`
 
-```
+2. Change the subscription by passing the name of the one to select.
+
+```powershell
 Set-AzContext -Subscription '00000000-0000-0000-0000-000000000000'
 ```
 
@@ -214,19 +209,19 @@ If you need to look up the **Subscription ID**, open Azure and select **Subscrip
 
 You can retrieve a list of all Resource Groups in the active subscription.
 
-```
+```powershell
 Get-AzResourceGroup
 ```
 
 To get a more concise view, you can send the output from the to the cmdlet using a pipe '|'.`Get-AzResourceGroup``Format-Table`
 
-```
+```powershell
 Get-AzResourceGroup | Format-Table
 ```
 
 The output will look something like this:
 
-```
+```console
 ResourceGroupName                  Location       ProvisioningState Tags TagsTable ResourceId
 -----------------                  --------       ----------------- ---- --------- ----------
 cloud-shell-storage-southcentralus southcentralus Succeeded                        /subscriptions/00000000-0000-0000...
@@ -239,7 +234,7 @@ As you know, when you're creating resources in Azure, you'll always place them i
 
 You can create resource groups by using the cmdlet. You must specify a name and location. The name must be unique within your subscription. The location determines where the metadata for your resource group will be stored (which may be important to you for compliance reasons). You use strings like "West US", "North Europe", or "West India" to specify the location. As with most of the Azure cmdlets, has many optional parameters. However, the core syntax is:`New-AzResourceGroup``New-AzResourceGroup`
 
-```
+```powershell
 New-AzResourceGroup -Name <name> -Location <location>
 ```
 
@@ -251,19 +246,19 @@ Remember, we will be working in an active Azure sandbox, which creates the Resou
 
 The lists your Azure resources, which is useful here to verify the resource group creation was successful.`Get-AzResource`
 
-```
+```powershell
 Get-AzResource
 ```
 
 Like the command, you can get a more concise view through the cmdlet:`Get-AzResourceGroup``Format-Table`
 
-```
+```powershell
 Get-AzResource | Format-Table
 ```
 
 You can also filter it to specific resource groups to only list resources associated with that group:
 
-```
+```powershell
 Get-AzResource -ResourceGroupName ExerciseResources
 ```
 
@@ -273,13 +268,13 @@ Another common task you can do with PowerShell is to create VMs.
 
 Azure PowerShell provides the cmdlet to create a virtual machine. The cmdlet has many parameters to let it handle the large number of VM configuration settings. Most of the parameters have reasonable default values, so we only need to specify five things:`New-AzVm`
 
--   **ResourceGroupName**: The resource group into which the new VM will be placed.
--   **Name**: The name of the VM in Azure.
--   **Location**: Geographic location where the VM will be provisioned.
--   **Credential**: An object containing the username and password for the VM admin account. We'll use the cmdlet. This cmdlet will prompt for a username and password and package it into a credential object.`Get-Credential`
--   **Image**: The operating system image to use for the VM, which is typically a Linux distribution or Windows Server.
+- **ResourceGroupName**: The resource group into which the new VM will be placed.
+- **Name**: The name of the VM in Azure.
+- **Location**: Geographic location where the VM will be provisioned.
+- **Credential**: An object containing the username and password for the VM admin account. We'll use the cmdlet. This cmdlet will prompt for a username and password and package it into a credential object.`Get-Credential`
+- **Image**: The operating system image to use for the VM, which is typically a Linux distribution or Windows Server.
 
-```
+```powershell
    New-AzVm
        -ResourceGroupName <resource group name>
        -Name <machine name>
@@ -292,31 +287,31 @@ You can supply these parameters directly to the cmdlet as shown above. Alternati
 
 Here's an example that strings the cmdlet together with the parameter:`Get-Credential``-Credential`
 
-```
+```powershell
 New-AzVM -Name MyVm -ResourceGroupName ExerciseResources -Credential (Get-Credential) ...
 ```
 
 The suffix is specific to VM-based commands in PowerShell. There are several others you can use:`AzVM`
 
-| Command | Description |
-| --- | --- |
-| `Remove-AzVM` | Deletes an Azure VM. |
-| `Start-AzVM` | Start a stopped VM. |
-| `Stop-AzVM` | Stop a running VM. |
-| `Restart-AzVM` | Restart a VM. |
-| `Update-AzVM` | Updates the configuration for a VM. |
+| Command        | Description                         |
+| -------------- | ----------------------------------- |
+| `Remove-AzVM`  | Deletes an Azure VM.                |
+| `Start-AzVM`   | Start a stopped VM.                 |
+| `Stop-AzVM`    | Stop a running VM.                  |
+| `Restart-AzVM` | Restart a VM.                       |
+| `Update-AzVM`  | Updates the configuration for a VM. |
 
 #### Example: Getting information for a VM
 
 You can list the VMs in your subscription using the command. This command also supports entering a specific VM by including the property. Here, we'll assign it to a PowerShell variable:`Get-AzVM -Status``-Name`
 
-```
+```powershell
 $vm = Get-AzVM  -Name MyVM -ResourceGroupName ExerciseResources
 ```
 
 The interesting thing is that now your VM is an _object_ with which you can interact. For example, you can make changes to that object, then push changes back to Azure by using the command:`Update-AzVM`
 
-```
+```powershell
 $ResourceGroupName = "ExerciseResources"
 $vm = Get-AzVM  -Name MyVM -ResourceGroupName $ResourceGroupName
 $vm.HardwareProfile.vmSize = "Standard_DS3_v2"
