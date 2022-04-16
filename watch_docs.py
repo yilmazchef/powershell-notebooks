@@ -24,6 +24,7 @@ class Handler(watchdog.events.PatternMatchingEventHandler):
         # Event is modified, you can process it now
         docx_file = event.src_path.replace(".md", ".docx")
         pdf_file = event.src_path.replace(".md", ".pdf")
+        to_docx(event.src_path, docx_file)
         print(f"{docx_file} is modified.")
         to_pdf(event.src_path, pdf_file)
         print(f"{pdf_file} is modified.")

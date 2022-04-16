@@ -8,6 +8,7 @@ import time
 import uuid
 from folder_structure import notebook_file_paths
 
+
 def to_ps1(md_file):
     pass
 
@@ -32,9 +33,18 @@ def to_json(md_file, json_file):
     pass
 
 
+def all_markdowns_in_one_pdf(md_file_list, pdf_file):
+    md_joined = ' '.join(md_file_list)
+    print(f"{md_joined} to {pdf_file} conversion started...")
+    cmdlet = f"pandoc -s -o {pdf_file} {md_joined}"
+    print(cmdlet)
+    os.system(cmdlet)
+    print(f"\"{md_joined}\" to \"{pdf_file}\" conversion complete...")
+
+
 def to_pdf(md_file, pdf_file):
-    print(f"\"{md_file}\" to \"{pdf_file}\" conversion started...")
-    cmdlet = f"pandoc \"{md_file}\" -f pdf -o \"{pdf_file}\""
+    print(f"{md_file} to \"{pdf_file}\" conversion started...")
+    cmdlet = f"pandoc -t pdf -o {pdf_file} {md_file}"
     print(cmdlet)
     os.system(cmdlet)
     print(f"\"{md_file}\" to \"{pdf_file}\" conversion complete...")
