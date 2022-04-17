@@ -1,129 +1,150 @@
 [
     {
         "name": "English",
-        "test": "4649092b-0473-4dd5-9320-a8a59faecb72",
+        "test": "f84d15e1-ac5c-4663-a0c6-0d175c3e99a4",
         "child": [
             {
                 "name": "01 - Microsoft Azure Task Automation",
-                "test": "e72bbdf9-96e5-4b36-ac86-e6503939f8be",
+                "test": "0f0e5429-5cfb-45e0-a738-39105d363dc3",
                 "child": [
                     {
                         "name": "media",
-                        "test": "faf28017-1e31-4bbd-94b4-ecb4637ac22f"
+                        "test": "7e8f1c1d-5a82-4571-b84c-3fd25b703e8b"
                     },
                     {
                         "name": "01 - Install PowerShell - Learn  Microsoft Docs.md",
-                        "test": "0503d662-a8f2-41a4-90da-22a81e8f8c9c",
+                        "test": "eab94899-54de-414d-ae59-5d96910a3b8a",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/English/01%20-%20Microsoft%20Azure%20Task%20Automation/01%20-%20Install%20PowerShell%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "02 - Decide if Azure PowerShell is right for your tasks - Learn  Microsoft Docs.md",
-                        "test": "20a1b9a0-65ee-4546-87d5-7d97a6376207",
+                        "test": "a568d9ae-683b-4eb9-a301-ffcea7b243f9",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/English/01%20-%20Microsoft%20Azure%20Task%20Automation/02%20-%20Decide%20if%20Azure%20PowerShell%20is%20right%20for%20your%20tasks%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "03 - Install PowerShell - Learn  Microsoft Docs.md",
-                        "test": "edf00151-0913-4877-b573-e5e680f7f557",
+                        "test": "a1118442-9934-4522-86d7-1b2ebdc90439",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/English/01%20-%20Microsoft%20Azure%20Task%20Automation/03%20-%20Install%20PowerShell%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "04 - 01 - Exercise - Install PowerShell on Windows - Learn  Microsoft Docs.md",
-                        "test": "d2e4d089-45b9-47be-9d18-b4843587af12",
+                        "test": "1372b7fc-8289-40d9-ada4-5cd65b28b69b",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/English/01%20-%20Microsoft%20Azure%20Task%20Automation/04%20-%2001%20-%20Exercise%20-%20Install%20PowerShell%20on%20Windows%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "04 - 02 - Exercise - Install PowerShell on Mac- Learn  Microsoft Docs.md",
-                        "test": "fa08e9e3-ab1f-4bb5-99b4-c72fd272fe14",
+                        "test": "096be998-dcea-4cfe-bdbe-7df07355cb0e",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/English/01%20-%20Microsoft%20Azure%20Task%20Automation/04%20-%2002%20-%20Exercise%20-%20Install%20PowerShell%20on%20Mac-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "04 - 03 - Exercise - Install PowerShell on Linux - Learn  Microsoft Docs.md",
-                        "test": "41405162-3589-4a7e-9f78-f7383f1b4f02",
+                        "test": "a60eb120-57b8-461a-b463-d413a5d09933",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/English/01%20-%20Microsoft%20Azure%20Task%20Automation/04%20-%2003%20-%20Exercise%20-%20Install%20PowerShell%20on%20Linux%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "05 - 01 - Create an Azure Resource using scripts in Azure PowerShell on Windows - Learn  Microsoft Docs.md",
-                        "test": "cf4e9e27-b623-4fdd-a0fd-9dcdc7a72ee7",
+                        "test": "662bb45c-e729-4542-8da3-9759cc3e5e05",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/English/01%20-%20Microsoft%20Azure%20Task%20Automation/05%20-%2001%20-%20Create%20an%20Azure%20Resource%20using%20scripts%20in%20Azure%20PowerShell%20on%20Windows%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "05 - 02 - Create an Azure Resource using scripts in Azure PowerShell on Mac - Learn  Microsoft Docs.md",
-                        "test": "9087b0d5-7f06-4513-8fb7-35f2fee419b6",
+                        "test": "6ab12a49-984e-43b9-bf61-a49a8b025034",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/English/01%20-%20Microsoft%20Azure%20Task%20Automation/05%20-%2002%20-%20Create%20an%20Azure%20Resource%20using%20scripts%20in%20Azure%20PowerShell%20on%20Mac%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "05 - 03 - Create an Azure Resource using scripts in Azure PowerShell on Linux - Learn  Microsoft Docs.md",
-                        "test": "05f74781-272a-4029-9418-8525e3a9b27e",
+                        "test": "0d1f17df-c337-4048-8ea0-229e85b1a7ad",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/English/01%20-%20Microsoft%20Azure%20Task%20Automation/05%20-%2003%20-%20Create%20an%20Azure%20Resource%20using%20scripts%20in%20Azure%20PowerShell%20on%20Linux%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "06 - Exercise - Create an Azure Resource using scripts in Azure PowerShell - Learn  Microsoft Docs.md",
-                        "test": "0997de4e-257a-451a-a302-1dbc566f61b7",
+                        "test": "dfec9427-de3e-4d5a-a08f-1e4e1ebf87e3",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/English/01%20-%20Microsoft%20Azure%20Task%20Automation/06%20-%20Exercise%20-%20Create%20an%20Azure%20Resource%20using%20scripts%20in%20Azure%20PowerShell%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "07 - Create and save scripts in Azure PowerShell - Learn  Microsoft Docs.md",
-                        "test": "41c4a307-3f44-4915-bf49-e5cadbcfd6f9",
+                        "test": "8511c257-1305-4455-849a-66f5974e472d",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/English/01%20-%20Microsoft%20Azure%20Task%20Automation/07%20-%20Create%20and%20save%20scripts%20in%20Azure%20PowerShell%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "08 - Exercise - Create and save scripts in Azure PowerShell - Learn  Microsoft Docs.md",
-                        "test": "82b32c73-a2e0-4847-a7d0-ecce81759dba",
+                        "test": "3617e999-50f1-4993-83c2-d3bfa96ccca8",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/English/01%20-%20Microsoft%20Azure%20Task%20Automation/08%20-%20Exercise%20-%20Create%20and%20save%20scripts%20in%20Azure%20PowerShell%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "09 - Summary - Learn  Microsoft Docs.md",
-                        "test": "2cf712bf-2ace-4e70-8911-883d222e3ee9",
+                        "test": "b0e69f3f-d67a-44dc-8519-248c525d884b",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/English/01%20-%20Microsoft%20Azure%20Task%20Automation/09%20-%20Summary%20-%20Learn%20%20Microsoft%20Docs.md"
                     }
                 ]
             },
             {
                 "name": "02 - Control Azure services with the CLI",
-                "test": "601596ae-552f-42bc-a1b9-50e5228ea8f7",
+                "test": "62fde127-e0e2-4ac1-a525-2cb9ebae4f8b",
                 "child": [
                     {
                         "name": "media",
-                        "test": "c0c5d369-fd12-4d3d-ac07-96630404110b"
+                        "test": "99dc401e-0915-417f-895f-162f7cea2bcc"
                     },
                     {
                         "name": "01 - Introduction - Learn  Microsoft Docs.md",
-                        "test": "f70e557a-cfc3-4611-95f9-63ddef880aaf",
+                        "test": "ff83c8cf-5684-410b-bfb2-3cdc701a5efe",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/English/02%20-%20Control%20Azure%20services%20with%20the%20CLI/01%20-%20Introduction%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "02 - What is the Azure CLI - Learn  Microsoft Docs.md",
-                        "test": "1101293c-6f5d-45c0-8a51-b7e69e9b3707",
+                        "test": "e789f44c-f169-4d05-8a95-c852d9b2c070",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/English/02%20-%20Control%20Azure%20services%20with%20the%20CLI/02%20-%20What%20is%20the%20Azure%20CLI%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "03 - 01 - Exercise - Install and run the Azure CLI on Windows - Learn  Microsoft Docs.md",
-                        "test": "9a0d3f15-1add-4991-a1d0-f27e7fe08121",
+                        "test": "eae39235-ad2b-467d-9efa-cf05704be028",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/English/02%20-%20Control%20Azure%20services%20with%20the%20CLI/03%20-%2001%20-%20Exercise%20-%20Install%20and%20run%20the%20Azure%20CLI%20on%20Windows%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "03 - 02 - Exercise - Install and run the Azure CLI on Mac - Learn  Microsoft Docs.md",
-                        "test": "9aa37f01-0b78-4393-897a-24d2b4715d0a",
+                        "test": "0f43fa7d-5e6f-451c-94a6-67680fafd9d9",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/English/02%20-%20Control%20Azure%20services%20with%20the%20CLI/03%20-%2002%20-%20Exercise%20-%20Install%20and%20run%20the%20Azure%20CLI%20on%20Mac%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "03 - 03 - Exercise - Install and run the Azure CLI on Linux - Learn  Microsoft Docs.md",
-                        "test": "8a2e20a5-bcc7-4c94-b0fd-4958f9b0adef",
+                        "test": "77081a39-be95-4433-9af4-49d416da86f0",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/English/02%20-%20Control%20Azure%20services%20with%20the%20CLI/03%20-%2003%20-%20Exercise%20-%20Install%20and%20run%20the%20Azure%20CLI%20on%20Linux%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "04 - Work with the Azure CLI - Learn  Microsoft Docs.md",
-                        "test": "d0e610ee-d7f8-4590-aa4a-863b0eb2e08c",
+                        "test": "8a979f7f-01e6-4fbe-b647-e57d547c5da6",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/English/02%20-%20Control%20Azure%20services%20with%20the%20CLI/04%20-%20Work%20with%20the%20Azure%20CLI%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "05 - Exercise - Create an Azure website using the CLI - Learn  Microsoft Docs.md",
-                        "test": "64445021-3839-4a65-837c-0d9bbb3b7161",
+                        "test": "9b4c0726-1219-4007-9c1f-17d90565e059",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/English/02%20-%20Control%20Azure%20services%20with%20the%20CLI/05%20-%20Exercise%20-%20Create%20an%20Azure%20website%20using%20the%20CLI%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "06 - Summary - Learn  Microsoft Docs.md",
-                        "test": "2bb4e9db-5781-490c-9fbd-ade5607684ae",
+                        "test": "0282b92d-792c-43ad-bdbf-a3bb85eee50c",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/English/02%20-%20Control%20Azure%20services%20with%20the%20CLI/06%20-%20Summary%20-%20Learn%20%20Microsoft%20Docs.md"
                     }
                 ]
@@ -132,129 +153,150 @@
     },
     {
         "name": "Nederlands",
-        "test": "28bbc6b5-998b-4425-8934-173baef61931",
+        "test": "d9f1b134-9988-4491-b998-d8ea25786cfe",
         "child": [
             {
                 "name": "01 - Automisering van Microsoft Azure taken",
-                "test": "ee3ba564-8a99-4bad-8d24-9e0ed4c845df",
+                "test": "ab78345b-7bad-4b97-be17-31a26d37487b",
                 "child": [
                     {
                         "name": "media",
-                        "test": "d45b2fd1-c05e-4aa2-b384-4f32b180b083"
+                        "test": "4d398bc8-ef47-4655-966d-a2b71fb3758e"
                     },
                     {
                         "name": "01 - Inleiding - Leer  Microsoft Documenten.md",
-                        "test": "a9ec918a-8720-4f7b-8c0c-ca623344b53a",
+                        "test": "67a4f988-5394-4707-9c74-dc3d039d80ca",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/Nederlands/01%20-%20Automisering%20van%20Microsoft%20Azure%20taken/01%20-%20Inleiding%20-%20Leer%20%20Microsoft%20Documenten.md"
                     },
                     {
                         "name": "02 - Bepaal of Azure PowerShell geschikt is voor uw taken - Learn  Microsoft Docs.md",
-                        "test": "62095242-872b-4aee-9cfc-fea806a531d0",
+                        "test": "852711a3-9b6e-46e9-8234-75f4d4b04d99",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/Nederlands/01%20-%20Automisering%20van%20Microsoft%20Azure%20taken/02%20-%20Bepaal%20of%20Azure%20PowerShell%20geschikt%20is%20voor%20uw%20taken%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "03 - PowerShell installeren - Learn  Microsoft Docs.md",
-                        "test": "80bf41ab-7aec-4796-978c-7af509a22cf8",
+                        "test": "a2f44e43-6190-4bf7-a434-97246812aa7c",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/Nederlands/01%20-%20Automisering%20van%20Microsoft%20Azure%20taken/03%20-%20PowerShell%20installeren%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "04 - 02 - Oefening - Installatie Powershell op Mac - Learn  Microsoft Docs.md",
-                        "test": "262e9db2-c2ef-4d3f-a1bd-2eab2dcb61d4",
+                        "test": "c7e9d82a-6911-4877-b9f1-5eab448610bd",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/Nederlands/01%20-%20Automisering%20van%20Microsoft%20Azure%20taken/04%20-%2002%20-%20Oefening%20-%20Installatie%20Powershell%20op%20Mac%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "04 - 03 - Oefening - Installatie Powershell op Linux - Learn  Microsoft Docs.md",
-                        "test": "eeea56a2-bb78-430b-a8d3-b36f71d1b7a8",
+                        "test": "69b79225-6352-4301-80ae-b298ff64fc8d",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/Nederlands/01%20-%20Automisering%20van%20Microsoft%20Azure%20taken/04%20-%2003%20-%20Oefening%20-%20Installatie%20Powershell%20op%20Linux%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "04 - Oefening - Installatie Powershell - Learn  Microsoft Docs.md",
-                        "test": "22fdf015-6a74-46e3-bf38-95b1ebc348c0",
+                        "test": "69ca6e8f-aadd-4e86-879f-3434a7cc995d",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/Nederlands/01%20-%20Automisering%20van%20Microsoft%20Azure%20taken/04%20-%20Oefening%20-%20Installatie%20Powershell%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "05 - 01 - Een Azure-resource maken met scripts in Azure PowerShell op Windows - Learn  Microsoft Docs.md",
-                        "test": "ed856c4f-7179-466e-9a0f-e249bad475c2",
+                        "test": "a79e5017-5278-4a97-b021-7a6f77f70b73",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/Nederlands/01%20-%20Automisering%20van%20Microsoft%20Azure%20taken/05%20-%2001%20-%20Een%20Azure-resource%20maken%20met%20scripts%20in%20Azure%20PowerShell%20op%20Windows%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "05 - 02 - Een Azure-resource maken met scripts in Azure PowerShell op Mac - Learn  Microsoft Docs.md",
-                        "test": "5630aded-2671-439b-9e28-dcc90b7bfad1",
+                        "test": "06ef9186-9936-4218-aec3-ffb60009a4da",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/Nederlands/01%20-%20Automisering%20van%20Microsoft%20Azure%20taken/05%20-%2002%20-%20Een%20Azure-resource%20maken%20met%20scripts%20in%20Azure%20PowerShell%20op%20Mac%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "05 - 03 - Een Azure-resource maken met scripts in Azure PowerShell op Linux- Learn  Microsoft Docs.md",
-                        "test": "cbc66afd-546a-44f2-9ded-742f31f10ebb",
+                        "test": "d0992f6d-d98f-4404-8b0f-d60f8605dbdd",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/Nederlands/01%20-%20Automisering%20van%20Microsoft%20Azure%20taken/05%20-%2003%20-%20Een%20Azure-resource%20maken%20met%20scripts%20in%20Azure%20PowerShell%20op%20Linux-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "06 - Oefening - Een Azure-resource maken met scripts in Azure PowerShell - Learn  Microsoft Docs.md",
-                        "test": "34e9576d-28bd-4889-b0be-0686cba3c400",
+                        "test": "b98a58f1-48ee-43ce-8ea1-a53ced8003f8",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/Nederlands/01%20-%20Automisering%20van%20Microsoft%20Azure%20taken/06%20-%20Oefening%20-%20Een%20Azure-resource%20maken%20met%20scripts%20in%20Azure%20PowerShell%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "07 - Scripts maken en opslaan in Azure PowerShell - Learn  Microsoft Docs.md",
-                        "test": "8d3a5a93-c0ee-442a-ba03-3d8932a08c69",
+                        "test": "1813831f-b37e-4291-8453-8b013dbe2ad8",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/Nederlands/01%20-%20Automisering%20van%20Microsoft%20Azure%20taken/07%20-%20Scripts%20maken%20en%20opslaan%20in%20Azure%20PowerShell%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "08 - Oefening - Scripts maken en opslaan in Azure PowerShell - Learn  Microsoft Docs.md",
-                        "test": "52a28023-e29b-403f-b744-7e3a206a64ab",
+                        "test": "7acbb8a5-4d71-4574-9f95-d974123f1a1b",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/Nederlands/01%20-%20Automisering%20van%20Microsoft%20Azure%20taken/08%20-%20Oefening%20-%20Scripts%20maken%20en%20opslaan%20in%20Azure%20PowerShell%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "09 - Samenvatting - Learn  Microsoft Docs.md",
-                        "test": "2aa84b33-7d09-4a01-acba-4b9a6d3fa1ba",
+                        "test": "aef1b66d-904f-432f-a344-ec7fc1ac862f",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/Nederlands/01%20-%20Automisering%20van%20Microsoft%20Azure%20taken/09%20-%20Samenvatting%20-%20Learn%20%20Microsoft%20Docs.md"
                     }
                 ]
             },
             {
                 "name": "02 - Controleren van Azure diensten met CLI",
-                "test": "7f432810-2d4d-428a-bdfa-385912307012",
+                "test": "30c40bc3-a51e-47dc-adc7-f34ef457938f",
                 "child": [
                     {
                         "name": "media",
-                        "test": "7cf2a25b-32d9-4752-b3a3-968305c71b62"
+                        "test": "4dabb368-4899-4dd5-81ee-e569c0e889c5"
                     },
                     {
                         "name": "01 - Inleiding - Leer  Microsoft Documenten.md",
-                        "test": "1a321d20-d3e8-4810-976b-7bdd35f26213",
+                        "test": "b05a3846-fd8d-4f5f-a4d9-ea727b861ebb",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/Nederlands/02%20-%20Controleren%20van%20Azure%20diensten%20met%20CLI/01%20-%20Inleiding%20-%20Leer%20%20Microsoft%20Documenten.md"
                     },
                     {
                         "name": "02 - Wat is de Azure CLI.md",
-                        "test": "81b36f1d-aab1-4ec0-94e1-8d6cf319e599",
+                        "test": "5b59139f-c843-4367-b426-a2a3f9309dbc",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/Nederlands/02%20-%20Controleren%20van%20Azure%20diensten%20met%20CLI/02%20-%20Wat%20is%20de%20Azure%20CLI.md"
                     },
                     {
                         "name": "03 - 01 - Oefening - de Azure CLI installeren en uitvoeren op Windows - Learn  Microsoft Docs.md",
-                        "test": "7a59a3eb-2798-498a-8a43-4f84c8954664",
+                        "test": "d2e03437-0991-47b1-83a8-2605a8b17e87",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/Nederlands/02%20-%20Controleren%20van%20Azure%20diensten%20met%20CLI/03%20-%2001%20-%20Oefening%20-%20de%20Azure%20CLI%20installeren%20en%20uitvoeren%20op%20Windows%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "03 - 02 - Oefening - de Azure CLI installeren en uitvoeren op Mac - Learn  Microsoft Docs.md",
-                        "test": "2c2b4f9b-a659-4ba5-a9fd-01373fb86a64",
+                        "test": "9a234a36-50de-4c67-ab65-b8f47245914b",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/Nederlands/02%20-%20Controleren%20van%20Azure%20diensten%20met%20CLI/03%20-%2002%20-%20Oefening%20-%20de%20Azure%20CLI%20installeren%20en%20uitvoeren%20op%20Mac%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "03 - 03 - Oefening - de Azure CLI installeren en uitvoeren op Linux - Learn  Microsoft Docs.md",
-                        "test": "efbb72cb-adc4-4874-9973-decde6aa25e8",
+                        "test": "bba912fa-ebf3-4cbf-89bb-4e70ad8787e5",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/Nederlands/02%20-%20Controleren%20van%20Azure%20diensten%20met%20CLI/03%20-%2003%20-%20Oefening%20-%20de%20Azure%20CLI%20installeren%20en%20uitvoeren%20op%20Linux%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "04 - Werken met de Azure CLI - Learn  Microsoft Docs.md",
-                        "test": "2ec6b6a2-3933-495e-b852-49a49d1101be",
+                        "test": "8c84fe32-329f-46fd-9ae2-001cd11c0a5d",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/Nederlands/02%20-%20Controleren%20van%20Azure%20diensten%20met%20CLI/04%20-%20Werken%20met%20de%20Azure%20CLI%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "05 - Exercise - Oefening - Een Azure-website maken met de CLI - Learn  Microsoft Docs.md",
-                        "test": "3f819dfd-320d-491d-88e6-ee41f01529bc",
+                        "test": "08528fa7-2d8c-4d58-82a2-2ee2addec42e",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/Nederlands/02%20-%20Controleren%20van%20Azure%20diensten%20met%20CLI/05%20-%20Exercise%20-%20Oefening%20-%20Een%20Azure-website%20maken%20met%20de%20CLI%20-%20Learn%20%20Microsoft%20Docs.md"
                     },
                     {
                         "name": "06 - Samenvatting - Learn  Microsoft Docs.md",
-                        "test": "5daf0462-789b-4684-be30-6346ef148090",
+                        "test": "cf47d1a8-2098-4cfc-bcb9-0674a6487a54",
+                        "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                         "link": "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/Notebooks/Nederlands/02%20-%20Controleren%20van%20Azure%20diensten%20met%20CLI/06%20-%20Samenvatting%20-%20Learn%20%20Microsoft%20Docs.md"
                     }
                 ]
