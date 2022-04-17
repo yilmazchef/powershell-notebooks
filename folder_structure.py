@@ -24,7 +24,7 @@ def path_to_dict(root_path, language):
     GITHUB_REPO = os.getenv('GITHUB_POWERSHELL_NOTEBOOKS_REPO') if os.getenv(
         'GITHUB_POWERSHELL_NOTEBOOKS_REPO') is not None else str(input("Github repository name: "))
 
-    includes = ['*.md']  # for files only
+    includes = ['*.md', '*.docx']  # for files only
     excludes = ['.vscode', '.git', '*/__pycache__', '*/.ipynb_checkpoints',
                 'Books', 'Code', 'Presentations', 'Temp']  # for dirs and files
 
@@ -58,7 +58,7 @@ def path_to_dict(root_path, language):
             [{
                 "name": os.path.basename(os.path.join(root, f)),
                 "test": str(uuid4()),
-                "icon": "icon:<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
+                "icon": "<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
                 "link": str(
                     "https://raw.githubusercontent.com/" + GITHUB_USERNAME +
                     "/" + GITHUB_REPO + "/main/" + "Notebooks" + "/"
