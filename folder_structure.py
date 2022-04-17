@@ -58,7 +58,7 @@ def path_to_dict(root_path, language):
             [{
                 "name": os.path.basename(os.path.join(root, f)),
                 "test": str(uuid4()),
-                "icon": "<img src={`/icons/${getIconForFile('index.md')}`} alt=\"markdown\" className=\"icon\" />",
+                "icon": """<img src={`/icons/${getIconForFile('index.md')}`} alt="markdown" className="icon" />""",
                 "link": str(
                     "https://raw.githubusercontent.com/" + GITHUB_USERNAME +
                     "/" + GITHUB_REPO + "/main/" + "Notebooks" + "/"
