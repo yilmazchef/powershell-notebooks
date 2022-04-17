@@ -44,10 +44,10 @@ def path_to_dict(root_path, language):
             [{
                 "name": os.path.basename(os.path.join(root, f)),
                 "test": str(uuid4()),
-                "link": quote(str(
+                "link": str(
                     "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/" + "Notebooks" + "/"
-                    + language + "/" + os.path.basename(root) + "/" + os.path.basename(f) 
-                )),
+                    + language + "/" + quote(os.path.basename(root)) + "/" + quote(os.path.basename(f)) 
+                ),
             } for f in files]
         )
 
