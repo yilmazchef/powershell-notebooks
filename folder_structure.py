@@ -5,9 +5,10 @@ from uuid import uuid4
 import json
 import fnmatch
 import re
+from urllib.parse import quote
 
 
-def path_to_dict(root_path):
+def path_to_dict(root_path, language):
 
     includes = ['*.md']  # for files only
     excludes = ['.vscode', '.git', '*/__pycache__', '*/.ipynb_checkpoints',
@@ -31,22 +32,22 @@ def path_to_dict(root_path):
         tree = {
             "name": os.path.basename(root),
             "test": str(uuid4()),
-            "icon": "folder",
-            "type": "folder",
             "child": []
         }
 
         tree["child"].extend(
-            [path_to_dict(os.path.join(root, d)) for d in dirs if len(d) > 0]
+            [path_to_dict(os.path.join(root, d), language)
+             for d in dirs if len(d) > 0]
         )
 
         tree["child"].extend(
             [{
                 "name": os.path.basename(os.path.join(root, f)),
                 "test": str(uuid4()),
-                "icon": pathlib.Path(os.path.join(root, f)).suffix,
-                "link": str(os.path.join(root, f)),
-                "type": "file"
+                "link": quote(str(
+                    "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/" + "Notebooks" + "/"
+                    + language + "/" + os.path.basename(f).replace('\\', '/')
+                )),
             } for f in files]
         )
 

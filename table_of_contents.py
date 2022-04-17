@@ -14,13 +14,13 @@ if __name__ == "__main__":
     english = cwd + os.path.sep + "Notebooks" + os.path.sep + "English"
     dutch = cwd + os.path.sep + "Notebooks" + os.path.sep + "Nederlands"
 
-    englishTree = path_to_dict(english)
-    dutchTree = path_to_dict(dutch)
+    englishTree = path_to_dict(english, "English")
+    dutchTree = path_to_dict(dutch, "Nederlands")
     pythonTutorials = [englishTree, dutchTree]
     jsonString = json.dumps(
         pythonTutorials, default=lambda o: o.__dict__, sort_keys=False, indent=4)
 
-    jsonFile = open("data.json", "w")
+    jsonFile = open("data.json", "w+")
     jsonFile.write(jsonString)
     jsonFile.close()
     end = time.time()
