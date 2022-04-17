@@ -1,0 +1,839 @@
+[
+    {
+        "name": "02 - Objecten datastructuren en operatoren",
+        "test": "8mvwa",
+        "child": [
+            {
+                "name": "01 - Variabelen Toewijzing.md",
+                "test": "a15a3c1e-5367-459b-859f-2dcafedf8651",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/02 - Objecten datastructuren en operatoren/01 - Variabelen Toewijzing.md"
+            },
+            {
+                "name": "02 - Getallen.md",
+                "test": "f199d4c3-b034-4fc5-8870-fcde1e727a3a",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/02 - Objecten datastructuren en operatoren/02 - Getallen.md"
+            },
+            {
+                "name": "03 - Strings.md",
+                "test": "fad9abb4-03fc-418b-9828-e6ed7cdb8161",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/02 - Objecten datastructuren en operatoren/03 - Strings.md"
+            },
+            {
+                "name": "04 - Formattering van String.md",
+                "test": "805a980a-543b-49cf-9a0c-af56593cef27",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/02 - Objecten datastructuren en operatoren/04 - Formattering van String.md"
+            },
+            {
+                "name": "05 - Lists.md",
+                "test": "d2e38d06-1b7b-4196-8172-19041ee25d43",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/02 - Objecten datastructuren en operatoren/05 - Lists.md"
+            },
+            {
+                "name": "06 - Dictionaries.md",
+                "test": "8bae99b2-a843-454d-b989-a88bd9f8bb10",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/02 - Objecten datastructuren en operatoren/06 - Dictionaries.md"
+            },
+            {
+                "name": "07 - Tuples.md",
+                "test": "e1316f98-e71f-4623-955b-087232a6a73f",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/02 - Objecten datastructuren en operatoren/07 - Tuples.md"
+            },
+            {
+                "name": "08 - Sets.md",
+                "test": "114ddba4-3ec9-41f2-96be-b1eedcd8ffc5",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/02 - Objecten datastructuren en operatoren/08 - Sets.md"
+            },
+            {
+                "name": "09 - Booleans.md",
+                "test": "98ffe60b-f363-4f28-b125-138a6d86e011",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/02 - Objecten datastructuren en operatoren/09 - Booleans.md"
+            },
+            {
+                "name": "10 - Files.md",
+                "test": "c884102c-c650-449a-9bc6-ce0e0c700bbd",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/02 - Objecten datastructuren en operatoren/10 - Files.md"
+            },
+            {
+                "name": "11 - Simpele vergelijkingsoperatoren.md",
+                "test": "3ea60228-2637-4344-89ec-62c1660b220d",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/02 - Objecten datastructuren en operatoren/11 - Simpele vergelijkingsoperatoren.md"
+            },
+            {
+                "name": "12 - Geketende vergelijkingsoperatoren.md",
+                "test": "e4fdb701-1aae-40ee-8ff3-c5100f13763a",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/02 - Objecten datastructuren en operatoren/12 - Geketende vergelijkingsoperatoren.md"
+            },
+            {
+                "name": "13 - Opdrachten.md",
+                "test": "e4b394c1-2341-4d28-942e-b02be5955180",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/02 - Objecten datastructuren en operatoren/13 - Opdrachten.md"
+            },
+            {
+                "name": "14 - Opdrachten met oplossingen.md",
+                "test": "b4a5a933-0eb7-4d2f-9ff1-096e9f7b4d1e",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/02 - Objecten datastructuren en operatoren/14 - Opdrachten met oplossingen.md"
+            }
+        ]
+    },
+    {
+        "name": "03 - Vergelijksmechanisme en statements",
+        "test": "8eu8p",
+        "child": [
+            {
+                "name": "01 - Inleiding tot statements.md",
+                "test": "decdb936-cb75-48c7-b64e-3376457aed7c",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/03 - Vergelijksmechanisme en statements/01 - Inleiding tot statements.md"
+            },
+            {
+                "name": "02 - if, elif, en else statements.md",
+                "test": "78412019-7da6-4563-8316-5cc9ad34af3a",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/03 - Vergelijksmechanisme en statements/02 - if, elif, en else statements.md"
+            },
+            {
+                "name": "03 - for-lussen.md",
+                "test": "282753b5-2346-4990-a130-9207df886ac2",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/03 - Vergelijksmechanisme en statements/03 - for-lussen.md"
+            },
+            {
+                "name": "04 - while-lussen.md",
+                "test": "3e1254b6-87fc-4269-b281-64fb99d7f75c",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/03 - Vergelijksmechanisme en statements/04 - while-lussen.md"
+            },
+            {
+                "name": "05 - Useful-Operators.md",
+                "test": "195aa2cb-32dd-48c8-bd04-f58f4bc8618e",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/03 - Vergelijksmechanisme en statements/05 - Useful-Operators.md"
+            },
+            {
+                "name": "06 - List Comprehensions.md",
+                "test": "313980b0-f99c-4116-876a-5e1f7147ed95",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/03 - Vergelijksmechanisme en statements/06 - List Comprehensions.md"
+            },
+            {
+                "name": "07 - Opdrachten.md",
+                "test": "0c7a905b-2384-41cf-8a77-1adc673450d7",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/03 - Vergelijksmechanisme en statements/07 - Opdrachten.md"
+            },
+            {
+                "name": "08 - Odrachten met oplossingen.md",
+                "test": "06ee3d18-df2b-468f-90c5-a0d54e7a84ec",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/03 - Vergelijksmechanisme en statements/08 - Odrachten met oplossingen.md"
+            },
+            {
+                "name": "09 - Uitdagingen.md",
+                "test": "a58405fa-fac6-437c-bdaf-be47d456b043",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/03 - Vergelijksmechanisme en statements/09 - Uitdagingen.md"
+            },
+            {
+                "name": "10 - Uitdagingen met oplossingen.md",
+                "test": "e68157d1-1153-439d-bc32-4dfcf0ada697",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/03 - Vergelijksmechanisme en statements/10 - Uitdagingen met oplossingen.md"
+            }
+        ]
+    },
+    {
+        "name": "04 - Methoden en functies",
+        "test": "uzsa3",
+        "child": [
+            {
+                "name": "01 - Methoden.md",
+                "test": "d2f66d72-c6e9-4113-bcaa-e573fdb969c4",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/04 - Methoden en functies/01 - Methoden.md"
+            },
+            {
+                "name": "02 - Functies.md",
+                "test": "b8260c4c-98da-445b-b463-de854ff40fcb",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/04 - Methoden en functies/02 - Functies.md"
+            },
+            {
+                "name": "03 - Opdrachten methoden en functies.md",
+                "test": "d1a52e36-b405-44f7-89e3-b33de0431472",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/04 - Methoden en functies/03 - Opdrachten methoden en functies.md"
+            },
+            {
+                "name": "04 - Opdrachten methoden en functies met oplossingen.md",
+                "test": "8e2589a4-8d27-456c-a777-7722240996a6",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/04 - Methoden en functies/04 - Opdrachten methoden en functies met oplossingen.md"
+            },
+            {
+                "name": "05 - Lambda expressies met map en filter.md",
+                "test": "9acd5729-2cd3-4e9a-9885-0563d7cc0ad6",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/04 - Methoden en functies/05 - Lambda expressies met map en filter.md"
+            },
+            {
+                "name": "06 - Geneste statements en scope.md",
+                "test": "0539951f-4a4d-4b15-9ea7-12758812ae81",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/04 - Methoden en functies/06 - Geneste statements en scope.md"
+            },
+            {
+                "name": "07 - args and kwargs.md",
+                "test": "213fe263-5a54-4cde-a698-c9c6e2d10460",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/04 - Methoden en functies/07 - args and kwargs.md"
+            },
+            {
+                "name": "08 - Huiswerk methoden en functies.md",
+                "test": "b7483f83-f7cc-43ec-b8bc-aa53920fcabf",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/04 - Methoden en functies/08 - Huiswerk methoden en functies.md"
+            },
+            {
+                "name": "09 - Huiswerk methoden en functies met oplossingen.md",
+                "test": "1446469b-4d99-45a0-8b07-223384446932",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/04 - Methoden en functies/09 - Huiswerk methoden en functies met oplossingen.md"
+            }
+        ]
+    },
+    {
+        "name": "05 - Object georienteerde programmeren OOP",
+        "test": "mabgik",
+        "child": [
+            {
+                "name": "01-Objectgeoriënteerd programmeren.md",
+                "test": "8a7b0c1f-f767-4e46-904b-27b840938eeb",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/05 - Object georienteerde programmeren OOP/01-Objectgeoriënteerd programmeren.md"
+            },
+            {
+                "name": "02-Opdrachten.md",
+                "test": "bff35421-f9c9-4337-a95f-c4cc7523ebb2",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/05 - Object georienteerde programmeren OOP/02-Opdrachten.md"
+            },
+            {
+                "name": "03-Opdrachten met oplossingen.md",
+                "test": "3c335af7-a321-42c6-b667-b17e0c20cabb",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/05 - Object georienteerde programmeren OOP/03-Opdrachten met oplossingen.md"
+            },
+            {
+                "name": "04-Huiswerk object georiënteerde programmeren.md",
+                "test": "a0bbba7c-4466-451b-a08c-8de39a8fdad2",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/05 - Object georienteerde programmeren OOP/04-Huiswerk object georiënteerde programmeren.md"
+            },
+            {
+                "name": "05-Huiswerk objectgeoriënteerd programmeren met oplossingen.md",
+                "test": "0cee46b6-c268-40a6-818e-46e572462cd6",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/05 - Object georienteerde programmeren OOP/05-Huiswerk objectgeoriënteerd programmeren met oplossingen.md"
+            },
+            {
+                "name": "06-Uitdaging objectgeoriënteerd programmeren.md",
+                "test": "3fe0ea09-ad12-4f8e-bb98-9121c6e684e7",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/05 - Object georienteerde programmeren OOP/06-Uitdaging objectgeoriënteerd programmeren.md"
+            },
+            {
+                "name": "07-Uitdaging objectgeoriënteerd programmeren met oplossingen.md",
+                "test": "d95068cd-f15d-492b-b6f1-77de92f79b5d",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/05 - Object georienteerde programmeren OOP/07-Uitdaging objectgeoriënteerd programmeren met oplossingen.md"
+            },
+            {
+                "name": "08-Deel1-Inheritance(Overerving) en polymorphism.md",
+                "test": "7d33b416-30f3-4f57-ae18-7866024af17c",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/05 - Object georienteerde programmeren OOP/08-Deel1-Inheritance(Overerving) en polymorphism.md"
+            },
+            {
+                "name": "08-Deel2-Inheritance(Overerving) en polymorphism.md",
+                "test": "4f4e625e-65a8-4ce8-bc6d-21a62edac8bf",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/05 - Object georienteerde programmeren OOP/08-Deel2-Inheritance(Overerving) en polymorphism.md"
+            },
+            {
+                "name": "09-Extra oefeningen.md",
+                "test": "417e8178-f74d-4308-bb49-a4b7440bf8b4",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/05 - Object georienteerde programmeren OOP/09-Extra oefeningen.md"
+            }
+        ]
+    },
+    {
+        "name": "06 - Errors en exception behandeling",
+        "test": "fz2d4",
+        "child": [
+            {
+                "name": "01-Errors en exceptions behandeling.md",
+                "test": "23d6b2e4-80e9-4099-bfc0-ee6b1ad71c21",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/06 - Errors en exception behandeling/01-Errors en exceptions behandeling.md"
+            },
+            {
+                "name": "02-Huiswerk errors en exceptions behandeling.md",
+                "test": "b3437bf1-44e5-4271-9abd-bb30b7a22147",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/06 - Errors en exception behandeling/02-Huiswerk errors en exceptions behandeling.md"
+            },
+            {
+                "name": "03-Huiswerk errors en exceptions behandeling met oplossingen.md",
+                "test": "61a36750-ea36-4c3d-bd9a-555e8b5e3b75",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/06 - Errors en exception behandeling/03-Huiswerk errors en exceptions behandeling met oplossingen.md"
+            },
+            {
+                "name": "04-Unit Testen.md",
+                "test": "1f866d0c-811e-44f4-a874-2f9c30fde79e",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/06 - Errors en exception behandeling/04-Unit Testen.md"
+            }
+        ]
+    },
+    {
+        "name": "07 - Modulen en packages",
+        "test": "a300f",
+        "child": [
+            {
+                "name": "Code scope.md",
+                "test": "e0f44f85-98e3-4b8d-ad3b-7b4e837046c0",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/07 - Modulen en packages/Code scope.md"
+            },
+            {
+                "name": "Opdrachten.md",
+                "test": "b5a038b8-2d5c-4c08-add7-135f513e2528",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/07 - Modulen en packages/Opdrachten.md"
+            },
+            {
+                "name": "Samenvatting modules en packages.md",
+                "test": "c8546d6f-8e0a-4256-ae10-fcfb8c550065",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/07 - Modulen en packages/Samenvatting modules en packages.md"
+            }
+        ]
+    },
+    {
+        "name": "08- Geavenceerde modules en objecten",
+        "test": "zi9ul",
+        "child": [
+            {
+                "name": "01-Advanced Numbers.md",
+                "test": "9e0e67d4-e9a6-464f-b40e-669d9cfd8bf7",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/08- Geavenceerde modules en objecten/01-Advanced Numbers.md"
+            },
+            {
+                "name": "02-Advanced Strings.md",
+                "test": "d90c38ab-9170-4a58-ba12-dd3e63ef2afe",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/08- Geavenceerde modules en objecten/02-Advanced Strings.md"
+            },
+            {
+                "name": "03-Advanced Sets.md",
+                "test": "24e11a76-bc50-4935-87bb-18a637a54be7",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/08- Geavenceerde modules en objecten/03-Advanced Sets.md"
+            },
+            {
+                "name": "04-Advanced Dictionaries.md",
+                "test": "0a554b9a-e08d-4ab2-a801-e25b5f56b445",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/08- Geavenceerde modules en objecten/04-Advanced Dictionaries.md"
+            },
+            {
+                "name": "05-Advanced Lists.md",
+                "test": "3915947f-88b2-43f1-87aa-76611218776a",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/08- Geavenceerde modules en objecten/05-Advanced Lists.md"
+            },
+            {
+                "name": "06-Advanced Python Objects Test.md",
+                "test": "ac5e6c9d-cfb4-4775-9ab0-c03d2c37df5c",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/08- Geavenceerde modules en objecten/06-Advanced Python Objects Test.md"
+            },
+            {
+                "name": "07-Advanced Python Objects Test - Solutions.md",
+                "test": "1aa1edce-0611-48df-b9f9-77db39e63050",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/08- Geavenceerde modules en objecten/07-Advanced Python Objects Test - Solutions.md"
+            },
+            {
+                "name": "08-With Statement Context Managers.md",
+                "test": "4875fd46-5b01-4347-8315-a267637eba9d",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/08- Geavenceerde modules en objecten/08-With Statement Context Managers.md"
+            }
+        ]
+    },
+    {
+        "name": "09 - Decorators",
+        "test": "hj0t3",
+        "child": [
+            {
+                "name": "01-Decorators.md",
+                "test": "55245ca7-61cb-4483-a8de-343409e2646c",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/09 - Decorators/01-Decorators.md"
+            },
+            {
+                "name": "02-Decorators Homework.md",
+                "test": "74d2465d-f07b-4687-bb4b-0853a1ea5327",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/09 - Decorators/02-Decorators Homework.md"
+            }
+        ]
+    },
+    {
+        "name": "10 - Generators",
+        "test": "9rgqzj",
+        "child": [
+            {
+                "name": "01-Iterators and Generators.md",
+                "test": "08cbea8f-ecb4-4931-ac93-f3701ea2db7f",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/10 - Generators/01-Iterators and Generators.md"
+            },
+            {
+                "name": "02-Iterators and Generators Homework.md",
+                "test": "d096a312-9b59-419a-9dfe-f47447f9b8a2",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/10 - Generators/02-Iterators and Generators Homework.md"
+            },
+            {
+                "name": "03-Iterators and Generators Homework - Solution.md",
+                "test": "d6e72f95-f353-453e-a8ab-15e6b3f30e22",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/10 - Generators/03-Iterators and Generators Homework - Solution.md"
+            }
+        ]
+    },
+    {
+        "name": "11 - Ingebouwde modulen en debugging",
+        "test": "n6hwj",
+        "child": [
+            {
+                "name": "00-all() and any().md",
+                "test": "d6595ace-f749-4b26-9e91-989ee11e4ab1",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/11 - Ingebouwde modulen en debugging/00-all() and any().md"
+            },
+            {
+                "name": "00-Collections-Module.md",
+                "test": "85fbf280-2acd-485f-8cbd-e6b24a145b96",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/11 - Ingebouwde modulen en debugging/00-Collections-Module.md"
+            },
+            {
+                "name": "00-Complex.md",
+                "test": "1964e290-9de8-4c01-937b-cf3d6fd8091f",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/11 - Ingebouwde modulen en debugging/00-Complex.md"
+            },
+            {
+                "name": "00-Enumerate.md",
+                "test": "6c03f2d5-c531-466b-8466-4d90d3d90a79",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/11 - Ingebouwde modulen en debugging/00-Enumerate.md"
+            },
+            {
+                "name": "00-Filter.md",
+                "test": "9a820494-a312-4f4a-8509-e3c493618ca8",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/11 - Ingebouwde modulen en debugging/00-Filter.md"
+            },
+            {
+                "name": "00-Map.md",
+                "test": "e53845b1-100b-49f3-8400-322cc7caaa6e",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/11 - Ingebouwde modulen en debugging/00-Map.md"
+            },
+            {
+                "name": "00-Reduce.md",
+                "test": "65084db4-9acf-43c2-b368-85ccc356d5f1",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/11 - Ingebouwde modulen en debugging/00-Reduce.md"
+            },
+            {
+                "name": "01-Opening-and-Reading-Files-Folders.md",
+                "test": "abcaf450-0269-4f59-ba95-463a4d4dfcd9",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/11 - Ingebouwde modulen en debugging/01-Opening-and-Reading-Files-Folders.md"
+            },
+            {
+                "name": "02-Datetime-Module.md",
+                "test": "8d136d1b-8374-488e-a005-b8a74bf0b312",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/11 - Ingebouwde modulen en debugging/02-Datetime-Module.md"
+            },
+            {
+                "name": "03-Math-and-Random-Module.md",
+                "test": "adae5cbf-50a6-4955-9472-27a583dbe28a",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/11 - Ingebouwde modulen en debugging/03-Math-and-Random-Module.md"
+            },
+            {
+                "name": "04-Python Debugger (pdb).md",
+                "test": "b04f34a7-d5fe-4392-9428-15e23815dc99",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/11 - Ingebouwde modulen en debugging/04-Python Debugger (pdb).md"
+            },
+            {
+                "name": "04-Zip Unzip Deel1.md",
+                "test": "a8b5b643-75ec-4cec-8a88-43560eee15a5",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/11 - Ingebouwde modulen en debugging/04-Zip Unzip Deel1.md"
+            },
+            {
+                "name": "04-Zip Unzip Deel2.md",
+                "test": "3915f255-cdc3-449c-898d-415ff4d1cecd",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/11 - Ingebouwde modulen en debugging/04-Zip Unzip Deel2.md"
+            },
+            {
+                "name": "05-Overview-of-Regular-Expressions.md",
+                "test": "46494b2e-6f65-4941-a6c8-fc7a3a33562f",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/11 - Ingebouwde modulen en debugging/05-Overview-of-Regular-Expressions.md"
+            },
+            {
+                "name": "06-Timing your code - timeit.md",
+                "test": "a65b061c-451e-40bb-8a2c-1748e9a2bf42",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/11 - Ingebouwde modulen en debugging/06-Timing your code - timeit.md"
+            },
+            {
+                "name": "08-Advanced-Modules-Exercise-Puzzle.md",
+                "test": "8eca6a4d-66e1-4724-af1a-f44b6688f333",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/11 - Ingebouwde modulen en debugging/08-Advanced-Modules-Exercise-Puzzle.md"
+            },
+            {
+                "name": "09-Advanced-Modules-Exercise-Solutions.md",
+                "test": "e7019643-dac9-4fed-b946-6d59fd7ec58a",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/11 - Ingebouwde modulen en debugging/09-Advanced-Modules-Exercise-Solutions.md"
+            },
+            {
+                "name": "10-Built-in Functions Assessment Test.md",
+                "test": "30328d1c-b5f8-4732-841d-8a4e454e4c4f",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/11 - Ingebouwde modulen en debugging/10-Built-in Functions Assessment Test.md"
+            },
+            {
+                "name": "11-Built-in Functions Assessment Test - Solution.md",
+                "test": "f35e4590-3bfe-4484-8a80-b4e755fb86d1",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/11 - Ingebouwde modulen en debugging/11-Built-in Functions Assessment Test - Solution.md"
+            }
+        ]
+    },
+    {
+        "name": "12 - PDFs en spreadsheets",
+        "test": "euclu",
+        "child": [
+            {
+                "name": "00-Working-with-CSV-Files.md",
+                "test": "84fa36ce-5517-4ca6-99c1-52e684390129",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/12 - PDFs en spreadsheets/00-Working-with-CSV-Files.md"
+            },
+            {
+                "name": "01-Working-with-PDFs.md",
+                "test": "fd0357e9-8396-4dc4-80d1-d429cc4bd6cb",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/12 - PDFs en spreadsheets/01-Working-with-PDFs.md"
+            },
+            {
+                "name": "02-PDFs-Spreadsheets-Puzzle.md",
+                "test": "e319e259-d5bb-4cdc-bc08-c004e65011de",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/12 - PDFs en spreadsheets/02-PDFs-Spreadsheets-Puzzle.md"
+            },
+            {
+                "name": "03-PDFs-Spreadsheets-Puzzle-Solution.md",
+                "test": "19ca9a2b-e9c8-4d54-8ed5-23519cd79867",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/12 - PDFs en spreadsheets/03-PDFs-Spreadsheets-Puzzle-Solution.md"
+            },
+            {
+                "name": "04 - Encrypt en decrypt PDF.md",
+                "test": "53cd53a2-3062-46bb-9b71-03589417181d",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/12 - PDFs en spreadsheets/04 - Encrypt en decrypt PDF.md"
+            },
+            {
+                "name": "05- Google Drive Cloud Storage.md",
+                "test": "acbca403-d908-449a-a4e5-4659e91e4d48",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/12 - PDFs en spreadsheets/05- Google Drive Cloud Storage.md"
+            }
+        ]
+    },
+    {
+        "name": "13 - Images en videos",
+        "test": "yyek6",
+        "child": [
+            {
+                "name": "00-Images manipuleren.md",
+                "test": "1a4b488e-7676-499a-942d-e8577e42e688",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/13 - Images en videos/00-Images manipuleren.md"
+            },
+            {
+                "name": "01-Opdrachten.md",
+                "test": "0935ab9c-a644-4946-a388-73ab4bedd053",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/13 - Images en videos/01-Opdrachten.md"
+            },
+            {
+                "name": "02-Opdrachten met oplossingen.md",
+                "test": "f20572c6-bff8-4f9f-b18d-c3a331fa7211",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/13 - Images en videos/02-Opdrachten met oplossingen.md"
+            },
+            {
+                "name": "04-QRCode.md",
+                "test": "330e60bb-6c5c-4de4-9b15-9647cac84080",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/13 - Images en videos/04-QRCode.md"
+            }
+        ]
+    },
+    {
+        "name": "15- Emailen",
+        "test": "25u50h",
+        "child": [
+            {
+                "name": "01-Samenvatting-Sending-Emails.md",
+                "test": "82b78436-2442-4cec-a0b9-876569b01c0c",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/15- Emailen/01-Samenvatting-Sending-Emails.md"
+            },
+            {
+                "name": "02-Samenvatting-Received-Emails.md",
+                "test": "6cf27f54-3a40-4801-95a1-12b0052404f2",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/15- Emailen/02-Samenvatting-Received-Emails.md"
+            },
+            {
+                "name": "03-Praktijk Emails beheren.md",
+                "test": "33bc5512-7a43-4112-81b3-62e682ff41be",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/15- Emailen/03-Praktijk Emails beheren.md"
+            },
+            {
+                "name": "04-Opdrachten.md",
+                "test": "bb07a4af-1ffd-4948-b0cd-546f024f7c4a",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/15- Emailen/04-Opdrachten.md"
+            },
+            {
+                "name": "05-Oplossingen.md",
+                "test": "9e43afda-080c-4d6b-9cc0-70391f8cecf1",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/15- Emailen/05-Oplossingen.md"
+            },
+            {
+                "name": "06-Het bruik van Mail APIs.md",
+                "test": "61f94519-f49f-4a1f-9934-34315796301d",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/15- Emailen/06-Het bruik van Mail APIs.md"
+            }
+        ]
+    },
+    {
+        "name": "16- Systeem en netwerk",
+        "test": "e3bl6",
+        "child": [
+            {
+                "name": "01-Basis network programmeren.md",
+                "test": "8a666d37-9add-4d34-ab79-4fe81fcf3b81",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/16- Systeem en netwerk/01-Basis network programmeren.md"
+            },
+            {
+                "name": "02-Socket API.md",
+                "test": "c3b59cfc-cc66-44fb-acf1-f4c2b3b345f5",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/16- Systeem en netwerk/02-Socket API.md"
+            },
+            {
+                "name": "03-DevNet sandbox.md",
+                "test": "12606989-07f4-410d-83c0-d31799f006be",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/16- Systeem en netwerk/03-DevNet sandbox.md"
+            }
+        ]
+    },
+    {
+        "name": "17 - Graphische gebruikers-interface GUI",
+        "test": "7rcwr",
+        "child": [
+            {
+                "name": "01-Interact.md",
+                "test": "5e39a41c-96f2-4b1e-8d11-e6450a20ac18",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/17 - Graphische gebruikers-interface GUI/01-Interact.md"
+            },
+            {
+                "name": "02-Widget Basics.md",
+                "test": "0c3a14e4-bbdc-4078-be5e-a2f32a7a8f17",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/17 - Graphische gebruikers-interface GUI/02-Widget Basics.md"
+            },
+            {
+                "name": "03-Widget List.md",
+                "test": "5d253f97-9064-4ab3-9e10-a82d384cdc03",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/17 - Graphische gebruikers-interface GUI/03-Widget List.md"
+            },
+            {
+                "name": "04-Widget Events.md",
+                "test": "d08356b0-805b-4358-80b0-9c9f877f3bbd",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/17 - Graphische gebruikers-interface GUI/04-Widget Events.md"
+            },
+            {
+                "name": "05-Widget Styling.md",
+                "test": "7f6d9337-e0e4-47a3-9c2f-8cd2c853b22f",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/17 - Graphische gebruikers-interface GUI/05-Widget Styling.md"
+            },
+            {
+                "name": "06-Custom Widget.md",
+                "test": "80771866-92f8-435a-a484-7bd95042e98a",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/17 - Graphische gebruikers-interface GUI/06-Custom Widget.md"
+            },
+            {
+                "name": "07-Advanced Widget List.md",
+                "test": "dff5a7f1-472a-4bcc-beb9-848def0006f3",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/17 - Graphische gebruikers-interface GUI/07-Advanced Widget List.md"
+            },
+            {
+                "name": "08-Advanced Widget Styling with Layout.md",
+                "test": "e720fe30-e4a9-4c72-b3c4-a56b9e746c9d",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/17 - Graphische gebruikers-interface GUI/08-Advanced Widget Styling with Layout.md"
+            }
+        ]
+    },
+    {
+        "name": "18 - Applicatie programmeren-interface API",
+        "test": "1xz53",
+        "child": [
+            {
+                "name": "01 - Flask.md",
+                "test": "62ef6122-54ed-4748-a2c4-551971b07b65",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/18 - Applicatie programmeren-interface API/01 - Flask.md"
+            }
+        ]
+    },
+    {
+        "name": "19 - Computer vision CV",
+        "test": "ryvstg",
+        "child": [
+            {
+                "name": "01- Mediapipe face detection.md",
+                "test": "5e41371a-5292-4d44-8869-e46e25d16330",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/19 - Computer vision CV/01- Mediapipe face detection.md"
+            },
+            {
+                "name": "02- Mediapipe face mesh.md",
+                "test": "1b64f77b-1df4-4898-95ac-3531efda8c46",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/19 - Computer vision CV/02- Mediapipe face mesh.md"
+            },
+            {
+                "name": "03- Mediapipe hand recognition.md",
+                "test": "b4f09c26-577d-4ef4-bd62-1837ff54ac48",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/19 - Computer vision CV/03- Mediapipe hand recognition.md"
+            },
+            {
+                "name": "04- Mediapipe holistic.md",
+                "test": "763d1078-0cb4-41ba-8b76-511dbabe9f84",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/19 - Computer vision CV/04- Mediapipe holistic.md"
+            },
+            {
+                "name": "05- Mediapipe objectron.md",
+                "test": "44c933f4-e567-4e62-8063-55195984e645",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/19 - Computer vision CV/05- Mediapipe objectron.md"
+            },
+            {
+                "name": "06- Mediapipe pose.md",
+                "test": "d8d0af5b-fdcb-443f-b041-5172f19d75c7",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/19 - Computer vision CV/06- Mediapipe pose.md"
+            },
+            {
+                "name": "07- Mediapipe selfie segmentation.md",
+                "test": "c80620e0-1af8-44f1-be47-76bf8b0399de",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/19 - Computer vision CV/07- Mediapipe selfie segmentation.md"
+            },
+            {
+                "name": "08- Mediapipe pose classification basic.md",
+                "test": "98a6d866-7c9f-467a-b69a-a6d7e49ca835",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/19 - Computer vision CV/08- Mediapipe pose classification basic.md"
+            },
+            {
+                "name": "09- Mediapipe pose classification extended.md",
+                "test": "82faf840-3995-4739-b872-f2bc562ca06c",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/19 - Computer vision CV/09- Mediapipe pose classification extended.md"
+            },
+            {
+                "name": "10- Face recognition - find faces in pictures.md",
+                "test": "1020c0f7-37e1-44af-9bb3-6f7f29e10a05",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/19 - Computer vision CV/10- Face recognition - find faces in pictures.md"
+            }
+        ]
+    },
+    {
+        "name": "20 - Web scraping",
+        "test": "xtv8f",
+        "child": [
+            {
+                "name": "00-Guide-to-Web-Scraping.md",
+                "test": "7d0492f8-c5d7-4305-a101-2f306b7a8e7c",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/20 - Web scraping/00-Guide-to-Web-Scraping.md"
+            },
+            {
+                "name": "01-Web-Scraping-Exercises.md",
+                "test": "2032b43e-c351-4337-ba27-fae3b35f95a7",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/20 - Web scraping/01-Web-Scraping-Exercises.md"
+            },
+            {
+                "name": "02-Web-Scraping-Exercise-Solutions.md",
+                "test": "f726efe0-c971-4bb7-9bc1-3d2db68a398d",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/20 - Web scraping/02-Web-Scraping-Exercise-Solutions.md"
+            }
+        ]
+    },
+    {
+        "name": "Milestone Project 1 - Tic Tac Toe - Speel",
+        "test": "nkjtc",
+        "child": [
+            {
+                "name": "00-Warm-Up-Project-Exercises.md",
+                "test": "9924c44e-01c5-4dac-b2e5-2b9d29a02bc4",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/Milestone Project 1 - Tic Tac Toe - Speel/00-Warm-Up-Project-Exercises.md"
+            },
+            {
+                "name": "01-Milestone Project 1 - Assignment.md",
+                "test": "e1349da7-6824-418d-8ef6-4cae2f6de249",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/Milestone Project 1 - Tic Tac Toe - Speel/01-Milestone Project 1 - Assignment.md"
+            },
+            {
+                "name": "02-Milestone Project 1 - Walkthrough Steps Workbook.md",
+                "test": "9fc3f968-d964-4733-b616-c3bc1154fb2c",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/Milestone Project 1 - Tic Tac Toe - Speel/02-Milestone Project 1 - Walkthrough Steps Workbook.md"
+            },
+            {
+                "name": "03-Milestone Project 1 - Complete Walkthrough Solution.md",
+                "test": "7b54df69-71c7-4d9e-be52-1783ef432e88",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/Milestone Project 1 - Tic Tac Toe - Speel/03-Milestone Project 1 - Complete Walkthrough Solution.md"
+            }
+        ]
+    },
+    {
+        "name": "Milestone Project 2 - Blackjack - Speel",
+        "test": "4ykzf",
+        "child": [
+            {
+                "name": "00-Milestone-2-Warmup-Project.md",
+                "test": "70657daa-3ea7-454a-a36a-c83f30c6a697",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/Milestone Project 2 - Blackjack - Speel/00-Milestone-2-Warmup-Project.md"
+            },
+            {
+                "name": "01-Milestone Project 2 - Assignment.md",
+                "test": "71ea63af-44c8-4c8b-992e-66a2f418aa7f",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/Milestone Project 2 - Blackjack - Speel/01-Milestone Project 2 - Assignment.md"
+            },
+            {
+                "name": "02-Milestone Project 2 - Walkthrough Steps Workbook.md",
+                "test": "2c3da460-b834-40b5-8c77-5b2bb25014b1",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/Milestone Project 2 - Blackjack - Speel/02-Milestone Project 2 - Walkthrough Steps Workbook.md"
+            },
+            {
+                "name": "03-Milestone Project 2 - Complete Walkthrough Solution.md",
+                "test": "3393dab6-ab63-4781-8c61-498d5b59406b",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/Milestone Project 2 - Blackjack - Speel/03-Milestone Project 2 - Complete Walkthrough Solution.md"
+            }
+        ]
+    },
+    {
+        "name": "Milestone Project 4 - Game of Thrones - Netwerkvisualisatie",
+        "test": "y8627f",
+        "child": [
+            {
+                "name": "Article.md",
+                "test": "dc13bc7e-7e7a-4d10-abbc-9c4c2ca50620",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/Milestone Project 4 - Game of Thrones - Netwerkvisualisatie/Article.md"
+            },
+            {
+                "name": "GoT_Network.md",
+                "test": "97838606-bb53-43d0-a941-06cd89659f4f",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/Milestone Project 4 - Game of Thrones - Netwerkvisualisatie/GoT_Network.md"
+            },
+            {
+                "name": "README.md",
+                "test": "a510290d-a816-43a5-9368-1820ce165585",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/Milestone Project 4 - Game of Thrones - Netwerkvisualisatie/README.md"
+            }
+        ]
+    },
+    {
+        "name": "Milestone Projects - TODO",
+        "test": "dh4x",
+        "child": [
+            {
+                "name": "01-Final Capstone Project.md",
+                "test": "5f6aafd1-3128-43db-ba7e-d7343757bcd4",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/Milestone Projects - TODO/01-Final Capstone Project.md"
+            },
+            {
+                "name": "02-Final Capstone Project Ideas.md",
+                "test": "20b65f33-0ea9-4411-8901-24beae4c94a9",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/Milestone Projects - TODO/02-Final Capstone Project Ideas.md"
+            },
+            {
+                "name": "Projects-Solutions",
+                "test": "c8387e0e-abee-4666-8c85-cbf2bee2cf37",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/Milestone Projects - TODO/Projects-Solutions"
+            }
+        ]
+    },
+    {
+        "name": "Python doelstellingen.md",
+        "test": "oppdhh",
+        "child": [
+            {
+                "test": "0f2b8afb-8a8e-4185-8469-f455dc44e45a",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/Python doelstellingen.md/undefined"
+            }
+        ]
+    },
+    {
+        "name": "README.md",
+        "test": "9ry9d",
+        "child": [
+            {
+                "test": "4480d052-dfe5-42f8-b50a-0465719ec8b3",
+                "link": "https://raw.githubusercontent.com/yilmazchef/python-notebooks/main/Notebooks/Nederlands/README.md/undefined"
+            }
+        ]
+    }
+]

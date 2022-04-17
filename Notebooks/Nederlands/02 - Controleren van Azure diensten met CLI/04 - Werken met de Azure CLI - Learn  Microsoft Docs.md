@@ -1,6 +1,6 @@
 ## Werken met de Azure CLI
 
-- 5 minuten
+-   5 minuten
 
 Met de Azure CLI kunt u opdrachten typen en deze onmiddellijk vanaf de
 opdrachtregel uitvoeren. Bedenk dat het algemene doel in het voorbeeld

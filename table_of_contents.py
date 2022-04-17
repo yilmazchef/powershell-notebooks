@@ -1,23 +1,28 @@
+import math
 import os
 import sys
 import json
-import logging
 import time
 from uuid import uuid4
-from folder_structure import path_to_dict, dict_to_json, notebook_file_paths
-
-logging.basicConfig(filename='logs.json', filemode='a+', level=logging.DEBUG)
+from folder_structure import path_to_dict
 
 if __name__ == "__main__":
 
     cwd = sys.argv[1] if len(sys.argv) > 1 else os.getcwd()
 
     start = time.time()    # for testing purposes
-    cwd = os.getcwd() + os.path.sep + "Notebooks" + os.path.sep + "English"
+    english = cwd + os.path.sep + "Notebooks" + os.path.sep + "English"
+    dutch = cwd + os.path.sep + "Notebooks" + os.path.sep + "Nederlands"
 
-    tree = path_to_dict(cwd)
+    englishTree = path_to_dict(english)
+    dutchTree = path_to_dict(dutch)
+    pythonTutorials = [englishTree, dutchTree]
+    jsonString = json.dumps(
+        pythonTutorials, default=lambda o: o.__dict__, sort_keys=False, indent=4)
 
-    dict_to_json(tree, os.getcwd() + os.path.sep + "data.json")
-
+    jsonFile = open("data.json", "w")
+    jsonFile.write(jsonString)
+    jsonFile.close()
     end = time.time()
-    print(end - start)
+
+    print("Conversion took " + str(round(end - start, 2)) + " milliseconds.")

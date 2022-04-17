@@ -1,6 +1,6 @@
 ## Oefening: de Azure CLI installeren en uitvoeren
 
-- 10 minuten
+-   10 minuten
 
 Laten we de Azure CLI op uw lokale computer installeren en vervolgens
 een opdracht uitvoeren om uw installatie te controleren. De methode die
@@ -29,23 +29,23 @@ in [De Azure CLI
 installeren](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
 als u een andere Linux-versie gebruikt of problemen ondervindt.
 
-1. Wijzig uw bronnenlijst zodat de Microsoft-opslagplaats wordt
+1.  Wijzig uw bronnenlijst zodat de Microsoft-opslagplaats wordt
     geregistreerd en de pakketbeheerder het Azure CLI-pakket kan vinden.
 
-        AZ_REPO=$(lsb_release -cs)
-        echo "deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ $AZ_REPO main" | \
-        sudo tee /etc/apt/sources.list.d/azure-cli.list
+         AZ_REPO=$(lsb_release -cs)
+         echo "deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ $AZ_REPO main" | \
+         sudo tee /etc/apt/sources.list.d/azure-cli.list
 
-2. Importeer de coderingssleutel voor de Microsoft Ubuntu-opslagplaats.
+2.  Importeer de coderingssleutel voor de Microsoft Ubuntu-opslagplaats.
     Hierdoor kan de pakketbeheerder controleren of het Azure CLI-pakket
     dat u installeert, afkomstig is van Microsoft.
 
-        curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+         curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
 
-3. Installeer de Azure CLI.
+3.  Installeer de Azure CLI.
 
-        sudo apt-get install apt-transport-https
-        sudo apt-get update && sudo apt-get install azure-cli
+         sudo apt-get install apt-transport-https
+         sudo apt-get update && sudo apt-get install azure-cli
 
 ## MacOS
 
@@ -58,34 +58,34 @@ Als de **opdracht brouwen** niet beschikbaar is, moet u mogelijk de
 Homebrew-pakketbeheerder installeren. Zie voor meer informatie de
 [website van Homebrew](https://brew.sh/).
 
-1. Werk uw brew-opslagplaats bij om ervoor te zorgen dat u het nieuwste
+1.  Werk uw brew-opslagplaats bij om ervoor te zorgen dat u het nieuwste
     Azure CLI-pakket krijgt.
 
-        brew update
+         brew update
 
-2. Installeer de Azure CLI.
+2.  Installeer de Azure CLI.
 
-        brew install azure-cli
+         brew install azure-cli
 
 ## Windows
 
 Here you will install the Azure CLI on Windows using the MSI installer.
 
-1. Go to <https://aka.ms/installazurecliwindows>, and in the browser
+1.  Go to <https://aka.ms/installazurecliwindows>, and in the browser
     security dialog box, click **Run**.
-2. In the installer, accept the license terms, and then click
+2.  In the installer, accept the license terms, and then click
     **Install**.
-3. In the **User Account Control** dialog, select **Yes**.
+3.  In the **User Account Control** dialog, select **Yes**.
 
 ## De Azure CLI uitvoeren
 
 U voert de Azure CLI uit door een bash-shell te openen (Linux en macOS)
 of vanaf de opdrachtprompt of PowerShell (Windows).
 
-1. Start de Azure CLI en controleer uw installatie door de
+1.  Start de Azure CLI en controleer uw installatie door de
     versiecontrole uit te voeren.
 
-        az --version
+         az --version
 
 Tip
 

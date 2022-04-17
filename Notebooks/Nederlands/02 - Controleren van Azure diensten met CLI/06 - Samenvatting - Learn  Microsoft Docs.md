@@ -1,6 +1,6 @@
 ## Samenvatting
 
-- 3 minuten
+-   3 minuten
 
 De Azure CLI is een goede keuze voor iedereen die nieuw is op het gebied
 van Azure-opdrachtregel en scripting. De eenvoudige syntaxis en

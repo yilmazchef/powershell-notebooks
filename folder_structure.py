@@ -55,14 +55,6 @@ def path_to_dict(root_path):
         return tree
 
 
-def dict_to_json(dict_path: dict, json_path: str):
-    with open(json_path, 'w') as file:
-
-        json_string = json.dumps(
-            dict_path, default=lambda o: o.__dict__, sort_keys=True, indent=2)
-        file.write(json_string)
-
-
 def notebook_file_paths(folder_path, file_type):
     paths = []
     for root, dirs, files in os.walk(folder_path):

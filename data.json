@@ -1,183 +1,368 @@
-{
-  "icon": "folder",
-  "name": "English",
-  "test": "23aaa7a8-e75f-42b5-ae4c-54ce981441fb",
-  "type": "folder",
-  "child": [
+[
     {
-      "icon": "folder",
-      "name": "01 - Microsoft Azure Task Automation",
-      "test": "fb13d97b-b159-46a3-82a7-6d0189d8ba26",
-      "type": "folder",
-      "child": [
-        {
-          "icon": "folder",
-          "name": "media",
-          "test": "3908c788-c097-419e-938c-c8086500803d",
-          "type": "folder"
-        },
-        {
-          "icon": ".md",
-          "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\01 - Microsoft Azure Task Automation\\01 - Install PowerShell - Learn  Microsoft Docs.md",
-          "name": "01 - Install PowerShell - Learn  Microsoft Docs.md",
-          "test": "8892a343-dc16-4c46-9683-f6487f247813",
-          "type": "file"
-        },
-        {
-          "icon": ".md",
-          "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\01 - Microsoft Azure Task Automation\\02 - Decide if Azure PowerShell is right for your tasks - Learn  Microsoft Docs.md",
-          "name": "02 - Decide if Azure PowerShell is right for your tasks - Learn  Microsoft Docs.md",
-          "test": "52883373-8243-4c67-a890-23a06f9b9deb",
-          "type": "file"
-        },
-        {
-          "icon": ".md",
-          "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\01 - Microsoft Azure Task Automation\\03 - Install PowerShell - Learn  Microsoft Docs.md",
-          "name": "03 - Install PowerShell - Learn  Microsoft Docs.md",
-          "test": "16abce9e-7193-47ee-8931-ee674251216a",
-          "type": "file"
-        },
-        {
-          "icon": ".md",
-          "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\01 - Microsoft Azure Task Automation\\04 - 01 - Exercise - Install PowerShell on Windows - Learn  Microsoft Docs.md",
-          "name": "04 - 01 - Exercise - Install PowerShell on Windows - Learn  Microsoft Docs.md",
-          "test": "35f3ec32-ec2e-4b7b-89ce-28929bed3031",
-          "type": "file"
-        },
-        {
-          "icon": ".md",
-          "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\01 - Microsoft Azure Task Automation\\04 - 02 - Exercise - Install PowerShell on Mac- Learn  Microsoft Docs.md",
-          "name": "04 - 02 - Exercise - Install PowerShell on Mac- Learn  Microsoft Docs.md",
-          "test": "69284112-4b56-486f-a9bc-2b4eae5c69c5",
-          "type": "file"
-        },
-        {
-          "icon": ".md",
-          "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\01 - Microsoft Azure Task Automation\\04 - 03 - Exercise - Install PowerShell on Linux - Learn  Microsoft Docs.md",
-          "name": "04 - 03 - Exercise - Install PowerShell on Linux - Learn  Microsoft Docs.md",
-          "test": "72a7fabd-835c-4444-af6c-a6dffc0d1d69",
-          "type": "file"
-        },
-        {
-          "icon": ".md",
-          "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\01 - Microsoft Azure Task Automation\\05 - 01 - Create an Azure Resource using scripts in Azure PowerShell on Windows - Learn  Microsoft Docs.md",
-          "name": "05 - 01 - Create an Azure Resource using scripts in Azure PowerShell on Windows - Learn  Microsoft Docs.md",
-          "test": "9a8eb7f7-9928-41ec-b7d2-a47ee0296c5e",
-          "type": "file"
-        },
-        {
-          "icon": ".md",
-          "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\01 - Microsoft Azure Task Automation\\05 - 02 - Create an Azure Resource using scripts in Azure PowerShell on Mac - Learn  Microsoft Docs.md",
-          "name": "05 - 02 - Create an Azure Resource using scripts in Azure PowerShell on Mac - Learn  Microsoft Docs.md",
-          "test": "850c535e-e9cf-44c1-8bff-7d223c70b9e3",
-          "type": "file"
-        },
-        {
-          "icon": ".md",
-          "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\01 - Microsoft Azure Task Automation\\05 - 03 - Create an Azure Resource using scripts in Azure PowerShell on Linux - Learn  Microsoft Docs.md",
-          "name": "05 - 03 - Create an Azure Resource using scripts in Azure PowerShell on Linux - Learn  Microsoft Docs.md",
-          "test": "84af6216-bfc5-4963-9646-cfb58c69e357",
-          "type": "file"
-        },
-        {
-          "icon": ".md",
-          "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\01 - Microsoft Azure Task Automation\\06 - Exercise - Create an Azure Resource using scripts in Azure PowerShell - Learn  Microsoft Docs.md",
-          "name": "06 - Exercise - Create an Azure Resource using scripts in Azure PowerShell - Learn  Microsoft Docs.md",
-          "test": "49fa1e68-34d9-4473-91cf-699d2020e5ee",
-          "type": "file"
-        },
-        {
-          "icon": ".md",
-          "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\01 - Microsoft Azure Task Automation\\07 - Create and save scripts in Azure PowerShell - Learn  Microsoft Docs.md",
-          "name": "07 - Create and save scripts in Azure PowerShell - Learn  Microsoft Docs.md",
-          "test": "eb744bb0-5877-4349-969a-07ad66705310",
-          "type": "file"
-        },
-        {
-          "icon": ".md",
-          "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\01 - Microsoft Azure Task Automation\\08 - Exercise - Create and save scripts in Azure PowerShell - Learn  Microsoft Docs.md",
-          "name": "08 - Exercise - Create and save scripts in Azure PowerShell - Learn  Microsoft Docs.md",
-          "test": "b1c6cd4b-75f9-41cd-b62c-3478f3046bbf",
-          "type": "file"
-        },
-        {
-          "icon": ".md",
-          "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\01 - Microsoft Azure Task Automation\\09 - Summary - Learn  Microsoft Docs.md",
-          "name": "09 - Summary - Learn  Microsoft Docs.md",
-          "test": "f175d4c4-99b5-408c-9171-b8ba0f507914",
-          "type": "file"
-        }
-      ]
+        "name": "English",
+        "test": "e0d4096d-d3bc-4bdc-9965-4b9ed64b7917",
+        "icon": "folder",
+        "type": "folder",
+        "child": [
+            {
+                "name": "01 - Microsoft Azure Task Automation",
+                "test": "4721c4db-e3b6-474e-8217-0c601ba8ac22",
+                "icon": "folder",
+                "type": "folder",
+                "child": [
+                    {
+                        "name": "media",
+                        "test": "f2b3d491-fae2-45b0-b98b-92096dcba050",
+                        "icon": "folder",
+                        "type": "folder"
+                    },
+                    {
+                        "name": "01 - Install PowerShell - Learn  Microsoft Docs.md",
+                        "test": "68131a0e-ed02-47fe-9750-2c218d824b80",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\01 - Microsoft Azure Task Automation\\01 - Install PowerShell - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "02 - Decide if Azure PowerShell is right for your tasks - Learn  Microsoft Docs.md",
+                        "test": "398dc19a-2aa4-423f-bb34-cc1858dd57ba",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\01 - Microsoft Azure Task Automation\\02 - Decide if Azure PowerShell is right for your tasks - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "03 - Install PowerShell - Learn  Microsoft Docs.md",
+                        "test": "e318ee06-f34f-436f-a3e2-f6c3087c409c",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\01 - Microsoft Azure Task Automation\\03 - Install PowerShell - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "04 - 01 - Exercise - Install PowerShell on Windows - Learn  Microsoft Docs.md",
+                        "test": "aa4a56e8-2d53-4fbe-9949-6e81f6157675",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\01 - Microsoft Azure Task Automation\\04 - 01 - Exercise - Install PowerShell on Windows - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "04 - 02 - Exercise - Install PowerShell on Mac- Learn  Microsoft Docs.md",
+                        "test": "d5a17bd0-d842-415f-863d-fd2005ec8928",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\01 - Microsoft Azure Task Automation\\04 - 02 - Exercise - Install PowerShell on Mac- Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "04 - 03 - Exercise - Install PowerShell on Linux - Learn  Microsoft Docs.md",
+                        "test": "ee35df97-f9d0-438c-98d5-ebe4c7f565bb",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\01 - Microsoft Azure Task Automation\\04 - 03 - Exercise - Install PowerShell on Linux - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "05 - 01 - Create an Azure Resource using scripts in Azure PowerShell on Windows - Learn  Microsoft Docs.md",
+                        "test": "8482caac-66a9-4cc3-8a1c-9ffd391b9230",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\01 - Microsoft Azure Task Automation\\05 - 01 - Create an Azure Resource using scripts in Azure PowerShell on Windows - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "05 - 02 - Create an Azure Resource using scripts in Azure PowerShell on Mac - Learn  Microsoft Docs.md",
+                        "test": "e536463b-cfff-42de-a228-a97ac6defb70",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\01 - Microsoft Azure Task Automation\\05 - 02 - Create an Azure Resource using scripts in Azure PowerShell on Mac - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "05 - 03 - Create an Azure Resource using scripts in Azure PowerShell on Linux - Learn  Microsoft Docs.md",
+                        "test": "9b2f6980-59e8-4174-92ad-d0bc65314c61",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\01 - Microsoft Azure Task Automation\\05 - 03 - Create an Azure Resource using scripts in Azure PowerShell on Linux - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "06 - Exercise - Create an Azure Resource using scripts in Azure PowerShell - Learn  Microsoft Docs.md",
+                        "test": "2503e8cc-877a-435b-9de5-2f14a7aa71b7",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\01 - Microsoft Azure Task Automation\\06 - Exercise - Create an Azure Resource using scripts in Azure PowerShell - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "07 - Create and save scripts in Azure PowerShell - Learn  Microsoft Docs.md",
+                        "test": "d7a59f31-374c-4cf3-835d-6d419de8a298",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\01 - Microsoft Azure Task Automation\\07 - Create and save scripts in Azure PowerShell - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "08 - Exercise - Create and save scripts in Azure PowerShell - Learn  Microsoft Docs.md",
+                        "test": "5966298b-412a-43ed-8bb8-277a4a9b835c",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\01 - Microsoft Azure Task Automation\\08 - Exercise - Create and save scripts in Azure PowerShell - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "09 - Summary - Learn  Microsoft Docs.md",
+                        "test": "f626dc71-c077-478a-9536-d39f1b138148",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\01 - Microsoft Azure Task Automation\\09 - Summary - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    }
+                ]
+            },
+            {
+                "name": "02 - Control Azure services with the CLI",
+                "test": "902b5dce-7b36-4f09-bdf0-d2043a0c9f90",
+                "icon": "folder",
+                "type": "folder",
+                "child": [
+                    {
+                        "name": "media",
+                        "test": "395b9e49-3058-4bf9-bf18-de190f1eb3a8",
+                        "icon": "folder",
+                        "type": "folder"
+                    },
+                    {
+                        "name": "01 - Introduction - Learn  Microsoft Docs.md",
+                        "test": "ab9c701b-0875-42ea-8857-6571d3b618f9",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\02 - Control Azure services with the CLI\\01 - Introduction - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "02 - What is the Azure CLI - Learn  Microsoft Docs.md",
+                        "test": "041960b4-4bf4-4dcd-97bd-c7123ec4c7d9",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\02 - Control Azure services with the CLI\\02 - What is the Azure CLI - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "03 - 01 - Exercise - Install and run the Azure CLI on Windows - Learn  Microsoft Docs.md",
+                        "test": "e3955767-3dbd-467a-89ba-7a3253d9a6a3",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\02 - Control Azure services with the CLI\\03 - 01 - Exercise - Install and run the Azure CLI on Windows - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "03 - 02 - Exercise - Install and run the Azure CLI on Mac - Learn  Microsoft Docs.md",
+                        "test": "7bef9e75-12ae-4958-8044-157315780f00",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\02 - Control Azure services with the CLI\\03 - 02 - Exercise - Install and run the Azure CLI on Mac - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "03 - 03 - Exercise - Install and run the Azure CLI on Linux - Learn  Microsoft Docs.md",
+                        "test": "8ad5feae-aed1-4ae4-bf83-1e716aadb411",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\02 - Control Azure services with the CLI\\03 - 03 - Exercise - Install and run the Azure CLI on Linux - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "04 - Work with the Azure CLI - Learn  Microsoft Docs.md",
+                        "test": "200df2cc-8841-40ca-90ee-b7cb1181ea3a",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\02 - Control Azure services with the CLI\\04 - Work with the Azure CLI - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "05 - Exercise - Create an Azure website using the CLI - Learn  Microsoft Docs.md",
+                        "test": "015a06d0-04a4-4110-b6bb-fc06d2097ff5",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\02 - Control Azure services with the CLI\\05 - Exercise - Create an Azure website using the CLI - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "06 - Summary - Learn  Microsoft Docs.md",
+                        "test": "803ce4ad-4c44-4fe3-869f-2c6bd21eed0f",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\02 - Control Azure services with the CLI\\06 - Summary - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    }
+                ]
+            }
+        ]
     },
     {
-      "child": [
-        {
-          "icon": "folder",
-          "name": "media",
-          "test": "02192f57-1b35-4315-83d1-75b58daad86e",
-          "type": "folder"
-        },
-        {
-          "icon": ".md",
-          "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\02 - Control Azure services with the CLI\\01 - Introduction - Learn  Microsoft Docs.md",
-          "name": "01 - Introduction - Learn  Microsoft Docs.md",
-          "test": "ebd674ff-a3ee-41d0-94fa-b4f73d340105",
-          "type": "file"
-        },
-        {
-          "icon": ".md",
-          "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\02 - Control Azure services with the CLI\\02 - What is the Azure CLI - Learn  Microsoft Docs.md",
-          "name": "02 - What is the Azure CLI - Learn  Microsoft Docs.md",
-          "test": "e0702604-4e46-4e3b-b8a5-58b688430e3f",
-          "type": "file"
-        },
-        {
-          "icon": ".md",
-          "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\02 - Control Azure services with the CLI\\03 - 01 - Exercise - Install and run the Azure CLI on Windows - Learn  Microsoft Docs.md",
-          "name": "03 - 01 - Exercise - Install and run the Azure CLI on Windows - Learn  Microsoft Docs.md",
-          "test": "8e34bad0-430d-48c1-b339-3c2a117b9eda",
-          "type": "file"
-        },
-        {
-          "icon": ".md",
-          "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\02 - Control Azure services with the CLI\\03 - 02 - Exercise - Install and run the Azure CLI on Mac - Learn  Microsoft Docs.md",
-          "name": "03 - 02 - Exercise - Install and run the Azure CLI on Mac - Learn  Microsoft Docs.md",
-          "test": "d94f686a-0581-4aa0-9553-13924b62b36c",
-          "type": "file"
-        },
-        {
-          "icon": ".md",
-          "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\02 - Control Azure services with the CLI\\03 - 03 - Exercise - Install and run the Azure CLI on Linux - Learn  Microsoft Docs.md",
-          "name": "03 - 03 - Exercise - Install and run the Azure CLI on Linux - Learn  Microsoft Docs.md",
-          "test": "db7b4b81-0cff-4850-a9d2-03bbaad74e74",
-          "type": "file"
-        },
-        {
-          "icon": ".md",
-          "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\02 - Control Azure services with the CLI\\04 - Work with the Azure CLI - Learn  Microsoft Docs.md",
-          "name": "04 - Work with the Azure CLI - Learn  Microsoft Docs.md",
-          "test": "41eaca5e-108a-4b6b-87a1-6c225aa68301",
-          "type": "file"
-        },
-        {
-          "icon": ".md",
-          "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\02 - Control Azure services with the CLI\\05 - Exercise - Create an Azure website using the CLI - Learn  Microsoft Docs.md",
-          "name": "05 - Exercise - Create an Azure website using the CLI - Learn  Microsoft Docs.md",
-          "test": "2be19fb0-64ca-4f61-979e-dafd8b928c98",
-          "type": "file"
-        },
-        {
-          "icon": ".md",
-          "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\English\\02 - Control Azure services with the CLI\\06 - Summary - Learn  Microsoft Docs.md",
-          "name": "06 - Summary - Learn  Microsoft Docs.md",
-          "test": "d5207697-ab15-4fe1-ab43-a0cc74a6ef97",
-          "type": "file"
-        }
-      ],
-      "icon": "folder",
-      "name": "02 - Control Azure services with the CLI",
-      "test": "e40e9b9c-26a8-42e9-b94e-508fbbb5f2c9",
-      "type": "folder"
+        "name": "Nederlands",
+        "test": "3522ca33-6b4e-4b52-a245-0d4fbb342acf",
+        "icon": "folder",
+        "type": "folder",
+        "child": [
+            {
+                "name": "01 - Automisering van Microsoft Azure taken",
+                "test": "869d37cb-ec84-480c-910f-5d11676cb33b",
+                "icon": "folder",
+                "type": "folder",
+                "child": [
+                    {
+                        "name": "media",
+                        "test": "97e543d0-88ea-4920-8c5e-e629c3543db7",
+                        "icon": "folder",
+                        "type": "folder"
+                    },
+                    {
+                        "name": "01 - Inleiding - Leer  Microsoft Documenten.md",
+                        "test": "26008db5-f640-4b88-8dd5-4894565ad19f",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\Nederlands\\01 - Automisering van Microsoft Azure taken\\01 - Inleiding - Leer  Microsoft Documenten.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "02 - Bepaal of Azure PowerShell geschikt is voor uw taken - Learn  Microsoft Docs.md",
+                        "test": "9996efcd-c443-4512-b52e-aae687acc4d3",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\Nederlands\\01 - Automisering van Microsoft Azure taken\\02 - Bepaal of Azure PowerShell geschikt is voor uw taken - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "03 - PowerShell installeren - Learn  Microsoft Docs.md",
+                        "test": "1b3fcc19-8d11-4d7f-b772-5de393ec8800",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\Nederlands\\01 - Automisering van Microsoft Azure taken\\03 - PowerShell installeren - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "04 - 02 - Oefening - Installatie Powershell op Mac - Learn  Microsoft Docs.md",
+                        "test": "2bb33c63-ffa1-450c-96a4-10641a2d10d8",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\Nederlands\\01 - Automisering van Microsoft Azure taken\\04 - 02 - Oefening - Installatie Powershell op Mac - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "04 - 03 - Oefening - Installatie Powershell op Linux - Learn  Microsoft Docs.md",
+                        "test": "e305edd7-551d-4b92-9741-fc6f55e35895",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\Nederlands\\01 - Automisering van Microsoft Azure taken\\04 - 03 - Oefening - Installatie Powershell op Linux - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "04 - Oefening - Installatie Powershell - Learn  Microsoft Docs.md",
+                        "test": "ed1bd55c-0531-4c02-9f9f-2a28b57d05b9",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\Nederlands\\01 - Automisering van Microsoft Azure taken\\04 - Oefening - Installatie Powershell - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "05 - 01 - Een Azure-resource maken met scripts in Azure PowerShell op Windows - Learn  Microsoft Docs.md",
+                        "test": "773e9edd-769f-435c-97a4-83e67687e55d",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\Nederlands\\01 - Automisering van Microsoft Azure taken\\05 - 01 - Een Azure-resource maken met scripts in Azure PowerShell op Windows - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "05 - 02 - Een Azure-resource maken met scripts in Azure PowerShell op Mac - Learn  Microsoft Docs.md",
+                        "test": "11e905e3-bbd1-4eef-9989-d928121e5fef",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\Nederlands\\01 - Automisering van Microsoft Azure taken\\05 - 02 - Een Azure-resource maken met scripts in Azure PowerShell op Mac - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "05 - 03 - Een Azure-resource maken met scripts in Azure PowerShell op Linux- Learn  Microsoft Docs.md",
+                        "test": "c0fade81-973d-4c88-a5a8-61282413be09",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\Nederlands\\01 - Automisering van Microsoft Azure taken\\05 - 03 - Een Azure-resource maken met scripts in Azure PowerShell op Linux- Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "06 - Oefening - Een Azure-resource maken met scripts in Azure PowerShell - Learn  Microsoft Docs.md",
+                        "test": "6c6f0533-8e00-4e81-8f4d-b21a788bd93d",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\Nederlands\\01 - Automisering van Microsoft Azure taken\\06 - Oefening - Een Azure-resource maken met scripts in Azure PowerShell - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "07 - Scripts maken en opslaan in Azure PowerShell - Learn  Microsoft Docs.md",
+                        "test": "62d8f785-e902-41ca-aba6-d8b8852844aa",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\Nederlands\\01 - Automisering van Microsoft Azure taken\\07 - Scripts maken en opslaan in Azure PowerShell - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "08 - Oefening - Scripts maken en opslaan in Azure PowerShell - Learn  Microsoft Docs.md",
+                        "test": "41e90316-cb31-4350-a362-df922e7b7ee6",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\Nederlands\\01 - Automisering van Microsoft Azure taken\\08 - Oefening - Scripts maken en opslaan in Azure PowerShell - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "09 - Samenvatting - Learn  Microsoft Docs.md",
+                        "test": "41db2200-8540-4317-8235-486ef45e1186",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\Nederlands\\01 - Automisering van Microsoft Azure taken\\09 - Samenvatting - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    }
+                ]
+            },
+            {
+                "name": "02 - Controleren van Azure diensten met CLI",
+                "test": "a3ea9c1a-875e-4e41-83b5-59654a0f3708",
+                "icon": "folder",
+                "type": "folder",
+                "child": [
+                    {
+                        "name": "media",
+                        "test": "9a45d23a-8e02-455e-aa74-dbd1a51a444d",
+                        "icon": "folder",
+                        "type": "folder"
+                    },
+                    {
+                        "name": "01 - Inleiding - Leer  Microsoft Documenten.md",
+                        "test": "edb29c22-8e6c-43ed-a4d6-c954da24fcec",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\Nederlands\\02 - Controleren van Azure diensten met CLI\\01 - Inleiding - Leer  Microsoft Documenten.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "02 - Wat is de Azure CLI.md",
+                        "test": "c12b9f4c-93ce-4c73-adfb-2fec3686da61",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\Nederlands\\02 - Controleren van Azure diensten met CLI\\02 - Wat is de Azure CLI.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "03 - 01 - Oefening - de Azure CLI installeren en uitvoeren op Windows - Learn  Microsoft Docs.md",
+                        "test": "67267c9c-5810-412a-8aa7-5d1bdedcca74",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\Nederlands\\02 - Controleren van Azure diensten met CLI\\03 - 01 - Oefening - de Azure CLI installeren en uitvoeren op Windows - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "03 - 02 - Oefening - de Azure CLI installeren en uitvoeren op Mac - Learn  Microsoft Docs.md",
+                        "test": "31230b6b-807f-4401-bd8b-88c492afd5f0",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\Nederlands\\02 - Controleren van Azure diensten met CLI\\03 - 02 - Oefening - de Azure CLI installeren en uitvoeren op Mac - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "03 - 03 - Oefening - de Azure CLI installeren en uitvoeren op Linux - Learn  Microsoft Docs.md",
+                        "test": "865e9e7c-71f3-4dfa-9cba-6a0ae4816b01",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\Nederlands\\02 - Controleren van Azure diensten met CLI\\03 - 03 - Oefening - de Azure CLI installeren en uitvoeren op Linux - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "04 - Werken met de Azure CLI - Learn  Microsoft Docs.md",
+                        "test": "4f0a94a0-b209-4488-9f78-dc2fdb04c6d8",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\Nederlands\\02 - Controleren van Azure diensten met CLI\\04 - Werken met de Azure CLI - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "05 - Exercise - Oefening - Een Azure-website maken met de CLI - Learn  Microsoft Docs.md",
+                        "test": "8c61a037-fb41-44da-9adf-89ac14fa5bc3",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\Nederlands\\02 - Controleren van Azure diensten met CLI\\05 - Exercise - Oefening - Een Azure-website maken met de CLI - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    },
+                    {
+                        "name": "06 - Samenvatting - Learn  Microsoft Docs.md",
+                        "test": "ad43a5d7-21a5-451e-b2c7-20ce383d97fb",
+                        "icon": ".md",
+                        "link": "C:\\Users\\Administrator\\Desktop\\powershell-notebooks\\Notebooks\\Nederlands\\02 - Controleren van Azure diensten met CLI\\06 - Samenvatting - Learn  Microsoft Docs.md",
+                        "type": "file"
+                    }
+                ]
+            }
+        ]
     }
-  ]
-}
+]

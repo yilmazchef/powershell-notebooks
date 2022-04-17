@@ -1,6 +1,6 @@
 ## Introductie
 
-- 3 minuten
+-   3 minuten
 
 Azure Portal is ideaal voor het uitvoeren van afzonderlijke taken en
 voor een snel overzicht van de status van uw resources. Maar voor taken
@@ -34,15 +34,15 @@ de Azure CLI.
 
 In deze module ga je:
 
-- De Azure CLI installeren op Linux, macOS en/of Windows
-- Verbinding maken met een Azure-abonnement via de Azure CLI
-- Azure-resources maken met de Azure CLI
+-   De Azure CLI installeren op Linux, macOS en/of Windows
+-   Verbinding maken met een Azure-abonnement via de Azure CLI
+-   Azure-resources maken met de Azure CLI
 
 ## Voorwaarden
 
-- Ervaring met een opdrachtregelinterface, zoals PowerShell of Bash
-- Kennis van basisconcepten van Azure, zoals resourcegroepen
-- Ervaring met het beheren van Azure-resources met behulp van Azure
+-   Ervaring met een opdrachtregelinterface, zoals PowerShell of Bash
+-   Kennis van basisconcepten van Azure, zoals resourcegroepen
+-   Ervaring met het beheren van Azure-resources met behulp van Azure
     Portal
 
 Hulp nodig? Raadpleeg onze [handleiding voor
