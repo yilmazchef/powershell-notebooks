@@ -46,7 +46,7 @@ def path_to_dict(root_path, language):
                 "test": str(uuid4()),
                 "link": quote(str(
                     "https://raw.githubusercontent.com/yilmazchef/powershell-notebooks/main/" + "Notebooks" + "/"
-                    + language + "/" + os.path.basename(f).replace('\\', '/')
+                    + language + "/" + os.path.basename(root) + "/" + os.path.basename(f) 
                 )),
             } for f in files]
         )
