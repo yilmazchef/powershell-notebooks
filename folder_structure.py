@@ -53,12 +53,12 @@ def path_to_dict(root_path, language):
             [path_to_dict(os.path.join(root, d), language)
              for d in dirs if len(d) > 0]
         )
-
+        
         tree["child"].extend(
             [{
                 "name": os.path.basename(os.path.join(root, f)),
                 "test": str(uuid4()),
-                "icon": """<img src={`/icons/${getIconForFile('index.md')}`} alt="markdown" className="icon" />""",
+                "icon": '''<img src={`/icons/${getIconForFile('index.md')}`} alt="markdown" className="icon" />''',
                 "link": str(
                     "https://raw.githubusercontent.com/" + GITHUB_USERNAME +
                     "/" + GITHUB_REPO + "/main/" + "Notebooks" + "/"
