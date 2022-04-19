@@ -1,4 +1,4 @@
--   3 minutes
+- 3 minutes
 
 The Azure portal is great for performing single tasks, and to see a
 quick overview of the state of your resources. But for tasks that need
@@ -30,15 +30,15 @@ CLI.
 
 In this module, you will:
 
--   Install the Azure CLI on Linux, macOS, and/or Windows
--   Connect to an Azure subscription using the Azure CLI
--   Create Azure resources using the Azure CLI
+- Install the Azure CLI on Linux, macOS, and/or Windows
+- Connect to an Azure subscription using the Azure CLI
+- Create Azure resources using the Azure CLI
 
 ## Prerequisites
 
--   Experience with a command-line interface, such as PowerShell or Bash
--   Knowledge of basic Azure concepts, such as resource groups
--   Experience administering Azure resources using the Azure portal
+- Experience with a command-line interface, such as PowerShell or Bash
+- Knowledge of basic Azure concepts, such as resource groups
+- Experience administering Azure resources using the Azure portal
 
 ------------------------------------------------------------------------
 

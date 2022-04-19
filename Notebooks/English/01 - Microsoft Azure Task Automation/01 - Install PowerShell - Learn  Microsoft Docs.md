@@ -1,4 +1,4 @@
--   3 minutes
+- 3 minutes
 
 Creating administration scripts is a powerful way to optimize your work
 flow. You can automate common, repetitive tasks. Once a script has been
@@ -26,18 +26,18 @@ scripts to automate repeated tasks.
 
 In this module, you will:
 
--   Decide if Azure PowerShell is the right tool for your Azure
+- Decide if Azure PowerShell is the right tool for your Azure
     administration tasks
--   Install Azure PowerShell on Linux, macOS, and/or Windows
--   Connect to an Azure subscription using Azure PowerShell
--   Create Azure resources using Azure PowerShell
+- Install Azure PowerShell on Linux, macOS, and/or Windows
+- Connect to an Azure subscription using Azure PowerShell
+- Create Azure resources using Azure PowerShell
 
 ## Prerequisites
 
--   Experience with a command-line interface such as PowerShell or Bash
--   Knowledge of basic Azure concepts such as resource groups and
+- Experience with a command-line interface such as PowerShell or Bash
+- Knowledge of basic Azure concepts such as resource groups and
     Virtual Machines
--   Experience administering Azure resources using the Azure portal
+- Experience administering Azure resources using the Azure portal
 
 ------------------------------------------------------------------------
 

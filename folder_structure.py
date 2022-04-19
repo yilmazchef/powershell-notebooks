@@ -12,17 +12,9 @@ def path_to_dict(root_path, language):
 
     # Get environment variables
 
-    if os.getenv('GITHUB_USERNAME') is None:
-        os.environ["GITHUB_USERNAME"] = str(input("Github username: "))
-
-    if os.getenv('GITHUB_POWERSHELL_NOTEBOOKS_REPO') is None:
-        os.environ["GITHUB_POWERSHELL_NOTEBOOKS_REPO"] = str(
-            input("Github repository name: "))
-
-    GITHUB_USERNAME = os.getenv('GITHUB_USERNAME') if os.getenv(
-        'GITHUB_USERNAME') is not None else str(input("Github username: "))
-    GITHUB_REPO = os.getenv('GITHUB_POWERSHELL_NOTEBOOKS_REPO') if os.getenv(
-        'GITHUB_POWERSHELL_NOTEBOOKS_REPO') is not None else str(input("Github repository name: "))
+    # Get environment variables
+    username = str(input("Github username: "))
+    repository = str(input("Github repository: "))
 
     includes = ['*.md']  # for files only
     excludes = ['.vscode', '.git', '*/__pycache__', '*/.ipynb_checkpoints',
@@ -53,15 +45,15 @@ def path_to_dict(root_path, language):
             [path_to_dict(os.path.join(root, d), language)
              for d in dirs if len(d) > 0]
         )
-        
+
         tree["child"].extend(
             [{
                 "name": os.path.basename(os.path.join(root, f)),
                 "test": str(uuid4()),
                 "icon": '''<img src={`/icons/${getIconForFile('index.md')}`} alt="markdown" className="icon" />''',
                 "link": str(
-                    "https://raw.githubusercontent.com/" + GITHUB_USERNAME +
-                    "/" + GITHUB_REPO + "/main/" + "Notebooks" + "/"
+                    "https://raw.githubusercontent.com/" + username +
+                    "/" + repository + "/main/" + "Notebooks" + "/"
                     + language + "/" +
                     quote(os.path.basename(root)) +
                     "/" + quote(os.path.basename(f))
