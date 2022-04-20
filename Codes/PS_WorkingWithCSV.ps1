@@ -9,11 +9,11 @@ $listOfRows
 #Import from CSV and cast properties
 $listOfRows = Import-Csv 'E:\Data\samples\import_csv.csv'
 $listOfRows | ForEach-Object {
-#Cast properties
-$_.DateTime = [datetime]$_.DateTime
-$_.Integer = [int]$_.Integer
-#Output object
-$_
+    #Cast properties
+    $_.DateTime = [datetime]$_.DateTime
+    $_.Integer = [int]$_.Integer
+    #Output object
+    $_
 }
 
 #Change property names in an imported object
@@ -27,7 +27,7 @@ $J = Import-Csv -Path 'E:\Data\samples\Jobs.csv' -Header $Header
 $J
 
 #Exporting Objects as CSV
-Get-Process -Name AuthManSvr | Select-Object -Property BasePriority,Id,SessionId,WorkingSet |
+Get-Process -Name AuthManSvr | Select-Object -Property BasePriority, Id, SessionId, WorkingSet |
 Export-Csv -Path 'E:\Data\samples\WmiData.csv' -NoTypeInformation
 
 Get-Process | Export-Csv -Path 'E:\Data\samples\WmiData1.csv' -Delimiter ';' -NoTypeInformation
@@ -38,5 +38,5 @@ Get-Process | Export-Csv -Path 'E:\Data\samples\WmiData1.csv' -Delimiter ';' -No
 Get-Process -Name armsvc | ConvertTo-Csv -NoTypeInformation
 
 #ConvertFrom-Csv
-$P = Get-Process -Name armsvc| ConvertTo-Csv
+$P = Get-Process -Name armsvc | ConvertTo-Csv
 $P | ConvertFrom-Csv

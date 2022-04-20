@@ -3,7 +3,7 @@
 Get-Variable
 
 #OFS
-$array = 1,2,3
+$array = 1, 2, 3
 "$array" # default OFS will be used
 
 $OFS = " | " # we change OFS to comma and dot
@@ -27,6 +27,6 @@ $PSVersionTable
 
 
 Get-ChildItem "E:\swe" -Recurse |
- ?{$_.PSIsContainer -eq $true}
+? { $_.PSIsContainer -eq $true }
 
 $MyInvocation

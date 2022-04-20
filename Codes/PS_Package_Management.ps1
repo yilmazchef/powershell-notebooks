@@ -1,8 +1,8 @@
 ﻿
 $parameters = @{
-  Name = "myNuGetSource"
-  SourceLocation = "https://www.myget.org/F/powershellgetdemo/api/v2"
-  PublishLocation = "https://www.myget.org/F/powershellgetdemo/api/v2/Packages"
+  Name               = "myNuGetSource"
+  SourceLocation     = "https://www.myget.org/F/powershellgetdemo/api/v2"
+  PublishLocation    = "https://www.myget.org/F/powershellgetdemo/api/v2/Packages"
   InstallationPolicy = 'Trusted'
 }
 Register-PSRepository @parameters

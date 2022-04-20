@@ -1,9 +1,9 @@
 ﻿
 #the syntax for declaring an array variable
-$array=@(1,2,3,5,6,7,8);
+$array = @(1, 2, 3, 5, 6, 7, 8);
 
 #To Create 32-bit integer array
-[int32[]]$intA = 1500,2230,3350,4000
+[int32[]]$intA = 1500, 2230, 3350, 4000
 
 #GetType() method returns the type of the array. Type can be passed
 $A = 1, 2, 3, 4
@@ -25,14 +25,12 @@ $array += 2
 $array += 3
 
 #Looping Through an Array Using a For Loop
-for($i = 0; $i -lt $array.Length; $i++)
-{
+for ($i = 0; $i -lt $array.Length; $i++) {
     $array[$i]
 }
 
 #Looping Through an Array Using a ForEach Loop
-foreach($element in $array)
-{
+foreach ($element in $array) {
     $element
 }
 

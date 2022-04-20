@@ -9,10 +9,10 @@ $xmlWriter.WriteProcessingInstruction("xml-stylesheet", "type='text/xsl' href='s
 # Start the Root Element
 $xmlWriter.WriteStartElement("Root")
 $xmlWriter.WriteStartElement("Object") # <-- Start <Object>
-$xmlWriter.WriteElementString("Property1","Value 1")
-$xmlWriter.WriteElementString("Property2","Value 2")
+$xmlWriter.WriteElementString("Property1", "Value 1")
+$xmlWriter.WriteElementString("Property2", "Value 2")
 $xmlWriter.WriteStartElement("SubObject") # <-- Start <SubObject>
-$xmlWriter.WriteElementString("Property3","Value 3")
+$xmlWriter.WriteElementString("Property3", "Value 3")
 $xmlWriter.WriteEndElement() # <-- End <SubObject>
 $xmlWriter.WriteEndElement() # <-- End <Object>
 $xmlWriter.WriteEndElement() # <-- End <Root>
