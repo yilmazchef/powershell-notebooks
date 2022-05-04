@@ -1,8 +1,9 @@
 $name = "Justin Bieber"
 $number = 10
-$computerName = "WEBSRV01"
+$computerName = "AD001"
+$ip = "1.1.1.99"
 
-IF($computerName -like "*AD*"){
+IF($computerName -like "*AD*" -and $ip -eq "1.1.1.5"){
 
     Write-Host "Active Directory"
 
