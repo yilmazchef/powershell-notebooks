@@ -1,6 +1,6 @@
 ## Oefening: een Azure-website maken met de CLI
 
--   10 minuten
+- 10 minuten
 
 Laten we vervolgens de Azure CLI gebruiken om een resource-groep te
 maken en vervolgens een web-app in deze resource-groep te implementeren.
@@ -17,7 +17,7 @@ gerelateerde Azure-resources met een opdracht, maar voor deze oefening
 is de volgende resource-groep voor u gemaakt: **\[naam
 sandbox-resource-groep\]**.`az group create`
 
-1.  Uw eerste stap in deze oefening is het maken van verschillende
+1. Uw eerste stap in deze oefening is het maken van verschillende
     variabelen die u in latere opdrachten zult gebruiken.
 
          export RESOURCE_GROUP=[sandbox resource group name]
@@ -25,7 +25,7 @@ sandbox-resource-groep\]**.`az group create`
          export AZURE_APP_PLAN=popupappplan-$RANDOM
          export AZURE_WEB_APP=popupwebapp-$RANDOM
 
-2.  U kunt de Azure CLI vragen om al uw resource-groepen in een tabel
+2. U kunt de Azure CLI vragen om al uw resource-groepen in een tabel
     weer te geven. Er moet er slechts één zijn terwijl u zich in de
     gratis Azure-sandbox bevindt.
 
@@ -39,7 +39,7 @@ sandbox-resource-groep\]**.`az group create`
     selecteert u **Plakken** of gebruikt u de sneltoets (op
     macOS).Shift+Insert⌘+V
 
-3.  Naarmate u meer Azure-ontwikkeling uitvoert, kunt u eindigen met
+3. Naarmate u meer Azure-ontwikkeling uitvoert, kunt u eindigen met
     verschillende resource-groepen. Als u meerdere items in de
     groepslijst hebt, kunt u de retourwaarden filteren door een optie
     toe te voegen. Probeer de volgende opdracht:`--query`
@@ -59,7 +59,7 @@ resourcekosten afhankelijk van het App Service-abonnement dat aan uw Web
 Apps is gekoppeld. Serviceplannen bepalen de regio die wordt gebruikt
 voor het app-datacenter, het aantal gebruikte VM's en de prijscategorie.
 
-1.  Maak een App Service-abonnement om uw app uit te voeren. Met de
+1. Maak een App Service-abonnement om uw app uit te voeren. Met de
     volgende opdracht wordt de gratis prijscategorie opgegeven, maar u
     kunt deze uitvoeren om de andere prijsniveaus te
     bekijken.`az appservice plan create --help`
@@ -81,7 +81,7 @@ voor het app-datacenter, het aantal gebruikte VM's en de prijscategorie.
 
     This command can take several minutes to complete.
 
-2.  Verify that the service plan was created successfully by listing all
+2. Verify that the service plan was created successfully by listing all
     your plans in a table.
 
          az appservice plan list --output table
@@ -98,7 +98,7 @@ Next, you'll create the web app in your service plan. You can deploy the
 code at the same time, but for our example, we'll create the web app and
 deploy the code as separate steps.
 
-1.  To create the web app, you'll supply web app name and the name of
+1. To create the web app, you'll supply web app name and the name of
     the app plan you created above. Just like the app plan name, the web
     app name must be unique, and the variables that you created earlier
     will assign random values that should be sufficient for this
@@ -106,7 +106,7 @@ deploy the code as separate steps.
 
          az webapp create --name $AZURE_WEB_APP --resource-group $RESOURCE_GROUP --plan $AZURE_APP_PLAN
 
-2.  Verify that the app was created successfully by listing all your
+2. Verify that the app was created successfully by listing all your
     apps in a table.
 
          az webapp list --output table
@@ -124,7 +124,7 @@ deploy the code as separate steps.
     be:
     .``` azurewebsites.net``http://popupwebapp-mslearn123.azurewebsites.net ```
 
-3.  Your site has a "quickstart" page created by Azure that you can see
+3. Your site has a "quickstart" page created by Azure that you can see
     either in a browser, or with CURL, just use the **DefaultHostName**:
 
          curl $AZURE_WEB_APP.azurewebsites.net
@@ -133,14 +133,14 @@ deploy the code as separate steps.
 
 ### Steps to deploy code from GitHub
 
-1.  The final step is to deploy code from a GitHub repository to the web
+1. The final step is to deploy code from a GitHub repository to the web
     app. Let's use a simple PHP page available in the Azure Samples
     GitHub repository that displays "Hello World!" when it executes.
     Make sure to use the web app name you created.
 
          az webapp deployment source config --name $AZURE_WEB_APP --resource-group $RESOURCE_GROUP --repo-url "https://github.com/Azure-Samples/php-docs-hello-world" --branch master --manual-integration
 
-2.  Once it's deployed, hit your site again with a browser or CURL.
+2. Once it's deployed, hit your site again with a browser or CURL.
 
          curl $AZURE_WEB_APP.azurewebsites.net
 
