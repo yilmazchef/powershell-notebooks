@@ -42,9 +42,11 @@ foreach ($User in $Users) {
           }
           $AllObjects += New-Object PSobject -Property $property  
      }
+     catch {
+
+     }
 
      $AllObjects | export-csv c:\Output.csv -NoTypeInformation 
 }
 
       
-}

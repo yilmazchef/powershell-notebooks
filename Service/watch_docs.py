@@ -1,36 +1,37 @@
+import imp
 import os
+import runpy
 import sys
 import time
+import pip
 import watchdog.events
 import watchdog.observers
-from update_docs import to_docx, to_ps1, to_pdf
+from docx_manager import to_docx
+from pptx_manager import to_pptx
+from odt_manager import to_odt
+from markdown_manager import to_ipynb, to_md
 
 
 class Handler(watchdog.events.PatternMatchingEventHandler):
     def __init__(self):
         # Set the patterns for PatternMatchingEventHandler
-        watchdog.events.PatternMatchingEventHandler.__init__(self, patterns=['*.ipynb'],
+        watchdog.events.PatternMatchingEventHandler.__init__(self, patterns=['*.md'],
                                                              ignore_directories=True, case_sensitive=False)
+        print(sys.getdefaultencoding())
 
     def on_created(self, event):
         print(f"{event.src_path} is created.")
         # Event is created, you can process it now
 
     def on_modified(self, event):
-        # Event is modified, you can process it now
-        docx_file = event.src_path.replace(".md", ".docx")
-        pdf_file = event.src_path.replace(".md", ".pdf")
-        to_docx(event.src_path, docx_file)
-        to_pdf(event.src_path, pdf_file)
+        to_docx(event.src_path)
 
     def on_deleted(self, event):
-        docx_file = event.src_path.replace(".md", ".docx")
-        pdf_file = event.src_path.replace(".md", ".pdf")
-        os.remove(docx_file)
-        os.remove(pdf_file)
+        os.remove(event.src_path.replace(".md", "docx"))
 
 
 if __name__ == "__main__":
+
     src_path = sys.argv[1] if len(sys.argv) > 1 else os.getcwd()
     event_handler = Handler()
     observer = watchdog.observers.Observer()
