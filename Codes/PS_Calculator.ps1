@@ -32,6 +32,15 @@ function Get-Sum([Float]$number1, [Float]$number2){
     return ($number1 + $number2)
 }
 
+function Get-Sum-V2(){
+    Param(
+        [Float]$number1, 
+        [Float]$number2
+    )
+
+    return ($number1 + $number2)
+}
+
 <#
 .SYNOPSIS
     Returns the substraction of 2 numbers.
