@@ -18,17 +18,17 @@
      Get-Sum 10.10 20.20
 
 .INPUTS
-    Int
+    Float
 
 .OUTPUTS
-    Int
+    Float
 
 .NOTES
     Author:  Yilmaz Mustafa a.k.a. Ch€f
     Website: http://yilmazchef.github.io
     Twitter: @_yilmaz_mustafa
 #>
-function Get-Sum([Int]$number1, [Int]$number2){
+function Get-Sum([Float]$number1, [Float]$number2){
     return ($number1 + $number2)
 }
 
@@ -52,17 +52,17 @@ function Get-Sum([Int]$number1, [Int]$number2){
      Get-Sub 40.40 20.20
 
 .INPUTS
-    Int
+    Float
 
 .OUTPUTS
-    Int
+    Float
 
 .NOTES
     Author:  Yilmaz Mustafa a.k.a. Ch€f
     Website: http://github.com/yilmazchef/powershell-notebooks/Codes/calculator_doc.md
     Twitter: @_yilmaz_mustafa
 #>
-function Get-Sub([Int]$number1, [Int]$number2){
+function Get-Sub([Float]$number1, [Float]$number2){
     return ($number1 - $number2)
 }
 
@@ -86,17 +86,17 @@ function Get-Sub([Int]$number1, [Int]$number2){
      Get-Sum 10.10 20.20
 
 .INPUTS
-    Int
+    Float
 
 .OUTPUTS
-    Int
+    Float
 
 .NOTES
     Author:  Yilmaz Mustafa a.k.a. Ch€f
     Website: http://yilmazchef.github.io
     Twitter: @_yilmaz_mustafa
 #>
-function Get-Sum([Int]$number1, [Int]$number2){
+function Get-Sum([Float]$number1, [Float]$number2){
     return ($number1 + $number2)
 }
 
@@ -120,17 +120,17 @@ function Get-Sum([Int]$number1, [Int]$number2){
      Get-Mul 4.40 5.50
 
 .INPUTS
-    Int
+    Float
 
 .OUTPUTS
-    Int
+    Float
 
 .NOTES
     Author:  Yilmaz Mustafa a.k.a. Ch€f
     Website: http://github.com/yilmazchef/powershell-notebooks/Codes/calculator_doc.md
     Twitter: @_yilmaz_mustafa
 #>
-function Get-Mul([Int]$number1, [Int]$number2){
+function Get-Mul([Float]$number1, [Float]$number2){
     return ($number1 * $number2)
 }
 
@@ -154,17 +154,19 @@ function Get-Mul([Int]$number1, [Int]$number2){
      Get-Mul 4.40 5.50
 
 .INPUTS
-    Int
+    Float
 
 .OUTPUTS
-    Int
+    Float
 
 .NOTES
     Author:  Yilmaz Mustafa a.k.a. Ch€f
     Website: http://github.com/yilmazchef/powershell-notebooks/Codes/calculator_doc.md
     Twitter: @_yilmaz_mustafa
 #>
-function Get-Div([Int]$number1, [Int]$number2){
+function Get-Div([Float]$number1, [Float]$number2){
     return ($number1 / $number2)
 }
+
+
 
