@@ -23,9 +23,14 @@ for ( $index = 0; $index -lt 100; $index = $index + 1) {
 
 
 for ( $index = 0; $index -lt 3; $index = $index + 1) {
-    New-VM -Confirm -Generation 2 -MemoryStartupBytes 4GB -Name "VM_$index" -NewVHDPath "C:\Sandbox\VM\VM_Disk_$index.vhdx" -NewVHDSizeBytes 40GB -Path "C:\Sandbox\VM\VM_$index" -SwitchName "Default Switch" 
-    # Add-VMDvdDrive -VMName "VM_$index" -Path "C:\ISOs\Win10.iso"
-    # Start-VM -Name "VM_$index" 
+
+    $vhd_path = "C:\Sandbox\VM\VM_Disk_$index.vhdx"
+
+    if(Test-Path $vhd_path){
+        Write-Error "The VM already exists.."
+    } else {
+        New-VM -Confirm -Generation 2 -MemoryStartupBytes 4GB -Name "VM_$index" -NewVHDPath "C:\Sandbox\VM\VM_Disk_$index.vhdx" -NewVHDSizeBytes 40GB -Path "C:\Sandbox\VM\VM_$index" -SwitchName "Default Switch" 
+    }
 }
 
 
