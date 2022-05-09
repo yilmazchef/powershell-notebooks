@@ -1,0 +1,6 @@
+{
+    "id" : 1,
+    "name" : "Web_Server_West01",
+    "ip_address" : "172.16.5.4",
+    "ports" : 80,443,22
+}
