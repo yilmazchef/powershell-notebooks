@@ -1,29 +1,27 @@
-function Create-Env(){
+function New-Penv() {
 
     Param(
+        [Parameter(Mandatory = $False)]
+        [String]
         $Key,
+        [Parameter(Mandatory = $False)]
+        [String]
         $Value
     )
 
-    Process {
-        # validate mechanisme
-        if($Key -eq ""){
-            Write-Error "Key is missing."
-            $Key = Read-Host "Enter key"
-        }
-
-        if($Value -eq ""){
-            Write-Error "Value is missing."
-            $Value = Read-Host "Enter value"
-        }
-
-        setx $Key $Value
-
+    # validate mechanisme
+    if ($Key -eq "") {
+        $Key = Read-Host "Enter key"
     }
 
+    if ($Value -eq "") {
+        $Value = Read-Host "Enter value"
+    }
+
+    setx $Key $Value
 
 }
 
-Export-ModuleMember -Function -Name Create-Env
+Export-ModuleMember -Function -Name New-Penv
 
 
