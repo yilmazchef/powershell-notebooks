@@ -1,62 +1,51 @@
-## 3\. Basisbegrippen
+# Basis Powershell
+## De doelstellingen
 
--   Artikel
--   07/29/2021
--   33 minuten om te lezen
-
-### Is this page helpful?
-
-Feedback will be sent to Microsoft: By pressing the submit button, your feedback will be used to improve Microsoft products and services. [Privacy policy.](https://privacy.microsoft.com/en-us/privacystatement)
-
-Thank you.
-
-### In dit artikel
-
-1.  [3.1 Providers en aandrijvingen](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#31-providers-and-drives)
-2.  [3.2 Werklocaties](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#32-working-locations)
-3.  [3.3 Artikelen](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#33-items)
-4.  [3.4 Padnamen](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#34-path-names)
-5.  [3.5 Toepassingsgebied](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#35-scopes)
-6.  [3.6 ReadOnly en constante eigenschappen](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#36-readonly-and-constant-properties)
-7.  [3.7 Overbelasting van de methode en oproepresolutie](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#37-method-overloads-and-call-resolution)
-8.  [3.8 Naam opzoeken](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#38-name-lookup)
-9.  [3.9 Typenaam opzoeken](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#39-type-name-lookup)
-10.  [3.10 Automatisch geheugenbeheer](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#310-automatic-memory-management)
-11.  [3.11 Uitvoeringsbevel](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#311-execution-order)
-12.  [3.12 Foutafhandeling](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#312-error-handling)
-13.  [3.13 Pijpleidingen](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#313-pipelines)
-14.  [3.14 Modules](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#314-modules)
-15.  [3.15 Wildcard-expressies](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#315-wildcard-expressions)
-16.  [3.16 Reguliere expressies](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#316-regular-expressions)
+1. [3.1 Providers en aandrijvingen](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#31-providers-and-drives)
+2. [3.2 Werklocaties](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#32-working-locations)
+3. [3.3 Artikelen](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#33-items)
+4. [3.4 Padnamen](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#34-path-names)
+5. [3.5 Toepassingsgebied](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#35-scopes)
+6. [3.6 ReadOnly en constante eigenschappen](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#36-readonly-and-constant-properties)
+7. [3.7 Overbelasting van de methode en oproepresolutie](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#37-method-overloads-and-call-resolution)
+8. [3.8 Naam opzoeken](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#38-name-lookup)
+9. [3.9 Typenaam opzoeken](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#39-type-name-lookup)
+10. [3.10 Automatisch geheugenbeheer](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#310-automatic-memory-management)
+11. [3.11 Uitvoeringsbevel](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#311-execution-order)
+12. [3.12 Foutafhandeling](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#312-error-handling)
+13. [3.13 Pijpleidingen](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#313-pipelines)
+14. [3.14 Modules](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#314-modules)
+15. [3.15 Wildcard-expressies](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#315-wildcard-expressions)
+16. [3.16 Reguliere expressies](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#316-regular-expressions)
 
 ## [](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#31-providers-and-drives)3.1 Providers en aandrijvingen
 
 Een _provider_ biedt toegang tot gegevens en componenten die anders niet gemakkelijk toegankelijk zouden zijn via de opdrachtregel. De gegevens worden gepresenteerd in een consistente indeling die lijkt op een bestandssysteemstation.
 
-De gegevens die een provider beschikbaar stelt, worden op een _station_ weergegeven en de gegevens worden via een _pad_ geopend, net als bij een schijfstation. Ingebouwde cmdlets voor elke provider beheren de gegevens op het providerstation.
+De gegevens die een provider beschikbaar stelt, worden op een _station_ weergegeven en de gegevens worden via een _pad_ geopend, net als bij een schijfstation. Ingebouwde cmdlets voor elke provider beheren de gegevens op het provider-station.
 
 PowerShell bevat de volgende set ingebouwde providers voor toegang tot de verschillende typen gegevensarchieven:
 
-| **Aanbieder** | **Naam station** | **Beschrijving** | **Ref.** |
-| --- | --- | --- | --- |
-| Alias | Alias: | PowerShell-aliassen | [§3.1.1](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-03?view=powershell-7.2#311-aliases) |
-| Milieu | Env: | Omgevingsvariabelen | [§3.1.2](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-03?view=powershell-7.2#312-environment-variables) |
-| Bestandssysteem | A:, B:, C:, ... | Schijfstations, mappen en bestanden | [§3.1.3](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-03?view=powershell-7.2#313-file-system) |
-| Functie | Functie: | PowerShell-functies | [§3.1.4](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-03?view=powershell-7.2#314-functions) |
-| Veranderlijk | Veranderlijk: | PowerShell-variabelen | [§3.1.5](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-03?view=powershell-7.2#315-variables) |
+| **Aanbieder**   | **Naam station** | **Beschrijving**                    | **Ref.**                                                                                                                           |
+| --------------- | ---------------- | ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Alias           | Alias:           | PowerShell-aliassen                 | [§3.1.1](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-03?view=powershell-7.2#311-aliases)               |
+| Milieu          | Env:             | Omgevingsvariabelen                 | [§3.1.2](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-03?view=powershell-7.2#312-environment-variables) |
+| Bestandssysteem | A:, B:, C:, ...  | Schijfstations, mappen en bestanden | [§3.1.3](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-03?view=powershell-7.2#313-file-system)           |
+| Functie         | Functie:         | PowerShell-functies                 | [§3.1.4](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-03?view=powershell-7.2#314-functions)             |
+| Veranderlijk    | Veranderlijk:    | PowerShell-variabelen               | [§3.1.5](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-03?view=powershell-7.2#315-variables)             |
 
 Windows PowerShell:
 
-| **Aanbieder** | **Naam station** | **Beschrijving** |
-| --- | --- | --- |
-| Certificaat | Cert: | x509-certificaten voor digitale handtekeningen |
-| Register | HKLM: (HKEY\_LOCAL\_MACHINE), HKCU: (HKEY\_CURRENT\_USER) | Windows-register |
-| WSMan | WSMan: | Configuratie-informatie voor WS-Management |
+| **Aanbieder** | **Naam station**                                          | **Beschrijving**                               |
+| ------------- | --------------------------------------------------------- | ---------------------------------------------- |
+| Certificaat   | Cert:                                                     | x509-certificaten voor digitale handtekeningen |
+| Register      | HKLM: (HKEY\_LOCAL\_MACHINE), HKCU: (HKEY\_CURRENT\_USER) | Windows-register                               |
+| WSMan         | WSMan:                                                    | Configuratie-informatie voor WS-Management     |
 
 De volgende cmdlets hebben betrekking op providers en stations:
 
--   [Get-PSProvider](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-psprovider?view=powershell-7.2): informatie ophalen over een of meer providers
--   [Get-PSDrive](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-psdrive?view=powershell-7.2): hier wordt informatie opgehaald over een of meer stations
+- [Get-PSProvider](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-psprovider?view=powershell-7.2): informatie ophalen over een of meer providers
+- [Get-PSDrive](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-psdrive?view=powershell-7.2): hier wordt informatie opgehaald over een of meer stations
 
 Het type object dat een provider vertegenwoordigt, wordt beschreven in [§4.5.1](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-04?view=powershell-7.2#451-provider-description-type). Het type object dat een station vertegenwoordigt, wordt beschreven in [§4.5.2](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-04?view=powershell-7.2#452-drive-description-type).
 
@@ -72,10 +61,10 @@ Sommige aliassen zijn ingebouwd in PowerShell.
 
 De volgende cmdlets hebben betrekking op aliassen:
 
--   [Nieuw-alias](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/new-alias?view=powershell-7.2): maakt een alias
--   [Set-Alias](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/set-alias?view=powershell-7.2): hiermee worden een of meer aliassen gemaakt of gewijzigd
--   [Get-Alias](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-alias?view=powershell-7.2): hier wordt informatie opgehaald over een of meer aliassen
--   [Export-Alias](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/export-alias?view=powershell-7.2): Exports one or more aliases to a file
+- [Nieuw-alias](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/new-alias?view=powershell-7.2): maakt een alias
+- [Set-Alias](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/set-alias?view=powershell-7.2): hiermee worden een of meer aliassen gemaakt of gewijzigd
+- [Get-Alias](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-alias?view=powershell-7.2): hier wordt informatie opgehaald over een of meer aliassen
+- [Export-Alias](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/export-alias?view=powershell-7.2): Exports one or more aliases to a file
 
 When an alias is created for a command using , parameters to that command cannot be included in that alias. However, direct assignment to a variable in the Alias: namespace does permit parameters to be included.`New-Alias`
 
@@ -135,11 +124,11 @@ The provider Variable is a flat namespace that contains only objects that repres
 
 The following cmdlets also deal with variables:
 
--   [New-Variable](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/new-variable?view=powershell-7.2): Creates a variable
--   [Set-Variable](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/set-variable?view=powershell-7.2): Creates or changes the characteristics of one or more variables
--   [Get-Variable](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-variable?view=powershell-7.2): Gets information about one or more variables
--   [Clear-Variable](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/clear-variable?view=powershell-7.2): Deletes the value of one or more variables
--   [Remove-Variable](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/remove-variable?view=powershell-7.2): Deletes one or more variables
+- [New-Variable](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/new-variable?view=powershell-7.2): Creates a variable
+- [Set-Variable](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/set-variable?view=powershell-7.2): Creates or changes the characteristics of one or more variables
+- [Get-Variable](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-variable?view=powershell-7.2): Gets information about one or more variables
+- [Clear-Variable](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/clear-variable?view=powershell-7.2): Deletes the value of one or more variables
+- [Remove-Variable](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/remove-variable?view=powershell-7.2): Deletes one or more variables
 
 As a variable is an item ([§3.3](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-03?view=powershell-7.2#33-items)), it can be manipulated by most Item-related cmdlets.
 
@@ -159,10 +148,10 @@ The current working location can be saved on a stack, and then set to a new loca
 
 The following cmdlets deal with locations:
 
--   [Set-Location](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-location?view=powershell-7.2): Establishes the current working location
--   [Get-Location](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-location?view=powershell-7.2): Determines the current working location for the specified drive(s), or the working locations for the specified stack(s)
--   [Push-Location](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/push-location?view=powershell-7.2): Saves the current working location on the top of a specified stack of locations
--   [Pop-Location](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/pop-location?view=powershell-7.2): Restores the current working location from the top of a specified stack of locations
+- [Set-Location](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-location?view=powershell-7.2): Establishes the current working location
+- [Get-Location](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-location?view=powershell-7.2): Determines the current working location for the specified drive(s), or the working locations for the specified stack(s)
+- [Push-Location](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/push-location?view=powershell-7.2): Saves the current working location on the top of a specified stack of locations
+- [Pop-Location](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/pop-location?view=powershell-7.2): Restores the current working location from the top of a specified stack of locations
 
 The object types that represents a working location and a stack of working locations are described in [§4.5.5](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-04?view=powershell-7.2#455-working-location-description-type).
 
@@ -172,23 +161,23 @@ An _item_ is an alias ([§3.1.1](https://docs.microsoft.com/en-us/powershell/scr
 
 The following cmdlets deal with items:
 
--   [New-Item](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/new-item?view=powershell-7.2): Creates a new item
--   [Set-Item](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-item?view=powershell-7.2): Changes the value of one or more items
--   [Get-Item](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-item?view=powershell-7.2): Gets the items at the specified location
--   [Get-ChildItem](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-childitem?view=powershell-7.2): Gets the items and child items at the specified location
--   [Copy-Item](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/copy-item?view=powershell-7.2): Copies one or more items from one location to another
--   [Move-Item](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/move-item?view=powershell-7.2): Moves one or more items from one location to another
--   [Rename-Item](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/rename-item?view=powershell-7.2): Renames an item
--   [Invoke-Item](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/invoke-item?view=powershell-7.2): Performs the default action on one or more items
--   [Clear-Item](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/clear-item?view=powershell-7.2): Deletes the contents of one or more items, but does not delete the items (see
--   [Remove-Item](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/remove-item?view=powershell-7.2): Deletes the specified items
+- [New-Item](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/new-item?view=powershell-7.2): Creates a new item
+- [Set-Item](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-item?view=powershell-7.2): Changes the value of one or more items
+- [Get-Item](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-item?view=powershell-7.2): Gets the items at the specified location
+- [Get-ChildItem](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-childitem?view=powershell-7.2): Gets the items and child items at the specified location
+- [Copy-Item](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/copy-item?view=powershell-7.2): Copies one or more items from one location to another
+- [Move-Item](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/move-item?view=powershell-7.2): Moves one or more items from one location to another
+- [Rename-Item](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/rename-item?view=powershell-7.2): Renames an item
+- [Invoke-Item](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/invoke-item?view=powershell-7.2): Performs the default action on one or more items
+- [Clear-Item](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/clear-item?view=powershell-7.2): Deletes the contents of one or more items, but does not delete the items (see
+- [Remove-Item](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/remove-item?view=powershell-7.2): Deletes the specified items
 
 The following cmdlets deal with the content of items:
 
--   [Get-Content](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-content?view=powershell-7.2): Gets the content of the item
--   [Add-Content](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/add-content?view=powershell-7.2): Adds content to the specified items
--   [Set-Content](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-content?view=powershell-7.2): Writes or replaces the content in an item
--   [Clear-Content](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/clear-content?view=powershell-7.2): Deletes the contents of an item
+- [Get-Content](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-content?view=powershell-7.2): Gets the content of the item
+- [Add-Content](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/add-content?view=powershell-7.2): Adds content to the specified items
+- [Set-Content](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-content?view=powershell-7.2): Writes or replaces the content in an item
+- [Clear-Content](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/clear-content?view=powershell-7.2): Deletes the contents of an item
 
 The type of an object that represents a directory is described in [§4.5.17](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-04?view=powershell-7.2#4517-directory-description-type). The type of an object that represents a file is described in [§4.5.18](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-04?view=powershell-7.2#4518-file-description-type).
 
@@ -236,22 +225,22 @@ If the final element in a path contains other elements, it is a _container eleme
 
 In some cases, a fully qualified path name is not needed; a relative path name will suffice. A _relative path name_ is based on the current working location. PowerShell allows an item to be identified based on its location relative to the current working location. A relative path name involves the use of some special characters. The following table describes each of these characters and provides examples of relative path names and fully qualified path names. The examples in the table are based on the current working directory being set to C:\\Windows:
 
-| **Symbol** | **Description** | **Relative path** | **Fully qualified path** |
-| --- | --- | --- | --- |
-| `.` | Current working location | `.\System` | `C:\Windows\System` |
-| `..` | Parent of the current working location | `..\Program Files` | `C:\Program Files` |
-| `\` | Drive root of the current working location | `\Program Files` | `C:\Program Files` |
-| none | No special characters | `System` | `C:\Windows\System` |
+| **Symbol** | **Description**                            | **Relative path**  | **Fully qualified path** |
+| ---------- | ------------------------------------------ | ------------------ | ------------------------ |
+| `.`        | Current working location                   | `.\System`         | `C:\Windows\System`      |
+| `..`       | Parent of the current working location     | `..\Program Files` | `C:\Program Files`       |
+| `\`        | Drive root of the current working location | `\Program Files`   | `C:\Program Files`       |
+| none       | No special characters                      | `System`           | `C:\Windows\System`      |
 
 To use a path name in a command, enter that name as a fully qualified or relative path name.
 
 The following cmdlets deal with paths:
 
--   [Convert-Path](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/convert-path?view=powershell-7.2): Converts a path from a PowerShell path to a PowerShell provider path
--   [Join-Path](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/join-path?view=powershell-7.2): Combines a path and a child path into a single path
--   [Resolve-Path](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/resolve-path?view=powershell-7.2): Resolves the wildcard characters in a path
--   [Split-Path](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/split-path?view=powershell-7.2): Returns the specified part of a path
--   [Test-Path](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/test-path?view=powershell-7.2): Determines whether the elements of a path exist or if a path is well formed
+- [Convert-Path](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/convert-path?view=powershell-7.2): Converts a path from a PowerShell path to a PowerShell provider path
+- [Join-Path](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/join-path?view=powershell-7.2): Combines a path and a child path into a single path
+- [Resolve-Path](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/resolve-path?view=powershell-7.2): Resolves the wildcard characters in a path
+- [Split-Path](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/split-path?view=powershell-7.2): Returns the specified part of a path
+- [Test-Path](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/test-path?view=powershell-7.2): Determines whether the elements of a path exist or if a path is well formed
 
 Some cmdlets (such as [Add-Content](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/add-content?view=powershell-7.2) and use file filters. A _file filter_ is a mechanism for specifying the criteria for selecting from a set of paths.`Copy-Item`
 
@@ -267,9 +256,9 @@ Scopes may nest, in which case, an outer scope is referred to as a _parent scope
 
 Unless dot source notation ([§3.5.5](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-03?view=powershell-7.2#355-dot-source-notation)) is used, each of the following creates a new scope:
 
--   A script file
--   A script block
--   A function or filter
+- A script file
+- A script block
+- A function or filter
 
 Consider the following example:
 
@@ -342,12 +331,11 @@ function F3 {       # start of function scope
 
 PowerShell supports the following scopes:
 
--   Global: This is the top-most level scope. All automatic and preference variables are defined in this scope. The global scope is the parent scope of all other scopes, and all other scopes are child scopes of the global scope.
-    
--   Local: This is the current scope at any execution point within a script, script block, or function. Any scope can be the local scope.
-    
--   Script: This scope exists for each script file that is executed. The script scope is the parent scope of all scopes created from within it. A script block does _not_ have its own script scope; instead, its script scope is that of its nearest ancestor script file. Although there is no such thing as module scope, script scope provides the equivalent.
-    
+- Global: This is the top-most level scope. All automatic and preference variables are defined in this scope. The global scope is the parent scope of all other scopes, and all other scopes are child scopes of the global scope.
+
+- Local: This is the current scope at any execution point within a script, script block, or function. Any scope can be the local scope.
+
+- Script: This scope exists for each script file that is executed. The script scope is the parent scope of all scopes created from within it. A script block does _not_ have its own script scope; instead, its script scope is that of its nearest ancestor script file. Although there is no such thing as module scope, script scope provides the equivalent.
 
 Names can be declared private, in which case, they are not visible outside of their parent scope, not even to child scopes. The concept of private is not a separate scope; it's an alias for local scope with the addition of hiding the name if used as a writable location.
 
@@ -370,15 +358,15 @@ variable-scope:
 
 The scope is optional. The following table shows the meaning of each in all possible contexts. It also shows the scope when no scope is specified explicitly:
 
-| **Scope Modifier** | **Within a Script File** | **Within a Script Block** | **Within a Function** |
-| --- | --- | --- | --- |
-| global | Global scope | Global scope | Global scope |
-| script | Nearest ancestor script file's scope or Global if there is no nearest ancestor script file | Nearest ancestor script file's scope or Global if there is no nearest ancestor script file | Nearest ancestor script file's scope or Global if there is no nearest ancestor script file |
-| private | Global/Script/Local scope | Local scope | Local scope |
-| local | Global/Script/Local scope | Local scope | Local scope |
-| using | Implementation defined | Implementation defined | Implementation defined |
-| workflow | Implementation defined | Implementation defined | Implementation defined |
-| none | Global/Script/Local scope | Local scope | Local scope |
+| **Scope Modifier** | **Within a Script File**                                                                   | **Within a Script Block**                                                                  | **Within a Function**                                                                      |
+| ------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| global             | Global scope                                                                               | Global scope                                                                               | Global scope                                                                               |
+| script             | Nearest ancestor script file's scope or Global if there is no nearest ancestor script file | Nearest ancestor script file's scope or Global if there is no nearest ancestor script file | Nearest ancestor script file's scope or Global if there is no nearest ancestor script file |
+| private            | Global/Script/Local scope                                                                  | Local scope                                                                                | Local scope                                                                                |
+| local              | Global/Script/Local scope                                                                  | Local scope                                                                                | Local scope                                                                                |
+| using              | Implementation defined                                                                     | Implementation defined                                                                     | Implementation defined                                                                     |
+| workflow           | Implementation defined                                                                     | Implementation defined                                                                     | Implementation defined                                                                     |
+| none               | Global/Script/Local scope                                                                  | Local scope                                                                                | Local scope                                                                                |
 
 Variable scope information can also be specified when using the family of cmdlets listed in ([§3.1.5](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-03?view=powershell-7.2#315-variables)). In particular, refer to the parameter , and the parameters and for more information.`Scope``Option Private``Option AllScope`
 
@@ -477,7 +465,7 @@ Editor's Note: PowerShell 5.0 added the ability to define script-based classes. 
 
 ### [](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#372-method-overload-resolution)3.7.2 Method overload resolution
 
-Given a method call ([§7.1.3](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-07?view=powershell-7.2#713-invocation-expressions)) having a list of argument expressions, and a set of _candidate method_s (i.e., those methods that could be called), the mechanism for selecting the _best method_ is called _overload resolution_.
+Given a method call ([§7.1.3](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-07?view=powershell-7.2#713-invocation-expressions)) having a list of argument expressions, and a set of _candidate method_s (i.e., those methods that could be called), the mechanism for selecting the_best method_is called_overload resolution_.
 
 Given the set of applicable candidate methods ([§3.7.3](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-03?view=powershell-7.2#373-applicable-method)), the best method in that set is selected. If the set contains only one method, then that method is the best method. Otherwise, the best method is the one method that is better than all other methods with respect to the given argument list using the rules shown in [§3.7.4](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-03?view=powershell-7.2#374-better-method). If there is not exactly one method that is better than all other methods, then the method invocation is ambiguous and an error is reported.
 
@@ -489,9 +477,9 @@ The best method for a call to a static method must be a static method, and the b
 
 A method is said to be _applicable_ with respect to an argument list A when one of the following is true:
 
--   The number of arguments in A is identical to the number of parameters that the method accepts.
--   The method has M required parameters and N optional parameters, and the number of arguments in A is greater than or equal to M, but less than N.
--   The method accepts a variable number of arguments and the number of arguments in A is greater than the number of parameters that the method accepts.
+- The number of arguments in A is identical to the number of parameters that the method accepts.
+- The method has M required parameters and N optional parameters, and the number of arguments in A is greater than or equal to M, but less than N.
+- The method accepts a variable number of arguments and the number of arguments in A is greater than the number of parameters that the method accepts.
 
 In addition to having an appropriate number of arguments, each argument in A must match the parameter-passing mode of the argument, and the argument type must match the parameter type, or there must be a conversion from the argument type to the parameter type.
 
@@ -501,8 +489,8 @@ If the argument type is , the corresponding parameter could be instead of .`ref`
 
 If the method accepts a variable number of arguments, the method may be applicable in either _normal form_ or _expanded form_. If the number of arguments in A is identical to the number of parameters that the method accepts and the last parameter is an array, then the form depends on the rank of one of two possible conversions:
 
--   The rank of the conversion from the type of the last argument in A to the array type for the last parameter.
--   The rank of the conversion from the type of the last argument in A to the element type of the array type for the last parameter.
+- The rank of the conversion from the type of the last argument in A to the array type for the last parameter.
+- The rank of the conversion from the type of the last argument in A to the element type of the array type for the last parameter.
 
 If the first conversion (to the array type) is better than the second conversion (to the element type of the array), then the method is applicable in normal form, otherwise it is applicable in expanded form.
 
@@ -514,9 +502,9 @@ Given an argument list A with a set of argument expressions and two application 
 
 The cumulative ranking of conversions is calculated as follows. Each conversion is worth a different value depending on the number of parameters, with the conversion of worth N, worth N-1, down to worth 1. If the conversion from to is better than that from to , the accumulates N-X+1; otherwise, accumulates N-X+1. If and have the same value, then the following tie breaking rules are used, applied in order:`E~1~``E~2~``E~N~``E~X~``P~X~``E~X~``Q~X~``M~P~``M~Q~``M~P~``M~Q~`
 
--   The cumulative ranking of conversions between parameter types (ignoring argument types) is computed in a manner similar to the previous ranking, so is compared against , against , ..., and against . The comparison is skipped if the argument was , or if the parameter types are not numeric types. The comparison is also skipped if the argument conversion loses information when converted to but does not lose information when converted to , or vice versa. If the parameter conversion types are compared, then if the conversion from to is better than that from to , the accumulates N-X+1; otherwise, accumulates N-X+1. This tie breaking rule is intended to prefer the _most specific method_ (i.e., the method with parameters having the smallest data types) if no information is lost in conversions, or to prefer the _most general method_ (i.e., the method with the parameters with the largest data types) if conversions result in loss of information.`P~1~``Q~1~``P~2~``Q~2~``P~N~``Q~N~``$null``E~X~``P~X~``Q~X~``P~X~``Q~X~``Q~X~``P~X~``M~P~``M~Q~`
--   If both methods use their expanded form, the method with more parameters is the better method.
--   If one method uses the expanded form and the other uses normal form, the method using normal form is the better method.
+- The cumulative ranking of conversions between parameter types (ignoring argument types) is computed in a manner similar to the previous ranking, so is compared against , against , ..., and against . The comparison is skipped if the argument was , or if the parameter types are not numeric types. The comparison is also skipped if the argument conversion loses information when converted to but does not lose information when converted to , or vice versa. If the parameter conversion types are compared, then if the conversion from to is better than that from to , the accumulates N-X+1; otherwise, accumulates N-X+1. This tie breaking rule is intended to prefer the _most specific method_ (i.e., the method with parameters having the smallest data types) if no information is lost in conversions, or to prefer the _most general method_ (i.e., the method with the parameters with the largest data types) if conversions result in loss of information.`P~1~``Q~1~``P~2~``Q~2~``P~N~``Q~N~``$null``E~X~``P~X~``Q~X~``P~X~``Q~X~``Q~X~``P~X~``M~P~``M~Q~`
+- If both methods use their expanded form, the method with more parameters is the better method.
+- If one method uses the expanded form and the other uses normal form, the method using normal form is the better method.
 
 ### [](chrome-extension://hajanaajapkhaabfcofdjgjnlgkdkknm/_generated_background_page.html#375-better-conversion)3.7.5 Better conversion
 
@@ -524,74 +512,74 @@ The text below marked like this is specific to Windows PowerShell.
 
 Conversions are ranked in the following manner, from lowest to highest:
 
--   `T~1~[]` to where no assignable conversion between and exists`T~2~[]``T~1~``T~2~`
--   T to string where T is any type
--   `T~1~` to where or define a custom conversion in an implementation-defined manner`T~2~``T~1~``T~2~`
--   `T~1~` to where implements IConvertible`T~2~``T~1~`
--   `T~1~` to where or implements the method `T~2~``T~1~``T~2~``T~2~ op_Implicit(T1)`
--   `T~1~` to where or implements the method `T~2~``T~1~``T~2~``T~2~ op_Explicit(T1)`
--   `T~1~` to where implements a constructor taking a single argument of type `T~2~``T~2~``T~1~`
--   Either of the following conversions:
-    -   string to where implements a static method or `T``T``T Parse(string)``T Parse(string, IFormatProvider)`
-    -   `T~1~` to where is any enum and is either string or a collection of objects that can be converted to string`T~2~``T~2~``T~1~`
--   `T` to PSObject where is any type`T`
--   Any of the following conversions: `Language`
-    -   T to bool where is any numeric type`T`
-    -   string to where is , , , , , , or `T``T``regex``wmisearcher``wmi``wmiclass``adsi``adsisearcher``type`
-    -   `T` to `bool`
-    -   T~1~ to where a conversion from to exists`Nullable[T~2~]``T~1~``T~2~`
-    -   `T` to void
-    -   `T~1~[]` to where an assignable conversion between and exists`T~2~[]``T~1~``T~2~`
-    -   `T~1~` to where is a collection`T~2~[]``T~1~`
-    -   `IDictionary` to `Hashtable`
-    -   `T` to `ref`
-    -   `T` to `xml`
-    -   `scriptblock` to `delegate`
-    -   `T~1~` to where is an integer type and is an enum`T~2~``T~1~``T~2~`
--   `$null` to where is any value type`T``T`
--   `$null` to where is any reference type`T``T`
--   Any of the following conversions:
-    -   byte to where is `T``T``SByte`
-        
-    -   `UInt16` to where is , , or `T``T``SByte``byte``Int16`
-        
-    -   `Int16` to where is or `T``T``SByte``byte`
-        
-    -   `UInt32` to where is , , , , or `T``T``SByte``byte``Int16``UInt16``int`
-        
-    -   `int` to where is , , , or `T``T``SByte``byte``Int16``UInt16`
-        
-    -   `UInt64` to where is , , , , , , or `T``T``SByte``byte``Int16``UInt16``int``UInt32``long`
-        
-    -   `long` to where is , , , , , or `T``T``SByte``byte``Int16``UInt16``int``UInt32`
-        
-    -   `float` to where is any integer type or `T``T``decimal`
-        
-    -   `double` to where is any integer type or `T``T``decimal`
-        
-    -   `decimal` to where is any integer type`T``T`
-        
--   Any of the following conversions:
-    -   `SByte` to where is , , , or `T``T``byte``uint6``UInt32``UInt64`
-    -   `Int16` to where is , , or `T``T``UInt16``UInt32``UInt64`
-    -   `int` to where is or `T``T``UInt32``UInt64`
-    -   `long` to `UInt64`
-    -   `decimal` to where is or `T``T``float``double`
--   Any of the following conversions:
-    -   `T` to where is any numeric type`string``T`
-    -   `T` to where is any numeric type`char``T`
-    -   `string` to where is any numeric type`T``T`
--   Any of the following conversions, these conversion are considered an assignable conversions:
-    -   `byte` to where is , , , , , , , , or `T``T``Int16``UInt16``int``UInt32``long``UInt64``single``double``decimal`
-    -   `SByte` to where is , , , , , , , , or `T``T``Int16``UInt16``int``UInt32``long``UInt64``single``double``decimal`
-    -   `UInt16` to where is , , , or , , , or `T``T``int``UInt32``long``UInt64``single``double``decimal`
-    -   `Int16` to where is , , , or , , , or `T``T``int``UInt32``long``UInt64``single``double``decimal`
-    -   `UInt32` to where is , or , , , or `T``T``long``UInt64``single``double``decimal`
-    -   `int` to where is , , , , or `T``T``long``UInt64``single``double``decimal`
-    -   `single` to `double`
--   `T~1~` to where is a base class or interface of . This conversion is considered an assignable conversion.`T~2~``T~2~``T~1~`
--   `string` to `char[]`
--   `T` to -- This conversion is considered an assignable conversion.`T`
+- `T~1~[]` to where no assignable conversion between and exists`T~2~[]``T~1~``T~2~`
+- T to string where T is any type
+- `T~1~` to where or define a custom conversion in an implementation-defined manner`T~2~``T~1~``T~2~`
+- `T~1~` to where implements IConvertible`T~2~``T~1~`
+- `T~1~` to where or implements the method `T~2~``T~1~``T~2~``T~2~ op_Implicit(T1)`
+- `T~1~` to where or implements the method `T~2~``T~1~``T~2~``T~2~ op_Explicit(T1)`
+- `T~1~` to where implements a constructor taking a single argument of type `T~2~``T~2~``T~1~`
+- Either of the following conversions:
+  - string to where implements a static method or `T``T``T Parse(string)``T Parse(string, IFormatProvider)`
+  - `T~1~` to where is any enum and is either string or a collection of objects that can be converted to string`T~2~``T~2~``T~1~`
+- `T` to PSObject where is any type`T`
+- Any of the following conversions: `Language`
+  - T to bool where is any numeric type`T`
+  - string to where is , , , , , , or `T``T``regex``wmisearcher``wmi``wmiclass``adsi``adsisearcher``type`
+  - `T` to `bool`
+  - T~1~ to where a conversion from to exists`Nullable[T~2~]``T~1~``T~2~`
+  - `T` to void
+  - `T~1~[]` to where an assignable conversion between and exists`T~2~[]``T~1~``T~2~`
+  - `T~1~` to where is a collection`T~2~[]``T~1~`
+  - `IDictionary` to `Hashtable`
+  - `T` to `ref`
+  - `T` to `xml`
+  - `scriptblock` to `delegate`
+  - `T~1~` to where is an integer type and is an enum`T~2~``T~1~``T~2~`
+- `$null` to where is any value type`T``T`
+- `$null` to where is any reference type`T``T`
+- Any of the following conversions:
+  - byte to where is `T``T``SByte`
+
+  - `UInt16` to where is , , or `T``T``SByte``byte``Int16`
+
+  - `Int16` to where is or `T``T``SByte``byte`
+
+  - `UInt32` to where is , , , , or `T``T``SByte``byte``Int16``UInt16``int`
+
+  - `int` to where is , , , or `T``T``SByte``byte``Int16``UInt16`
+
+  - `UInt64` to where is , , , , , , or `T``T``SByte``byte``Int16``UInt16``int``UInt32``long`
+
+  - `long` to where is , , , , , or `T``T``SByte``byte``Int16``UInt16``int``UInt32`
+
+  - `float` to where is any integer type or `T``T``decimal`
+
+  - `double` to where is any integer type or `T``T``decimal`
+
+  - `decimal` to where is any integer type`T``T`
+
+- Any of the following conversions:
+  - `SByte` to where is , , , or `T``T``byte``uint6``UInt32``UInt64`
+  - `Int16` to where is , , or `T``T``UInt16``UInt32``UInt64`
+  - `int` to where is or `T``T``UInt32``UInt64`
+  - `long` to `UInt64`
+  - `decimal` to where is or `T``T``float``double`
+- Any of the following conversions:
+  - `T` to where is any numeric type`string``T`
+  - `T` to where is any numeric type`char``T`
+  - `string` to where is any numeric type`T``T`
+- Any of the following conversions, these conversion are considered an assignable conversions:
+  - `byte` to where is , , , , , , , , or `T``T``Int16``UInt16``int``UInt32``long``UInt64``single``double``decimal`
+  - `SByte` to where is , , , , , , , , or `T``T``Int16``UInt16``int``UInt32``long``UInt64``single``double``decimal`
+  - `UInt16` to where is , , , or , , , or `T``T``int``UInt32``long``UInt64``single``double``decimal`
+  - `Int16` to where is , , , or , , , or `T``T``int``UInt32``long``UInt64``single``double``decimal`
+  - `UInt32` to where is , or , , , or `T``T``long``UInt64``single``double``decimal`
+  - `int` to where is , , , , or `T``T``long``UInt64``single``double``decimal`
+  - `single` to `double`
+- `T~1~` to where is a base class or interface of . This conversion is considered an assignable conversion.`T~2~``T~2~``T~1~`
+- `string` to `char[]`
+- `T` to -- This conversion is considered an assignable conversion.`T`
 
 For each conversion of the form to where is not an array and no other conversion applies, if there is a conversion from to , the rank of the conversion is worse than the conversion from to , but better than any conversion ranked less than the conversion from to `T~1~``T~2~[]``T~1~``T~1~``T~2~``T~1~``T~2~``T~1~``T~2~`
 
@@ -662,12 +650,12 @@ Modules are discussed in detail in [§11.](https://docs.microsoft.com/en-us/powe
 
 A wildcard expression may contain zero or more of the following elements:
 
-| Element | Description |
-| --- | --- |
-| Character other than \*, ?, or \[ | Matches that one character |
-| \* | Matches zero or more characters. To match a \* character, use \[\*\]. |
-| ? | Matches any one character. To match a ? character, use \[?\]. |
-| \[_set_\] | 
+| Element                           | Description                                                           |
+| --------------------------------- | --------------------------------------------------------------------- |
+| Character other than \*, ?, or \[ | Matches that one character                                            |
+| \*                                | Matches zero or more characters. To match a \* character, use \[\*\]. |
+| ?                                 | Matches any one character. To match a ? character, use \[?\].         |
+| \[_set_\]                         |
 Matches any one character from _set_, which cannot be empty.
 
 If _set_ begins with \], that right square bracket is considered part of _set_ and the next right square bracket terminates the set; otherwise, the first right square bracket terminates the set.
@@ -680,12 +668,12 @@ If _set_ begins or ends with -, that hyphen-minus is considered part of _set_; o
 
 A regular expression may contain zero or more of the following elements:
 
-| Element | Description |
-| --- | --- |
-| Character other than ., \[, ^, \*, $, or \\ | Matches that one character |
-| . | Matches any one character. To match a . character, use \\.. |
-| \[_set_\]  
-\[^_set_\] | 
+| Element                                     | Description                                                 |
+| ------------------------------------------- | ----------------------------------------------------------- |
+| Character other than ., \[, ^, \*, $, or \\ | Matches that one character                                  |
+| .                                           | Matches any one character. To match a . character, use \\.. |
+| \[_set_\]                                   |
+| \[^_set_\]                                  |
 The \[_set_\] form matches any one character from _set_. The \[^_set_\] form matches no characters from _set_. _set_ cannot be empty.
 
 If _set_ begins with \] or ^\], that right square bracket is considered part of _set_ and the next right square bracket terminates the set; otherwise, the first right square bracket terminates the set.
@@ -702,40 +690,39 @@ If _set_ begins with - or ^-, or ends with -, that hyphen-minus is considered pa
 
 Windows PowerShell: Character classes available in Microsoft .NET Framework regular expressions are supported, as follows:
 
-| Element | Description |
-| --- | --- |
-| `\p{name}` | Matches any character in the named character class specified by _name_. Supported names are Unicode groups and block ranges such as Ll, Nd, Z, IsGreek, and IsBoxDrawing. |
-| `\P{name}` | Matches text not included in the groups and block ranges specified in _name_. |
-| `\w` | Matches any word character. Equivalent to the Unicode character categories . If ECMAScript-compliant behavior is specified with the ECMAScript option, \\w is equivalent to .`[\p{Ll}\p{Lu}\p{Lt}\p{Lo}\p{Nd}\p{Pc}]``[a-zA-Z_0-9]` |
-| `\W` | Matches any non-word character. Equivalent to the Unicode categories .`[\^\p{Ll}\p{Lu}\p{Lt}\p{Lo}\p{Nd}\p{Pc}]` |
-| `\s` | Matches any white space character. Equivalent to the Unicode character categories. `[\f\n\r\t\v\x85\p{Z}]` |
-| `\S` | Matches any non-white-space character. Equivalent to the Unicode character categories .`[\^\f\n\r\t\v\x85\p{Z}]` |
-| `\d` | Matches any decimal digit. Equivalent to for Unicode and for non-Unicode behavior.`\p{Nd}``[0-9]` |
-| `\D` | Matches any non-digit. Equivalent to for Unicode and for non-Unicode behavior.`\P{Nd}``[\^0-9]` |
+| Element    | Description                                                                                                                                                                                                                         |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `\p{name}` | Matches any character in the named character class specified by _name_. Supported names are Unicode groups and block ranges such as Ll, Nd, Z, IsGreek, and IsBoxDrawing.                                                           |
+| `\P{name}` | Matches text not included in the groups and block ranges specified in _name_.                                                                                                                                                       |
+| `\w`       | Matches any word character. Equivalent to the Unicode character categories . If ECMAScript-compliant behavior is specified with the ECMAScript option, \\w is equivalent to .`[\p{Ll}\p{Lu}\p{Lt}\p{Lo}\p{Nd}\p{Pc}]``[a-zA-Z_0-9]` |
+| `\W`       | Matches any non-word character. Equivalent to the Unicode categories .`[\^\p{Ll}\p{Lu}\p{Lt}\p{Lo}\p{Nd}\p{Pc}]`                                                                                                                    |
+| `\s`       | Matches any white space character. Equivalent to the Unicode character categories. `[\f\n\r\t\v\x85\p{Z}]`                                                                                                                          |
+| `\S`       | Matches any non-white-space character. Equivalent to the Unicode character categories .`[\^\f\n\r\t\v\x85\p{Z}]`                                                                                                                    |
+| `\d`       | Matches any decimal digit. Equivalent to for Unicode and for non-Unicode behavior.`\p{Nd}``[0-9]`                                                                                                                                   |
+| `\D`       | Matches any non-digit. Equivalent to for Unicode and for non-Unicode behavior.`\P{Nd}``[\^0-9]`                                                                                                                                     |
 
 Quantifiers available in Microsoft .NET Framework regular expressions are supported, as follows:
 
-| Element | Description |
-| --- | --- |
-| `*` | Specifies zero or more matches; for example, or Equivalent to .`\w*` `(abc)*.``{0,}` |
-| `+` | Matches repeating instances of the preceding characters. |
-| `?` | Specifies zero or one matches; for example, or . Equivalent to .`\w?``(abc)?``{0,1}` |
-| `{n}` | Specifies exactly _n_ matches; for example, .`(pizza){2}` |
-| `{n,}` | Specifies at least _n_ matches; for example, .`(abc){2,}` |
-| `{n,m}` | Specifies at least _n_, but no more than _m_, matches. |
+| Element | Description                                                                          |
+| ------- | ------------------------------------------------------------------------------------ |
+| `*`     | Specifies zero or more matches; for example, or Equivalent to .`\w*` `(abc)*.``{0,}` |
+| `+`     | Matches repeating instances of the preceding characters.                             |
+| `?`     | Specifies zero or one matches; for example, or . Equivalent to .`\w?``(abc)?``{0,1}` |
+| `{n}`   | Specifies exactly _n_ matches; for example, .`(pizza){2}`                            |
+| `{n,}`  | Specifies at least _n_ matches; for example, .`(abc){2,}`                            |
+| `{n,m}` | Specifies at least _n_, but no more than _m_, matches.                               |
 
 ___
 
 ## Recommended content
 
--   [
-    
-    ### Flow control - PowerShell
-    
-    ](https://docs.microsoft.com/en-us/powershell/scripting/learn/ps101/06-flow-control)
-    
+- [
+
+### Flow control - PowerShell
+
+    ](<https://docs.microsoft.com/en-us/powershell/scripting/learn/ps101/06-flow-control>)
+
     PowerShell provides methods to create loops, make decisions, and logically control the flow of code in scripts.
-    
 
 ## Feedback
 

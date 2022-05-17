@@ -1,34 +1,34 @@
 ﻿[cmdletbinding()]
 param (
-    [Parameter(Mandatory = $true)] [ValidateNotNullOrEmpty()] [string]
-    $Username,
+        [Parameter(Mandatory = $true)] [ValidateNotNullOrEmpty()] [string]
+        $Username,
  
-    [Parameter(Mandatory = $true)] [ValidateNotNullOrEmpty()] [System.Security.SecureString]
-    $Password,
+        [Parameter(Mandatory = $true)] [ValidateNotNullOrEmpty()] [System.Security.SecureString]
+        $Password,
      
-    [string]
-    $Domain,
+        [string]
+        $Domain,
      
-    [Int]
-    $AutoLogonCount,
+        [Int]
+        $AutoLogonCount,
      
-    [switch]
-    $RemoveLegalPrompt,
+        [switch]
+        $RemoveLegalPrompt,
      
-    [System.IO.FileInfo]
-    $BackupFile
+        [System.IO.FileInfo]
+        $BackupFile
 )
  
 begin {
      
-    [string] $WinlogonPath = "HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Winlogon"
-    [string] $WinlogonBannerPolicyPath = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System"
+        [string] $WinlogonPath = "HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Winlogon"
+        [string] $WinlogonBannerPolicyPath = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System"
  
-    [string] $Enable = 1
-    [string] $Disable = 0
+        [string] $Enable = 1
+        [string] $Disable = 0
      
-    #region C# Code to P-invoke LSA LsaStorePrivateData function.
-    Add-Type @"
+        #region C# Code to P-invoke LSA LsaStorePrivateData function.
+        Add-Type @"
         using System;
         using System.Collections.Generic;
         using System.Text;
@@ -197,69 +197,69 @@ begin {
             }
         }
 "@
-    #endregion
+        #endregion
 }
  
 process {
  
-    try {
-        $ErrorActionPreference = "Stop"
+        try {
+                $ErrorActionPreference = "Stop"
          
-        $decryptedPass = [Runtime.InteropServices.Marshal]::PtrToStringAuto(
-            [Runtime.InteropServices.Marshal]::SecureStringToBSTR($Password)
-        )
+                $decryptedPass = [Runtime.InteropServices.Marshal]::PtrToStringAuto(
+                        [Runtime.InteropServices.Marshal]::SecureStringToBSTR($Password)
+                )
  
-        if ($BackupFile) {
-            # Initialize the hash table with a string comparer to allow case sensitive keys.
-            # This allows differentiation between the winlogon and system policy logon banner strings.
-            $OrigionalSettings = New-Object System.Collections.Hashtable ([system.stringcomparer]::CurrentCulture)
+                if ($BackupFile) {
+                        # Initialize the hash table with a string comparer to allow case sensitive keys.
+                        # This allows differentiation between the winlogon and system policy logon banner strings.
+                        $OrigionalSettings = New-Object System.Collections.Hashtable ([system.stringcomparer]::CurrentCulture)
              
-            $OrigionalSettings.AutoAdminLogon = (Get-ItemProperty $WinlogonPath ).AutoAdminLogon
-            $OrigionalSettings.ForceAutoLogon = (Get-ItemProperty $WinlogonPath).ForceAutoLogon
-            $OrigionalSettings.DefaultUserName = (Get-ItemProperty $WinlogonPath).DefaultUserName
-            $OrigionalSettings.DefaultDomainName = (Get-ItemProperty $WinlogonPath).DefaultDomainName
-            $OrigionalSettings.DefaultPassword = (Get-ItemProperty $WinlogonPath).DefaultPassword
-            $OrigionalSettings.AutoLogonCount = (Get-ItemProperty $WinlogonPath).AutoLogonCount
+                        $OrigionalSettings.AutoAdminLogon = (Get-ItemProperty $WinlogonPath ).AutoAdminLogon
+                        $OrigionalSettings.ForceAutoLogon = (Get-ItemProperty $WinlogonPath).ForceAutoLogon
+                        $OrigionalSettings.DefaultUserName = (Get-ItemProperty $WinlogonPath).DefaultUserName
+                        $OrigionalSettings.DefaultDomainName = (Get-ItemProperty $WinlogonPath).DefaultDomainName
+                        $OrigionalSettings.DefaultPassword = (Get-ItemProperty $WinlogonPath).DefaultPassword
+                        $OrigionalSettings.AutoLogonCount = (Get-ItemProperty $WinlogonPath).AutoLogonCount
              
-            # The winlogon logon banner settings.
-            $OrigionalSettings.LegalNoticeCaption = (Get-ItemProperty $WinlogonPath).LegalNoticeCaption
-            $OrigionalSettings.LegalNoticeText = (Get-ItemProperty $WinlogonPath).LegalNoticeText
+                        # The winlogon logon banner settings.
+                        $OrigionalSettings.LegalNoticeCaption = (Get-ItemProperty $WinlogonPath).LegalNoticeCaption
+                        $OrigionalSettings.LegalNoticeText = (Get-ItemProperty $WinlogonPath).LegalNoticeText
              
-            # The system policy logon banner settings.
-            $OrigionalSettings.legalnoticecaption = (Get-ItemProperty $WinlogonBannerPolicyPath).legalnoticecaption
-            $OrigionalSettings.legalnoticetext = (Get-ItemProperty $WinlogonBannerPolicyPath).legalnoticetext
+                        # The system policy logon banner settings.
+                        $OrigionalSettings.legalnoticecaption = (Get-ItemProperty $WinlogonBannerPolicyPath).legalnoticecaption
+                        $OrigionalSettings.legalnoticetext = (Get-ItemProperty $WinlogonBannerPolicyPath).legalnoticetext
              
-            $OrigionalSettings | Export-Clixml -Depth 10 -Path $BackupFile
-        }
+                        $OrigionalSettings | Export-Clixml -Depth 10 -Path $BackupFile
+                }
          
-        # Store the password securely.
-        $lsaUtil = New-Object ComputerSystem.LSAutil -ArgumentList "DefaultPassword"
-        $lsaUtil.SetSecret($decryptedPass)
+                # Store the password securely.
+                $lsaUtil = New-Object ComputerSystem.LSAutil -ArgumentList "DefaultPassword"
+                $lsaUtil.SetSecret($decryptedPass)
  
-        # Store the autologon registry settings.
-        Set-ItemProperty -Path $WinlogonPath -Name AutoAdminLogon -Value $Enable -Force
+                # Store the autologon registry settings.
+                Set-ItemProperty -Path $WinlogonPath -Name AutoAdminLogon -Value $Enable -Force
  
-        Set-ItemProperty -Path $WinlogonPath -Name DefaultUserName -Value $Username -Force
-        Set-ItemProperty -Path $WinlogonPath -Name DefaultDomainName -Value $Domain -Force
+                Set-ItemProperty -Path $WinlogonPath -Name DefaultUserName -Value $Username -Force
+                Set-ItemProperty -Path $WinlogonPath -Name DefaultDomainName -Value $Domain -Force
  
-        if ($AutoLogonCount) {
-            Set-ItemProperty -Path $WinlogonPath -Name AutoLogonCount -Value $AutoLogonCount -Force
-        }
-        else {
-            Remove-ItemProperty -Path $WinlogonPath -Name AutoLogonCount -ErrorAction SilentlyContinue
-        }
+                if ($AutoLogonCount) {
+                        Set-ItemProperty -Path $WinlogonPath -Name AutoLogonCount -Value $AutoLogonCount -Force
+                }
+                else {
+                        Remove-ItemProperty -Path $WinlogonPath -Name AutoLogonCount -ErrorAction SilentlyContinue
+                }
  
-        if ($RemoveLegalPrompt) {
-            Set-ItemProperty -Path $WinlogonPath -Name LegalNoticeCaption -Value $null -Force
-            Set-ItemProperty -Path $WinlogonPath -Name LegalNoticeText -Value $null -Force
+                if ($RemoveLegalPrompt) {
+                        Set-ItemProperty -Path $WinlogonPath -Name LegalNoticeCaption -Value $null -Force
+                        Set-ItemProperty -Path $WinlogonPath -Name LegalNoticeText -Value $null -Force
              
-            Set-ItemProperty -Path $WinlogonBannerPolicyPath -Name legalnoticecaption -Value $null -Force
-            Set-ItemProperty -Path $WinlogonBannerPolicyPath -Name legalnoticetext -Value $null -Force
-        }
-    }
-    catch {
-        throw 'Failed to set auto logon. The error was: "{0}".' -f $_
-    }
+                        Set-ItemProperty -Path $WinlogonBannerPolicyPath -Name legalnoticecaption -Value $null -Force
+                        Set-ItemProperty -Path $WinlogonBannerPolicyPath -Name legalnoticetext -Value $null -Force
+                }
+        }
+        catch {
+                throw 'Failed to set auto logon. The error was: "{0}".' -f $_
+        }
  
 }
  
