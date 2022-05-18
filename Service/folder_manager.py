@@ -1,13 +1,7 @@
-import glob
 import os
-import sys
 from uuid import uuid4
 import json
-import fnmatch
-import re
-import time
 from urllib.parse import quote
-import pprint
 
 
 def hierarchy_json(path):

@@ -7,12 +7,10 @@ from progressbar import AnimatedMarker, Bar, BouncingBar, Counter, ETA, \
     SimpleProgress, Timer, UnknownLength
 import os
 import sys
-import json
-import time
-import uuid
+from pandoc_mapper import f4docx, h4docx, md2pptx
 from folder_manager import filter_files
-from docx_manager import to_docx, add_header, add_footer
-from pptx_manager import to_pptx
+from pandoc_mapper import md2docx, md2odt, md2pdf, md2ipynb, img2base64
+
 
 if __name__ == "__main__":
 
@@ -36,17 +34,23 @@ if __name__ == "__main__":
     pBarCount = 0
     for source_file in source_file_list:
 
-        docx_file = to_docx(source_file)
+        docx_file = md2docx(source_file)
 
-        header_image = os.getcwd() + os.path.sep + "Service" + os.path.sep + "header.png"
-        header_text = open(os.getcwd() + os.path.sep + "Service" + os.path.sep + "header.txt", "r")
-        add_header(docx_file, header_image, header_text)
+        header_image = os.getcwd() + os.path.sep + "Service" + \
+            os.path.sep + "header.png"
+        header_text = open(os.getcwd() + os.path.sep +
+                           "Service" + os.path.sep + "header.txt", "r")
+        h4docx(docx_file, header_image, header_text)
 
-        footer_image = os.getcwd() + os.path.sep + "Service" + os.path.sep + "footer.png"
-        footer_text = open(os.getcwd() + os.path.sep + "Service" + os.path.sep + "footer.txt", "r")
-        add_footer(docx_file, footer_image, footer_text)
+        footer_image = os.getcwd() + os.path.sep + "Service" + \
+            os.path.sep + "footer.png"
+        footer_text = open(os.getcwd() + os.path.sep +
+                           "Service" + os.path.sep + "footer.txt", "r")
+        f4docx(docx_file, footer_image, footer_text)
+
+        pptx_file = md2pptx(source_file)
         
-        pptx_file = to_pptx(source_file)
+        pdf_file = md2pdf(source_file)
 
         pBarCount += 1
         pBar.update(pBarCount)
