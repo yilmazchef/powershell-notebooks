@@ -5,9 +5,10 @@ function Download {
     param([Parameter(Mandatory)]$url, [Parameter(Mandatory)]$path)
     
     $null = mkdir (Split-Path $path) -Force
-    $null = if((Get-Service BITS).Status -eq "Running") {
+    $null = if ((Get-Service BITS).Status -eq "Running") {
         Start-BitsTransfer $Url -Destination $Path
-    } else {
+    }
+    else {
         Invoke-WebRequest $Url -OutFile $Path
     }
     Get-Item $Path
