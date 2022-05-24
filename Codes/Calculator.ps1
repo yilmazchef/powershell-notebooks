@@ -177,5 +177,5 @@ function Get-Div([Float]$number1, [Float]$number2){
     return ($number1 / $number2)
 }
 
-
-
+$n1 = Read-Host "Number1"
+$n2 = Read-Host "Number2"
