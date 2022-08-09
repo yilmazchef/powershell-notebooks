@@ -6,15 +6,15 @@ function New-NetworkDocker(){
     docker network create --driver bridge edunet
 }
 
-function Inspect-NetworkPodman(){
+function Get-NetworkPodman(){
     podman network inspect edunet
 }
 
-function Inspect-NetworkDocker(){
+function Get-NetworkDocker(){
     docker network inspect edunet
 }
 
-function Run-JavaPodman() {
+function New-JavaNotebookPodman() {
 
     podman run `
         --name jnb `
@@ -28,11 +28,11 @@ function Run-JavaPodman() {
         
     podman container inspect jnb
     podman logs jnb
-    Inspect-NetworkPodman
+    Get-NetworkPodman
 
 }
 
-function Run-JavaDocker() {
+function New-JavaNotebookDocker() {
 
     docker run `
         --name jnb `
@@ -46,11 +46,11 @@ function Run-JavaDocker() {
         
     docker container inspect jnb
     docker logs jnb
-    Inspect-NetworkDocker
+    Get-NetworkDocker
 
 }
 
-function Run-DotNetPodman() {
+function New-DotNetNotebookPodman() {
 
     podman run `
         --name dnnb `
@@ -64,11 +64,11 @@ function Run-DotNetPodman() {
         
     podman container inspect dnnb
     podman logs dnnb
-    Inspect-NetworkPodman
+    Get-NetworkPodman
 
 }
 
-function Run-DotNetDocker() {
+function New-DotNetNotebookDocker() {
 
     docker run `
         --name dnnb `
@@ -82,11 +82,11 @@ function Run-DotNetDocker() {
         
     docker container inspect dnnb
     docker logs dnnb
-    Inspect-NetworkDocker
+    Get-NetworkDocker
 
 }
 
-function Run-JavascriptPodman(){
+function New-JavascriptNotebookPodman(){
 
     podman run `
         --name jsnb `
@@ -100,11 +100,11 @@ function Run-JavascriptPodman(){
         
     podman container inspect jsnb
     podman logs jsnb
-    Inspect-NetworkPodman
+    Get-NetworkPodman
 
 }
 
-function Run-JavascriptDocker(){
+function New-JavascriptNotebookDocker(){
 
     docker run `
         --name jsnb `
@@ -118,11 +118,11 @@ function Run-JavascriptDocker(){
         
     docker container inspect jsnb
     docker logs jsnb
-    Inspect-NetworkDocker
+    Get-NetworkDocker
 
 }
 
-function Run-PythonPodman(){
+function New-PythonNotebookPodman(){
 
     podman run `
         --name pynb `
@@ -136,10 +136,10 @@ function Run-PythonPodman(){
         
     podman container inspect pynb
     podman logs pynb
-    Inspect-NetworkPodman
+    Get-NetworkPodman
 }
 
-function Run-PythonDocker(){
+function New-PythonNotebookDocker(){
 
     docker run `
         --name pynb `
@@ -153,5 +153,5 @@ function Run-PythonDocker(){
         
     docker container inspect pynb
     docker logs pynb
-    Inspect-NetworkDocker
+    Get-NetworkDocker
 }
