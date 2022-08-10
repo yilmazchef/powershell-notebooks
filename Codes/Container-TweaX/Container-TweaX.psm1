@@ -33,6 +33,15 @@ function Install-WSLKali() {
 
 # install docker backend apps and frontend management tool
 function Install-Docker() {
+
+    # activate Virtualization
+    Activate-Virtualization
+
+    # activate WSL
+    Activate-WSL
+    Patch-WSL
+    Update-WSLVersion
+
     Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/microsoft/Windows-Containers/Main/helpful_tools/Install-DockerCE/install-docker-ce.ps1" -o install-docker-ce.ps1
     .\install-docker-ce.ps1
 }
